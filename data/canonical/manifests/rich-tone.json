@@ -1,0 +1,64 @@
+{
+  "canonical_id": "rich-tone",
+  "name_zh": "浓厚格调",
+  "author": {
+    "name_zh": "Plady",
+    "name_en": "Plady",
+    "slug": "plady"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "film",
+    "rich",
+    "low-saturation",
+    "retro"
+  ],
+  "official_descriptions": [
+    "具有低饱和度特性，类似留银冲洗的复古胶片味道"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 199,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/b9ba24aa25a4ea1a51bea01b263ba42a/uploadfiles/oss/2024/06/20240612142018352.zip",
+      "download_path": "oss/2024/06/20240612142018352.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163625338.jpg",
+      "official_title_raw": "by Plady 浓厚格调",
+      "official_description": "具有低饱和度特性，类似留银冲洗的复古胶片味道",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/31-33.zip",
+      "archive_sha256": "a195d70a540012d1f2bee942b97e814abac237930c32f285b81752d9525bb5f8"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--plady--rich-tone--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/plady/rich-tone/outdoor--plady--rich-tone--default.cube",
+      "original_filename": "rich-tone.cube",
+      "source_path": "luts/outdoor/rich-tone/rich-tone.cube",
+      "size": 885013,
+      "sha256": "da43c86543d27ecc7fff2f9b36297fb381859caa97e2512391894ff0b7666d76",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/b9ba24aa25a4ea1a51bea01b263ba42a/uploadfiles/oss/2024/06/20240612142018352.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/31-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 199,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163625338.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 199,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/rich-tone.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "具有低饱和度特性，类似留银冲洗的复古胶片味道",
+  "schema_version": "1.0"
+}

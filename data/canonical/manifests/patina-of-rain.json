@@ -1,0 +1,65 @@
+{
+  "canonical_id": "patina-of-rain",
+  "name_zh": "苔痕雨季",
+  "author": {
+    "name_zh": "舟zhou",
+    "name_en": "Zhou",
+    "slug": "zhou"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "landscape",
+    "rain",
+    "green",
+    "moss",
+    "moody"
+  ],
+  "official_descriptions": [
+    "这是一款专为阴雨与多云天气设计的景观LUT，通过重塑绿色光谱，将其转化为柔和、深沉且充满生命力的色调，如同雨后被浸润的青苔，温润而安宁。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 42170,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/89ba605ebf5f5c1ea4fbf1b2559bffc4/uploadfiles/oss/2025/11/Patina%20of%20Rain-std.zip",
+      "download_path": "oss/2025/11/Patina of Rain-std.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/微信图片_20251120164310.png",
+      "official_title_raw": "by舟zhou 苔痕雨季",
+      "official_description": "这是一款专为阴雨与多云天气设计的景观LUT，通过重塑绿色光谱，将其转化为柔和、深沉且充满生命力的色调，如同雨后被浸润的青苔，温润而安宁。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/48-33.zip",
+      "archive_sha256": "64059965ea0c933ab726f91e4cd2a1c582dbd88517a513df0564f46d59772ded"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--zhou--patina-of-rain--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/zhou/patina-of-rain/outdoor--zhou--patina-of-rain--default.cube",
+      "original_filename": "patina-of-rain.cube",
+      "source_path": "luts/outdoor/patina-of-rain/patina-of-rain.cube",
+      "size": 970367,
+      "sha256": "ee024096be82612fcfd44804cf55f1662e10f12285083834e0cff02542aae15f",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/89ba605ebf5f5c1ea4fbf1b2559bffc4/uploadfiles/oss/2025/11/Patina%20of%20Rain-std.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/48-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 42170,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/微信图片_20251120164310.png",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 42170,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/patina-of-rain.png",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "这是一款专为阴雨与多云天气设计的景观LUT，通过重塑绿色光谱，将其转化为柔和、深沉且充满生命力的色调，如同雨后被浸润的青苔，温润而安宁。",
+  "schema_version": "1.0"
+}

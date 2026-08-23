@@ -1,0 +1,65 @@
+{
+  "canonical_id": "bw-old-film",
+  "name_zh": "黑白旧胶片",
+  "author": {
+    "name_zh": "海螺壳",
+    "name_en": "Hailuoke",
+    "slug": "hailuoke"
+  },
+  "category": "indoor",
+  "category_zh": "室内",
+  "tags": [
+    "bw",
+    "black-and-white",
+    "film",
+    "low-contrast",
+    "high-latitude"
+  ],
+  "official_descriptions": [
+    "低对比的暗部和亮部，高宽容度的宛如传统黑白电影"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 213,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/5c3e68d5846d9c75aa5a4f31828ef818/uploadfiles/oss/2024/06/20240612151332053.zip",
+      "download_path": "oss/2024/06/20240612151332053.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164112701.jpg",
+      "official_title_raw": "by 海螺壳 黑白旧胶片",
+      "official_description": "低对比的暗部和亮部，高宽容度的宛如传统黑白电影",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/49-34.zip",
+      "archive_sha256": "67bc450e5628a335588de13902fc42766f7e041919d6b27b8625ce5e5d40e658"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "indoor--hailuoke--bw-old-film--default.cube",
+      "canonical_path": "data/canonical/luts/indoor/hailuoke/bw-old-film/indoor--hailuoke--bw-old-film--default.cube",
+      "original_filename": "bw-old-film.cube",
+      "source_path": "luts/indoor/bw-old-film/bw-old-film.cube",
+      "size": 688212,
+      "sha256": "46facdd466adb416ccef1458d2445d06e47facc9e87e44f26b9ca4b5fd0b2a7f",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/5c3e68d5846d9c75aa5a4f31828ef818/uploadfiles/oss/2024/06/20240612151332053.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/49-34.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 213,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164112701.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 213,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/bw-old-film.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "低对比的暗部和亮部，高宽容度的宛如传统黑白电影",
+  "schema_version": "1.0"
+}

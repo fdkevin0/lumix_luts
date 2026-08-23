@@ -1,0 +1,65 @@
+{
+  "canonical_id": "pink-youth",
+  "name_zh": "粉黛青春",
+  "author": {
+    "name_zh": "巴文欢",
+    "name_en": "Ba Wenhuan",
+    "slug": "ba-wenhuan"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "cinematic",
+    "pink",
+    "youth",
+    "vlog",
+    "2383"
+  ],
+  "official_descriptions": [
+    "基于2383风格，根据vlog曲线特性加以调整生成"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 196,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/b79de8ecbd11f7711b718e47784d9866/uploadfiles/oss/2024/06/20240612141821679.zip",
+      "download_path": "oss/2024/06/20240612141821679.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163707940.jpg",
+      "official_title_raw": "by 巴文欢 粉黛青春",
+      "official_description": "基于2383风格，根据vlog曲线特性加以调整生成",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/28-33.zip",
+      "archive_sha256": "49ae811f1eac70b9212aeeb52774f75abf4d1ffb247493af2d18579678093e7a"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "outdoor--ba-wenhuan--pink-youth--default.vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ba-wenhuan/pink-youth/outdoor--ba-wenhuan--pink-youth--default.vlt",
+      "original_filename": "pink-youth.vlt",
+      "source_path": "luts/outdoor/pink-youth/pink-youth.vlt",
+      "size": 71101,
+      "sha256": "d657ddb537292960e2808e821a239fd0a54d19e3b28492a19d3001a04e83dcb5",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/b79de8ecbd11f7711b718e47784d9866/uploadfiles/oss/2024/06/20240612141821679.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/28-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 196,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163707940.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 196,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/pink-youth.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "基于2383风格，根据vlog曲线特性加以调整生成",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,65 @@
+{
+  "canonical_id": "golden-rice-field",
+  "name_zh": "金色稻田",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "golden",
+    "rural",
+    "film",
+    "rice-field",
+    "autumn"
+  ],
+  "official_descriptions": [
+    "绿色以及黄色部分过度的更加协调，保留了胶片色的风格"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 208,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/94a8e1cd2c79a367a604ad4148223c67/uploadfiles/oss/2024/06/20240612150315616.zip",
+      "download_path": "oss/2024/06/20240612150315616.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163408769.jpg",
+      "official_title_raw": "by 郭宾 金色稻田",
+      "official_description": "绿色以及黄色部分过度的更加协调，保留了胶片色的风格",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/40-33.zip",
+      "archive_sha256": "b6d0905b57c82bfe29271542d8c60f43b2c55ee541a44206a27d311ab7e9ba1f"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--guo-bin--golden-rice-field--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/golden-rice-field/outdoor--guo-bin--golden-rice-field--default.cube",
+      "original_filename": "golden-rice-field.cube",
+      "source_path": "luts/outdoor/golden-rice-field/golden-rice-field.cube",
+      "size": 971468,
+      "sha256": "3c75b76c8e9d078f81f6129d7759633ff99e3fcc54f3957884ac80f4d9d4e876",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/94a8e1cd2c79a367a604ad4148223c67/uploadfiles/oss/2024/06/20240612150315616.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/40-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 208,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163408769.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 208,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/golden-rice-field.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "绿色以及黄色部分过度的更加协调，保留了胶片色的风格",
+  "schema_version": "1.0"
+}

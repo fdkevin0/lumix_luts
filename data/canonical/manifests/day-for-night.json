@@ -1,0 +1,63 @@
+{
+  "canonical_id": "day-for-night",
+  "name_zh": "幻化",
+  "author": {
+    "name_zh": "Jon Simo",
+    "name_en": "Jon Simo",
+    "slug": "jon-simo"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "day-for-night",
+    "cinematic",
+    "night-sim"
+  ],
+  "official_descriptions": [
+    "适用于白天模仿夜间拍摄的LUT"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 202,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/c490482f625bd0fab5a93b5f9b8c8b19/uploadfiles/oss/2024/06/20240612142159983.zip",
+      "download_path": "oss/2024/06/20240612142159983.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163545841.jpg",
+      "official_title_raw": "by Jon Simo 幻化",
+      "official_description": "适用于白天模仿夜间拍摄的LUT",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/34-33.zip",
+      "archive_sha256": "c145e2d3382669ec2873651347b415c8ce4d6577a69dfdd5625cec0effbb268e"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--jon-simo--day-for-night--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/jon-simo/day-for-night/outdoor--jon-simo--day-for-night--default.cube",
+      "original_filename": "day-for-night.cube",
+      "source_path": "luts/outdoor/day-for-night/day-for-night.cube",
+      "size": 114704,
+      "sha256": "aee1c516dbef61d404030164b2fdca61e8159aa85539b2213fc66382d09d68be",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/c490482f625bd0fab5a93b5f9b8c8b19/uploadfiles/oss/2024/06/20240612142159983.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/34-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 202,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163545841.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 202,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/day-for-night.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "适用于白天模仿夜间拍摄的LUT",
+  "schema_version": "1.0"
+}

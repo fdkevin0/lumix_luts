@@ -1,0 +1,11 @@
+{
+  "millennium-echo": [
+    {
+      "variant": "warm",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260325164707.jpg",
+      "snapshot_path": "data/snapshots/2026-08-24/source-previews/millennium-echo--warm.jpg",
+      "sha256": "5fa9c14f4c2d9720871dccb1d1eafb768dce37f0f2a1888868b537e20895f615",
+      "status": "official-source"
+    }
+  ]
+}

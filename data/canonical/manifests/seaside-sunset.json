@@ -1,0 +1,64 @@
+{
+  "canonical_id": "seaside-sunset",
+  "name_zh": "海边夕阳",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "sunset",
+    "warm-cool",
+    "seaside"
+  ],
+  "official_descriptions": [
+    "冷暖对比更大，在冷暖上做除了不同效果"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 182,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/efc836500d7f8ce73f15351ac2fd5a14/uploadfiles/oss/2024/06/20240612135925027.zip",
+      "download_path": "oss/2024/06/20240612135925027.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709161902757.jpg",
+      "official_title_raw": "by 郭宾 海边夕阳",
+      "official_description": "冷暖对比更大，在冷暖上做除了不同效果",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/07-32.zip",
+      "archive_sha256": "3a0ffc3c619a56f426d1f336b76a3d3f730ba85d8abb77915b978b1873c716ca"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--guo-bin--seaside-sunset--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/guo-bin/seaside-sunset/portrait--guo-bin--seaside-sunset--default.cube",
+      "original_filename": "seaside-sunset.cube",
+      "source_path": "luts/portrait/seaside-sunset/seaside-sunset.cube",
+      "size": 957295,
+      "sha256": "08deb5dc5962864c22f21add2f25280e0fb4e81ada0ed95f6a22cd4516b484f2",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/efc836500d7f8ce73f15351ac2fd5a14/uploadfiles/oss/2024/06/20240612135925027.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/07-32.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 182,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709161902757.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 182,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/seaside-sunset.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "冷暖对比更大，在冷暖上做除了不同效果",
+  "schema_version": "1.0"
+}

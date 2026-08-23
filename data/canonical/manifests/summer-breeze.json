@@ -1,0 +1,65 @@
+{
+  "canonical_id": "summer-breeze",
+  "name_zh": "夏日暖风",
+  "author": {
+    "name_zh": "Plady",
+    "name_en": "Plady",
+    "slug": "plady"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "film",
+    "summer",
+    "low-saturation",
+    "retro",
+    "bleach-bypass"
+  ],
+  "official_descriptions": [
+    "具有低饱和度特性，类似留银冲洗的复古胶片味道"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 198,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/31d5f606f26504b55dd8756fc8ba81a0/uploadfiles/oss/2024/06/20240612141941337.zip",
+      "download_path": "oss/2024/06/20240612141941337.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163637435.jpg",
+      "official_title_raw": "by Plady 夏日暖风",
+      "official_description": "具有低饱和度特性，类似留银冲洗的复古胶片味道",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/30-33.zip",
+      "archive_sha256": "e2e3ca9c2adf1a2112cfc5793c90cdcdb0f460dd8f9d7f18eb0e95c7e0a444c3"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--plady--summer-breeze--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/plady/summer-breeze/outdoor--plady--summer-breeze--default.cube",
+      "original_filename": "summer-breeze.cube",
+      "source_path": "luts/outdoor/summer-breeze/summer-breeze.cube",
+      "size": 885013,
+      "sha256": "2654d94cfdf8dd2b038e90ce760450d188ec9f0fb371c2aab57713cf3cf69d47",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/31d5f606f26504b55dd8756fc8ba81a0/uploadfiles/oss/2024/06/20240612141941337.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/30-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 198,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163637435.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 198,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/summer-breeze.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "具有低饱和度特性，类似留银冲洗的复古胶片味道",
+  "schema_version": "1.0"
+}

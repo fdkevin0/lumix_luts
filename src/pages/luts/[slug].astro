@@ -1,0 +1,125 @@
+---
+import Layout from '../../components/Layout.astro';
+import { getLutBySlug, getAllSlugs } from '../../lib/data';
+import type { LutEntry } from '../../types/lut';
+
+export function getStaticPaths() {
+  const slugs = getAllSlugs();
+  return slugs.map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const lut = getLutBySlug(slug as string);
+
+if (!lut) {
+  return Astro.redirect('/');
+}
+
+function formatSize(bytes: number): string {
+  if (bytes > 1048576) return (bytes / 1048576).toFixed(1) + ' MB';
+  if (bytes > 1024) return (bytes / 1024).toFixed(1) + ' KB';
+  return bytes + ' B';
+}
+
+function downloadPath(file: (typeof lut.files)[number]): string {
+  return file.public_path ?? 'luts/' + lut.category + '/' + lut.id + '/' + file.name;
+}
+---
+
+<Layout title={`${lut.display_name ?? lut.name_zh} — LUMIX LUT`}>
+  <a href="/" class="back-link">← 返回列表</a>
+
+  <div class="detail-layout">
+    <div>
+      {
+        lut.preview_images?.length ? (
+          <div style="display:grid;gap:16px;">
+            {lut.preview_images.map((preview) => (
+              <div>
+                <img class="detail-img" src={`/${preview.path}`} alt={`${lut.display_name ?? lut.name_zh} ${preview.variant}`} />
+                {preview.variant !== 'default' && <div class="file-meta" style="margin-top:4px;">{preview.variant}</div>}
+              </div>
+            ))}
+          </div>
+        ) : lut.preview_image ? (
+          <img class="detail-img" src={`/${lut.preview_image}`} alt={lut.display_name ?? lut.name_zh} />
+        ) : (
+          <div class="preview-placeholder" style="min-height:300px;">暂无预览图</div>
+        )
+      }
+    </div>
+
+    <div>
+      <h1 class="detail-title">{lut.display_name ?? lut.name_zh}</h1>
+      <div class="detail-author">
+        {lut.author.name_zh}
+        {lut.author.name_en && ` · ${lut.author.name_en}`}
+      </div>
+
+      <div class="detail-desc">{lut.display_description ?? lut.description}</div>
+
+      <dl class="detail-meta">
+        <dt>分类</dt>
+        <dd>{lut.category_zh}</dd>
+        <dt>格式</dt>
+        <dd>.{lut.format}{lut.lut_3d_size ? ` · ${lut.lut_3d_size}³ LUT` : ''}</dd>
+        {lut.photo_style && (
+          <>
+            <dt>照片风格</dt>
+            <dd>{lut.photo_style}</dd>
+          </>
+        )}
+        {
+          lut.domain_min && lut.domain_max && (
+            <>
+              <dt>Domain</dt>
+              <dd>[{lut.domain_min.join(', ')}] — [{lut.domain_max.join(', ')}]</dd>
+            </>
+          )
+        }
+        {lut.internal.generator && (
+          <>
+            <dt>生成工具</dt>
+            <dd>{lut.internal.generator}</dd>
+          </>
+        )}
+        {lut.internal.copyright && (
+          <>
+            <dt>版权</dt>
+            <dd>{lut.internal.copyright}</dd>
+          </>
+        )}
+        {lut.internal.title && (
+          <>
+            <dt>内部标题</dt>
+            <dd>{lut.internal.title}</dd>
+          </>
+        )}
+        <dt>标签</dt>
+        <dd style="display:flex;gap:4px;flex-wrap:wrap;">
+          {lut.tags.map((tag) => <span class="lut-card-tag">{tag}</span>)}
+        </dd>
+      </dl>
+
+      <div class="detail-files">
+        <h3>下载文件 ({lut.files.length})</h3>
+        {lut.files.map((file) => (
+          <div class="file-item">
+            <div>
+              <div class="file-name">
+                {file.variant && file.variant !== 'default' && <>{file.variant} · </>}{file.name}
+              </div>
+              <div class="file-meta">
+                {formatSize(file.size)}
+                {file.sha256 ? ` · ${file.sha256.slice(0, 16)}...` : ''}
+              </div>
+            </div>
+            <a href={'/' + downloadPath(file)} class="btn btn-primary" download>
+              下载 .{file.type}
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout>

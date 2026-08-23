@@ -1,0 +1,76 @@
+{
+  "canonical_id": "warm-cool-tone",
+  "name_zh": "冷暖色调",
+  "author": {
+    "name_zh": "薛璐瑶",
+    "name_en": "Xue Luyao",
+    "slug": "xue-luyao"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "warm-cool",
+    "indoor",
+    "natural"
+  ],
+  "official_descriptions": [
+    "对室内光源作出了冷暖不同色调，人物看着更加自然"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 183,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/0d52a55fac52c21bef1ebe6eff91f094/uploadfiles/oss/2024/06/20240612140126786.zip",
+      "download_path": "oss/2024/06/20240612140126786.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162027993.jpg",
+      "official_title_raw": "by 薛璐瑶 冷暖色调",
+      "official_description": "对室内光源作出了冷暖不同色调，人物看着更加自然",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/08-32.zip",
+      "archive_sha256": "cfdb02354b91f30935f55a7c115cc1770323306b336eff9c20f5a867d81ccc1c"
+    }
+  ],
+  "files": [
+    {
+      "variant": "cold",
+      "format": "cube",
+      "normalized_filename": "portrait--xue-luyao--warm-cool-tone--cold.cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/warm-cool-tone/portrait--xue-luyao--warm-cool-tone--cold.cube",
+      "original_filename": "warm-cool-tone_cold.cube",
+      "source_path": "luts/portrait/warm-cool-tone/warm-cool-tone_cold.cube",
+      "size": 7446695,
+      "sha256": "dfef6b9493b45ca482b92d1f558e053b62f03b038222a30ef5cc8da0de291307",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/0d52a55fac52c21bef1ebe6eff91f094/uploadfiles/oss/2024/06/20240612140126786.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/08-32.zip"
+    },
+    {
+      "variant": "warm",
+      "format": "cube",
+      "normalized_filename": "portrait--xue-luyao--warm-cool-tone--warm.cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/warm-cool-tone/portrait--xue-luyao--warm-cool-tone--warm.cube",
+      "original_filename": "warm-cool-tone_warm.cube",
+      "source_path": "luts/portrait/warm-cool-tone/warm-cool-tone_warm.cube",
+      "size": 6573056,
+      "sha256": "787ef22782e2b4f85b117bab960f18ab3cee77c7ea096360dd307e708eadacd1",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/0d52a55fac52c21bef1ebe6eff91f094/uploadfiles/oss/2024/06/20240612140126786.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/08-32.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 183,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162027993.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 183,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/warm-cool-tone.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "对室内光源作出了冷暖不同色调，人物看着更加自然",
+  "schema_version": "1.0"
+}

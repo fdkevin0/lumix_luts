@@ -1,0 +1,65 @@
+{
+  "canonical_id": "txd-eterna",
+  "name_zh": "TXD Eterna",
+  "author": {
+    "name_zh": "兔小呆",
+    "name_en": "Tu Xiaodai",
+    "slug": "tu-xiaodai"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "film",
+    "eterna",
+    "purple-blue",
+    "portrait",
+    "lighting-critical"
+  ],
+  "official_descriptions": [
+    "基于STD 调色，从徕卡Eternal滤镜中获得调色的一些想法，改变了影调，但保留了蓝紫的味道，最终甚至有了一些Classic Negative的味道，同时优化了肤色。Lut的整体色调还是偏重，比较吃光线，人像拍摄时一定要有光源，如果没有直射光源时，机内曝光补偿+1/3~2/3，机内阴影+1~+2来使用，扫街机内推荐打开颗粒LOW"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 42169,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/a4e13ca8b550d122e1ea173162bc93fa/uploadfiles/oss/2025/11/TXD%20Eternal%20.zip",
+      "download_path": "oss/2025/11/TXD Eternal .zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/TXD Eternal.png",
+      "official_title_raw": "by兔小呆 TXD Eterna",
+      "official_description": "基于STD 调色，从徕卡Eternal滤镜中获得调色的一些想法，改变了影调，但保留了蓝紫的味道，最终甚至有了一些Classic Negative的味道，同时优化了肤色。Lut的整体色调还是偏重，比较吃光线，人像拍摄时一定要有光源，如果没有直射光源时，机内曝光补偿+1/3~2/3，机内阴影+1~+2来使用，扫街机内推荐打开颗粒LOW",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/25-32.zip",
+      "archive_sha256": "181590ac14ab156f4398b708a46e807e0ec6f62b9ea3448fa47c2e0b08abb313"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--tu-xiaodai--txd-eterna--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/txd-eterna/portrait--tu-xiaodai--txd-eterna--default.cube",
+      "original_filename": "txd-eterna.cube",
+      "source_path": "luts/portrait/txd-eterna/txd-eterna.cube",
+      "size": 970598,
+      "sha256": "c90c59fad1979c05c0473f3b90436acdc5ae809efc70134e0b4eae562fe6c105",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/a4e13ca8b550d122e1ea173162bc93fa/uploadfiles/oss/2025/11/TXD%20Eternal%20.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/25-32.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 42169,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/TXD Eternal.png",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 42169,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/txd-eterna.png",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "基于STD 调色，从徕卡Eternal滤镜中获得调色的一些想法，改变了影调，但保留了蓝紫的味道，最终甚至有了一些Classic Negative的味道，同时优化了肤色。Lut的整体色调还是偏重，比较吃光线，人像拍摄时一定要有光源，如果没有直射光源时，机内曝光补偿+1/3~2/3，机内阴影+1~+2来使用，扫街机内推荐打开颗粒LOW",
+  "schema_version": "1.0"
+}

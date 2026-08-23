@@ -1,0 +1,65 @@
+{
+  "canonical_id": "txd-rag-film-cned2",
+  "name_zh": "TXD RaG Film CNED2",
+  "author": {
+    "name_zh": "兔小呆",
+    "name_en": "Tu Xiaodai",
+    "slug": "tu-xiaodai"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "film",
+    "summer",
+    "street",
+    "portrait",
+    "skin-tone"
+  ],
+  "official_descriptions": [
+    "对肤色进行了一定优化，适合夏日日常扫街 花草 和人像的拍摄。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 31957,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/ff76a52776461d4d27971162a15ef21a/uploadfiles/oss/2025/08/VOL17%20TXD%20RaG%20Film%20CNED2.zip",
+      "download_path": "oss/2025/08/VOL17 TXD RaG Film CNED2.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/08/微信图片_20250812101652.png",
+      "official_title_raw": "by 兔小呆 TXD RaG Film CNED2",
+      "official_description": "对肤色进行了一定优化，适合夏日日常扫街 花草 和人像的拍摄。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/22-32.zip",
+      "archive_sha256": "cb23cbbbaea386baf94cda1f439dab1ff5bafb6710cad02ed398389e9046477f"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--tu-xiaodai--txd-rag-film-cned2--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/txd-rag-film-cned2/portrait--tu-xiaodai--txd-rag-film-cned2--default.cube",
+      "original_filename": "txd-rag-film-cned2.cube",
+      "source_path": "luts/portrait/txd-rag-film-cned2/txd-rag-film-cned2.cube",
+      "size": 970635,
+      "sha256": "bde7ff31048f32b92c39a8470c5797738ca11d24e54af753335b9e9393599db6",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ff76a52776461d4d27971162a15ef21a/uploadfiles/oss/2025/08/VOL17%20TXD%20RaG%20Film%20CNED2.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/22-32.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 31957,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/08/微信图片_20250812101652.png",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 31957,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/txd-rag-film-cned2.png",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "对肤色进行了一定优化，适合夏日日常扫街 花草 和人像的拍摄。",
+  "schema_version": "1.0"
+}

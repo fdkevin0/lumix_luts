@@ -1,0 +1,333 @@
+{
+  "schema_version": "1.0",
+  "snapshot_id": "2026-08-24",
+  "pages": [
+    {
+      "lcid": "113",
+      "category": "anniversary",
+      "source_url": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
+      "path": "data/snapshots/2026-08-24/source-pages/lcid-113.html",
+      "sha256": "47a6f7a521df4c45ab87cddd9fa33cd040939bbe97e0efe698534a44261412fe"
+    },
+    {
+      "lcid": "32",
+      "category": "portrait",
+      "source_url": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "path": "data/snapshots/2026-08-24/source-pages/lcid-32.html",
+      "sha256": "26927b717c9df7e86d1f45bda5cc99518006a505c481259dd078cd1b6b1b0c48"
+    },
+    {
+      "lcid": "33",
+      "category": "outdoor",
+      "source_url": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "path": "data/snapshots/2026-08-24/source-pages/lcid-33.html",
+      "sha256": "4029207db24bb0053019596e8451a1a27e630467623e43084722299ff985d46c"
+    },
+    {
+      "lcid": "34",
+      "category": "indoor",
+      "source_url": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "path": "data/snapshots/2026-08-24/source-pages/lcid-34.html",
+      "sha256": "b097118e86da21f08aeaf663e02936e71c156912bcbcb35ba89338fe09e609ed"
+    }
+  ],
+  "archives": [
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/01-113.zip",
+      "sha256": "0a6eb3c62752698e7138e4663f57288568ffe0f62686206ecc68310ba68548cf",
+      "size": 365683
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/02-113.zip",
+      "sha256": "9282c3ac51221b4fbb7669f8f6f2c3a1f9ea11e64d7bcfa050aee04554538744",
+      "size": 727202
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/03-113.zip",
+      "sha256": "9282c3ac51221b4fbb7669f8f6f2c3a1f9ea11e64d7bcfa050aee04554538744",
+      "size": 727202
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/04-113.zip",
+      "sha256": "6e0477b01bda0225a3fdd3df657864ff826ccfc1a1654ed1a5801f4232f83077",
+      "size": 377699
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/05-32.zip",
+      "sha256": "bb016b484a86183e9790733a21c29b7eaa448ea1e56377a8e0bb74540e374227",
+      "size": 221056
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/06-32.zip",
+      "sha256": "0a96111e095793f56bf283df799210772b0f8c5b55d7e5f7e29919da3c73026f",
+      "size": 246460
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/07-32.zip",
+      "sha256": "3a0ffc3c619a56f426d1f336b76a3d3f730ba85d8abb77915b978b1873c716ca",
+      "size": 273964
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/08-32.zip",
+      "sha256": "cfdb02354b91f30935f55a7c115cc1770323306b336eff9c20f5a867d81ccc1c",
+      "size": 4717927
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/09-32.zip",
+      "sha256": "15e1095c098fb2e46e7c52de4cf7f427aa4695331a4fa3a7f6d9d38e16a2a19f",
+      "size": 3695323
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/10-32.zip",
+      "sha256": "12db6e02b1fb87c10724a8692eb5cce3bbe98a69e27e9562c4c71c5078b79d5b",
+      "size": 5142551
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/11-32.zip",
+      "sha256": "56f98d9f0044cbaf903f1b8452b26ee51daa6d0ad1b35a27456ad8a3a8268a94",
+      "size": 279496
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/12-32.zip",
+      "sha256": "9fc2792c00928323dc2daccdd508071149e90ca7d952300446fce635804d066a",
+      "size": 334514
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/13-32.zip",
+      "sha256": "35482d39a9d9f3c8a92856dfb7057a47441ddd61b9dc4e5ed45ce470a1e829ff",
+      "size": 42755
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/14-32.zip",
+      "sha256": "d324721dd241f373d395443209925f59065cff1109d7a79949dbd0c9b8671af2",
+      "size": 1758032
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/15-32.zip",
+      "sha256": "a49ab73100a9e956f482180e7b34c0c7bfa496146505d2f12c1fe4b7a8b79a9a",
+      "size": 285298
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/16-32.zip",
+      "sha256": "7618c2ca3e3812c6adaac38d0e29c4445bbc66f516e7a562f7d79853cc41f538",
+      "size": 146717
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/17-32.zip",
+      "sha256": "5dafe9dce29a60ea859c8e1d3f6b984a347a53dda61acfdeb25aeeb0a185a88b",
+      "size": 25601
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/18-32.zip",
+      "sha256": "c2bfbadf4a80388e55f0f4a419c34e79859f614dfbf9b808e8fe754e05e5bb2c",
+      "size": 27512
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/19-32.rar",
+      "sha256": "2200a130b9037e7f39b09ff165d5b543e18c205e1bc6e6bf938607f1c08c8ce1",
+      "size": 303172
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/20-32.zip",
+      "sha256": "5ada53bfdc8e47e15aedda2112affa7ab382bebe9fa3685d59a5ff39ab14cc06",
+      "size": 375136
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/21-32.zip",
+      "sha256": "e38ddc590c2cdf8393c3a8ee8c560dc964232801a13061ce087a78f50799bfab",
+      "size": 317000
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/22-32.zip",
+      "sha256": "cb23cbbbaea386baf94cda1f439dab1ff5bafb6710cad02ed398389e9046477f",
+      "size": 309272
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/23-32.zip",
+      "sha256": "1d1586e6f0445d4aedcc719dd9067127b75c89a267de6d721f7c3f542ac02bba",
+      "size": 383400
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/24-32.zip",
+      "sha256": "afc4ca779bcf7a839c9e806337eb349dd6f3cad22fcd395974f154e7c565211f",
+      "size": 364196
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/25-32.zip",
+      "sha256": "181590ac14ab156f4398b708a46e807e0ec6f62b9ea3448fa47c2e0b08abb313",
+      "size": 367210
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/26-33.zip",
+      "sha256": "9668097dc705f8ce0922e84c28fa0d07cb371fa6115cf009808a987a61eb5521",
+      "size": 369295
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/27-33.zip",
+      "sha256": "fe49938b5eb671d42f02ea25843a1b54ce17aa984a263a4921efe3a94bf40dc4",
+      "size": 23317
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/28-33.zip",
+      "sha256": "49ae811f1eac70b9212aeeb52774f75abf4d1ffb247493af2d18579678093e7a",
+      "size": 26343
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/29-33.zip",
+      "sha256": "369669146eb61149dd013ecc61d307b0493cb667d254e93e2e271e41af8dba5c",
+      "size": 25381
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/30-33.zip",
+      "sha256": "e2e3ca9c2adf1a2112cfc5793c90cdcdb0f460dd8f9d7f18eb0e95c7e0a444c3",
+      "size": 341099
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/31-33.zip",
+      "sha256": "a195d70a540012d1f2bee942b97e814abac237930c32f285b81752d9525bb5f8",
+      "size": 342500
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/32-33.zip",
+      "sha256": "9cf0f628961e0422dd185a456871cb2141a4e12f372f704dc749e91b3241787a",
+      "size": 347733
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/33-33.zip",
+      "sha256": "82d34ce4a28eaa3b28c1b232c13053ced80f6144123527680a02c3f2d651124c",
+      "size": 319797
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/34-33.zip",
+      "sha256": "c145e2d3382669ec2873651347b415c8ce4d6577a69dfdd5625cec0effbb268e",
+      "size": 43057
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/35-33.zip",
+      "sha256": "d06b12a8862ceacc775235e6ab014acb85ffae51061d1ff63d18dd1bc0573d0b",
+      "size": 283761
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/36-33.zip",
+      "sha256": "05ff9cec807df000ea0b913a8bb7768dad38ab03970cefd287644f387579af9f",
+      "size": 276767
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/37-33.zip",
+      "sha256": "699b8f482d470f018fa224c7e85214fc62031e14189bc9565ab8b5b31b228b58",
+      "size": 280121
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/38-33.zip",
+      "sha256": "2dd800ca5e5c077372cd6bada7b6b8bde67457bc24b55b357a8b406fc2ed9c3d",
+      "size": 284471
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/39-33.zip",
+      "sha256": "d43407174e91a601b3cfd4afb9dd3849c0ab8649ac7c065b554531ccd132ca2e",
+      "size": 273226
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/40-33.zip",
+      "sha256": "b6d0905b57c82bfe29271542d8c60f43b2c55ee541a44206a27d311ab7e9ba1f",
+      "size": 278992
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/41-33.zip",
+      "sha256": "1bc529f6e9a61ff9cccd60070e14a5d0d0fe75c2744344ef06f1e884eaa5eac1",
+      "size": 284917
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/42-33.zip",
+      "sha256": "450547d3e2dd981ba5a94348583c8dbe7f829b763a3328323f7340b907cb9b8e",
+      "size": 162996
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/43-33.zip",
+      "sha256": "2594fa3b5e73a17c29d4963616edbdde966aee5d5d7efe95c0d0645ef9651b0d",
+      "size": 27188
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/44-33.zip",
+      "sha256": "66fa34d15bb0f7d06d4e1a5eb6f1a082f9b71b3aa6c115f0032a3c03412d24ef",
+      "size": 23875
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/45-33.zip",
+      "sha256": "ee1fd8e38a784786d2c7e8a5a056d846b98782a5feb0d6f17e2a6b0971998633",
+      "size": 302411
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/46-33.zip",
+      "sha256": "934562bcb3b0e9ba847ba2e9ce8e3823a9c64fae06249beff65c02d8e741f13e",
+      "size": 375129
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/47-33.zip",
+      "sha256": "1e9cbdf7592fd0e31841be0a849c444763cc754692cc7b6be5df47a77072cf02",
+      "size": 173484
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/48-33.zip",
+      "sha256": "64059965ea0c933ab726f91e4cd2a1c582dbd88517a513df0564f46d59772ded",
+      "size": 182246
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/49-34.zip",
+      "sha256": "67bc450e5628a335588de13902fc42766f7e041919d6b27b8625ce5e5d40e658",
+      "size": 57470
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/50-34.zip",
+      "sha256": "5b5770de7c30756f2294246abfc19cabea15923cd361fb0aa7977a0bbd118383",
+      "size": 234676
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/51-34.zip",
+      "sha256": "f6218d684739579d95104bbaf2cc47b52a0c9987c4253700f80dab4ee95dc87c",
+      "size": 287024
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/52-34.rar",
+      "sha256": "b8804a0fecce7f3ff1de473a6d7cb9c703023d4a1c07777cbac5efcf42eb69f3",
+      "size": 303529
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/53-34.zip",
+      "sha256": "a4a985bf91f628a07ab99593f3ee33afce12487ae94e0a65b1b24b935cddcdd2",
+      "size": 44456
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/54-34.zip",
+      "sha256": "8560021170c9685ab227d2dc0cd0b6494a1cdbdd48dd6248b068f833520dcd3b",
+      "size": 145542
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/55-34.zip",
+      "sha256": "656093cb492e8956e3a833be838d0ec173090b7fc43d6c49febcb1f9fde8a9e5",
+      "size": 137158
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/56-34.zip",
+      "sha256": "780a5bf583c0cf63edba80abaf409a8cc7b511fc69792c21e2a6525192d7a12b",
+      "size": 382241
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/57-34.zip",
+      "sha256": "8a055a9ffbde089ac422ea89ae4e975a169bed2e557338cf8a9d7af844f15aa5",
+      "size": 182066
+    }
+  ],
+  "preview_overrides": [
+    {
+      "path": "data/snapshots/2026-08-24/preview-overrides.json",
+      "sha256": "a08f06bc16d57e5171ca557d9f56578f3d7cff42d1283de392cb589f655186cc",
+      "size": 408
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/millennium-echo--warm.jpg",
+      "sha256": "5fa9c14f4c2d9720871dccb1d1eafb768dce37f0f2a1888868b537e20895f615",
+      "size": 365427
+    }
+  ]
+}

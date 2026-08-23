@@ -1,0 +1,64 @@
+{
+  "canonical_id": "food-film",
+  "name_zh": "美食胶片",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "indoor",
+  "category_zh": "室内",
+  "tags": [
+    "food",
+    "film",
+    "fresh",
+    "natural"
+  ],
+  "official_descriptions": [
+    "画面色调清新自然，食物本身色彩赋予了风格化的胶片感"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 215,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/2725074c753a1e6c663a49b50c06128f/uploadfiles/oss/2024/06/20240612151638709.zip",
+      "download_path": "oss/2024/06/20240612151638709.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164050191.jpg",
+      "official_title_raw": "by 郭宾 美食胶片",
+      "official_description": "画面色调清新自然，食物本身色彩赋予了风格化的胶片感",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/51-34.zip",
+      "archive_sha256": "f6218d684739579d95104bbaf2cc47b52a0c9987c4253700f80dab4ee95dc87c"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "indoor--guo-bin--food-film--default.cube",
+      "canonical_path": "data/canonical/luts/indoor/guo-bin/food-film/indoor--guo-bin--food-film--default.cube",
+      "original_filename": "food-film.cube",
+      "source_path": "luts/indoor/food-film/food-film.cube",
+      "size": 961770,
+      "sha256": "de025d0d33ae326bd5b002b222060806d364b6e7450090e969086b5a3fc7563e",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/2725074c753a1e6c663a49b50c06128f/uploadfiles/oss/2024/06/20240612151638709.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/51-34.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 215,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164050191.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 215,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/food-film.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "画面色调清新自然，食物本身色彩赋予了风格化的胶片感",
+  "schema_version": "1.0"
+}

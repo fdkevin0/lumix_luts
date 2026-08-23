@@ -1,0 +1,113 @@
+---
+import type { CategoryMeta, AuthorMeta } from '../types/lut';
+
+export interface Props {
+  categories: CategoryMeta[];
+  authors: AuthorMeta[];
+  tags: string[];
+  formats: string[];
+  lut3dSizes: number[];
+  generators: string[];
+  totalLuts: number;
+}
+
+const { categories, authors, tags, formats, lut3dSizes, generators, totalLuts } = Astro.props;
+const displayedTags = tags.slice(0, 30);
+---
+
+<div class="filters">
+  <div class="filter-group">
+    <label for="filter-category">分类</label>
+    <select id="filter-category">
+      <option value="">全部 ({totalLuts})</option>
+      {categories.map((c) => (
+        <option value={c.id}>{c.name_zh} ({c.lut_count})</option>
+      ))}
+    </select>
+  </div>
+  <div class="filter-group">
+    <label for="filter-author">作者</label>
+    <select id="filter-author">
+      <option value="">全部</option>
+      {authors.map((a) => (
+        <option value={a.slug}>{a.name_zh} ({a.lut_count})</option>
+      ))}
+    </select>
+  </div>
+  <div class="filter-group">
+    <label for="filter-format">格式</label>
+    <select id="filter-format">
+      <option value="">全部</option>
+      {formats.map((f) => <option value={f}>.{f}</option>)}
+    </select>
+  </div>
+  <div class="filter-group">
+    <label for="filter-size">LUT Size</label>
+    <select id="filter-size">
+      <option value="">全部</option>
+      {lut3dSizes.map((s) => <option value={s}>{s}</option>)}
+    </select>
+  </div>
+  <div class="filter-group">
+    <label for="filter-generator">工具</label>
+    <select id="filter-generator">
+      <option value="">全部</option>
+      {generators.map((g) => <option value={g}>{g}</option>)}
+    </select>
+  </div>
+  <div class="filter-group">
+    <label for="filter-search">搜索</label>
+    <input type="search" id="filter-search" placeholder="名称/作者/描述..." />
+  </div>
+  <span class="result-count" id="result-count">{totalLuts} 个结果</span>
+</div>
+
+<div class="tag-filter">
+  <button class="tag-btn active" data-tag="">全部</button>
+  {displayedTags.map((tag) => <button class="tag-btn" data-tag={tag}>{tag}</button>)}
+</div>
+
+<div class="no-results" id="no-results">
+  <p style="font-size:1.2rem;margin-bottom:8px;">没有匹配的 LUT</p>
+  <p>尝试调整筛选条件</p>
+</div>
+
+<script>
+  function filterCards() {
+    const cat = (document.getElementById('filter-category') as HTMLSelectElement).value;
+    const author = (document.getElementById('filter-author') as HTMLSelectElement).value;
+    const format = (document.getElementById('filter-format') as HTMLSelectElement).value;
+    const size = (document.getElementById('filter-size') as HTMLSelectElement).value;
+    const generator = (document.getElementById('filter-generator') as HTMLSelectElement).value;
+    const search = (document.getElementById('filter-search') as HTMLInputElement).value.toLowerCase();
+    const activeTag = (document.querySelector('.tag-btn.active') as HTMLElement)?.dataset.tag ?? '';
+
+    let count = 0;
+    document.querySelectorAll<HTMLElement>('.lut-card').forEach((card) => {
+      let show = true;
+      if (cat && card.dataset.category !== cat) show = false;
+      if (author && card.dataset.author !== author) show = false;
+      if (format && card.dataset.format !== format) show = false;
+      if (size && card.dataset.size !== size) show = false;
+      if (generator && !card.dataset.generator?.includes(generator)) show = false;
+      if (activeTag && !card.dataset.tags?.split(',').includes(activeTag)) show = false;
+      if (search && !card.dataset.search?.toLowerCase().includes(search)) show = false;
+      card.style.display = show ? '' : 'none';
+      if (show) count++;
+    });
+
+    document.getElementById('result-count')!.textContent = `${count} 个结果`;
+    document.getElementById('no-results')!.classList.toggle('show', count === 0);
+  }
+
+  document.querySelectorAll('select').forEach((sel) => sel.addEventListener('change', filterCards));
+  document.getElementById('filter-search')!.addEventListener('input', filterCards);
+
+  document.querySelectorAll('.tag-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tag-btn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      filterCards();
+    });
+  });
+</script>

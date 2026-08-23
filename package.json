@@ -1,0 +1,20 @@
+{
+  "name": "lumix-luts",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run prebuild && astro build",
+    "preview": "astro preview",
+    "prebuild": "node scripts/copy-assets.mjs",
+    "audit:canonical": "python3 scripts/build_canonical.py --snapshot 2026-08-24",
+    "validate:canonical": "python3 scripts/validate_canonical.py"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "canonical_id": "snow-portrait",
+  "name_zh": "雪天人像",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "snow",
+    "cool-tone",
+    "skin-tone"
+  ],
+  "official_descriptions": [
+    "适用雪天人像，整体色调清冷干净的同时又保证肤色透亮"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 87,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/195a8f2a8b41861be4ccd8413576889c/uploadfiles/oss/2024/06/20240612135622777.zip",
+      "download_path": "oss/2024/06/20240612135622777.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709161834838.jpg",
+      "official_title_raw": "by 郭宾 雪天人像",
+      "official_description": "适用雪天人像，整体色调清冷干净的同时又保证肤色透亮",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/05-32.zip",
+      "archive_sha256": "bb016b484a86183e9790733a21c29b7eaa448ea1e56377a8e0bb74540e374227"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--guo-bin--snow-portrait--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/guo-bin/snow-portrait/portrait--guo-bin--snow-portrait--default.cube",
+      "original_filename": "snow-portrait.cube",
+      "source_path": "luts/portrait/snow-portrait/snow-portrait.cube",
+      "size": 765873,
+      "sha256": "8ad735b1f6c44432a2c8cfbb4f33dd14dd6a83454197dc71a0e3bc6014dda145",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/195a8f2a8b41861be4ccd8413576889c/uploadfiles/oss/2024/06/20240612135622777.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/05-32.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 87,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709161834838.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 87,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/snow-portrait.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "适用雪天人像，整体色调清冷干净的同时又保证肤色透亮",
+  "schema_version": "1.0"
+}

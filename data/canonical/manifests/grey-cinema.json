@@ -1,0 +1,65 @@
+{
+  "canonical_id": "grey-cinema",
+  "name_zh": "灰度电影",
+  "author": {
+    "name_zh": "Plady",
+    "name_en": "Plady",
+    "slug": "plady"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "cinematic",
+    "grey",
+    "silver",
+    "street",
+    "overcast"
+  ],
+  "official_descriptions": [
+    "晴天时蓝天呈现高级银灰色，阴天街拍则散发清冷气息"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 200,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/cddd3bd95debfae1d474cef81370a05f/uploadfiles/oss/2024/06/20240612142048198.zip",
+      "download_path": "oss/2024/06/20240612142048198.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163607910.jpg",
+      "official_title_raw": "by Plady 灰度电影",
+      "official_description": "晴天时蓝天呈现高级银灰色，阴天街拍则散发清冷气息",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/32-33.zip",
+      "archive_sha256": "9cf0f628961e0422dd185a456871cb2141a4e12f372f704dc749e91b3241787a"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--plady--grey-cinema--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/plady/grey-cinema/outdoor--plady--grey-cinema--default.cube",
+      "original_filename": "grey-cinema.cube",
+      "source_path": "luts/outdoor/grey-cinema/grey-cinema.cube",
+      "size": 885013,
+      "sha256": "64f37bac736d8fe2449dcdde68db1e49dcb6783c0931ba0690a4b7c91b2cbdf9",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/cddd3bd95debfae1d474cef81370a05f/uploadfiles/oss/2024/06/20240612142048198.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/32-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 200,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163607910.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 200,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/grey-cinema.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "晴天时蓝天呈现高级银灰色，阴天街拍则散发清冷气息",
+  "schema_version": "1.0"
+}

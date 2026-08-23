@@ -1,0 +1,64 @@
+{
+  "canonical_id": "dusk-atmosphere",
+  "name_zh": "黄昏氛围",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "dusk",
+    "natural",
+    "shadow-detail",
+    "atmosphere"
+  ],
+  "official_descriptions": [
+    "整体色调自然舒适，保留了暗部细节突出傍晚的氛围"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 207,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/95b827cb6ed94b7a83c51c9eb1cf5dcb/uploadfiles/oss/2024/06/20240612142532396.zip",
+      "download_path": "oss/2024/06/20240612142532396.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163426286.jpg",
+      "official_title_raw": "by 郭宾 黄昏氛围",
+      "official_description": "整体色调自然舒适，保留了暗部细节突出傍晚的氛围",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/39-33.zip",
+      "archive_sha256": "d43407174e91a601b3cfd4afb9dd3849c0ab8649ac7c065b554531ccd132ca2e"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--guo-bin--dusk-atmosphere--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/dusk-atmosphere/outdoor--guo-bin--dusk-atmosphere--default.cube",
+      "original_filename": "dusk-atmosphere.cube",
+      "source_path": "luts/outdoor/dusk-atmosphere/dusk-atmosphere.cube",
+      "size": 906136,
+      "sha256": "b0b4e2a432b35b3142234e3e2e90616a06e4f423df09770125a9f70bbfbc0387",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/95b827cb6ed94b7a83c51c9eb1cf5dcb/uploadfiles/oss/2024/06/20240612142532396.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/39-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 207,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163426286.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 207,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/dusk-atmosphere.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "整体色调自然舒适，保留了暗部细节突出傍晚的氛围",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,76 @@
+{
+  "canonical_id": "vintage-blue-tone",
+  "name_zh": "复古蓝调",
+  "author": {
+    "name_zh": "波子Booz",
+    "name_en": "Bozi Booz",
+    "slug": "bozi-booz"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "vintage",
+    "blue",
+    "high-contrast",
+    "front-light"
+  ],
+  "official_descriptions": [
+    "明暗反差相对较高，适合顺光拍摄的场景"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 201,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/ab28e9fd6508226a444deeccb7abffbe/uploadfiles/oss/2024/06/20240612142133391.zip",
+      "download_path": "oss/2024/06/20240612142133391.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163556592.jpg",
+      "official_title_raw": "by 波子Booz 复古蓝调",
+      "official_description": "明暗反差相对较高，适合顺光拍摄的场景",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/33-33.zip",
+      "archive_sha256": "82d34ce4a28eaa3b28c1b232c13053ced80f6144123527680a02c3f2d651124c"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--bozi-booz--vintage-blue-tone--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/bozi-booz/vintage-blue-tone/outdoor--bozi-booz--vintage-blue-tone--default.cube",
+      "original_filename": "vintage-blue-tone.cube",
+      "source_path": "luts/outdoor/vintage-blue-tone/vintage-blue-tone.cube",
+      "size": 947970,
+      "sha256": "f1de00e661198038e70fa573fd0a2891cf42770e5940df8d17fdd6f97a46f8ec",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ab28e9fd6508226a444deeccb7abffbe/uploadfiles/oss/2024/06/20240612142133391.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/33-33.zip"
+    },
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "outdoor--bozi-booz--vintage-blue-tone--default.vlt",
+      "canonical_path": "data/canonical/luts/outdoor/bozi-booz/vintage-blue-tone/outdoor--bozi-booz--vintage-blue-tone--default.vlt",
+      "original_filename": "vintage-blue-tone.vlt",
+      "source_path": "luts/outdoor/vintage-blue-tone/vintage-blue-tone.vlt",
+      "size": 68313,
+      "sha256": "ceac17c0eff4f1b91e0561c17c6e8825ab4d0f3dc5772a7cc0fa6d39d16b2152",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ab28e9fd6508226a444deeccb7abffbe/uploadfiles/oss/2024/06/20240612142133391.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/33-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 201,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163556592.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 201,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/vintage-blue-tone.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "明暗反差相对较高，适合顺光拍摄的场景",
+  "schema_version": "1.0"
+}

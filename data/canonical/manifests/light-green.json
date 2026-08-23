@@ -1,0 +1,65 @@
+{
+  "canonical_id": "light-green",
+  "name_zh": "轻柔绿意",
+  "author": {
+    "name_zh": "晴天",
+    "name_en": "Qingtian",
+    "slug": "qingtian"
+  },
+  "category": "indoor",
+  "category_zh": "室内",
+  "tags": [
+    "cinematic",
+    "green",
+    "portrait",
+    "skin-tone",
+    "fresh"
+  ],
+  "official_descriptions": [
+    "这款LUT以电影感绿色系为核心，在呈现高级绿色质感的同时，精准保护人物肤色的通透感。特别为LUMIX相机优化。建议在充足光线下稍加曝光使用，轻松打造富有呼吸感的电影级画面。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 42173,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/77d7485b8eeb29f2e11f0b61e87cadf8/uploadfiles/oss/2025/11/%EF%BC%88%E8%BD%BB%E6%9F%94%E7%BB%BF%E6%84%8F%EF%BC%89Light%20Green-port.zip",
+      "download_path": "oss/2025/11/（轻柔绿意）Light Green-port.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/轻柔绿意.png",
+      "official_title_raw": "by晴天📸 轻柔绿意",
+      "official_description": "这款LUT以电影感绿色系为核心，在呈现高级绿色质感的同时，精准保护人物肤色的通透感。特别为LUMIX相机优化。建议在充足光线下稍加曝光使用，轻松打造富有呼吸感的电影级画面。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/57-34.zip",
+      "archive_sha256": "8a055a9ffbde089ac422ea89ae4e975a169bed2e557338cf8a9d7af844f15aa5"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "indoor--qingtian--light-green--default.cube",
+      "canonical_path": "data/canonical/luts/indoor/qingtian/light-green/indoor--qingtian--light-green--default.cube",
+      "original_filename": "light-green.cube",
+      "source_path": "luts/indoor/light-green/light-green.cube",
+      "size": 970368,
+      "sha256": "f691c4ada4da3b4d51b8eb6baffe43c03c14e15914b4a9f6538ca1eb1228c803",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/77d7485b8eeb29f2e11f0b61e87cadf8/uploadfiles/oss/2025/11/%EF%BC%88%E8%BD%BB%E6%9F%94%E7%BB%BF%E6%84%8F%EF%BC%89Light%20Green-port.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/57-34.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 42173,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/轻柔绿意.png",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 42173,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/light-green.png",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "这款LUT以电影感绿色系为核心，在呈现高级绿色质感的同时，精准保护人物肤色的通透感。特别为LUMIX相机优化。建议在充足光线下稍加曝光使用，轻松打造富有呼吸感的电影级画面。",
+  "schema_version": "1.0"
+}

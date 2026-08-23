@@ -1,0 +1,64 @@
+{
+  "canonical_id": "light-jp-blue",
+  "name_zh": "轻日系-蓝",
+  "author": {
+    "name_zh": "兔小呆",
+    "name_en": "Tu Xiaodai",
+    "slug": "tu-xiaodai"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "japanese-style",
+    "cool-tone",
+    "skin-tone",
+    "daily"
+  ],
+  "official_descriptions": [
+    "轻日系微冷调，着重肤色的优化，适合于日常大部分场景的拍摄。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 2925,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/4e4f1087edb78364d09d19bac4e58cb0/uploadfiles/oss/2024/09/20240912163913932.zip",
+      "download_path": "oss/2024/09/20240912163913932.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/09/20240912163752647.jpg",
+      "official_title_raw": "by 兔小呆 轻日系-蓝",
+      "official_description": "轻日系微冷调，着重肤色的优化，适合于日常大部分场景的拍摄。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/20-32.zip",
+      "archive_sha256": "5ada53bfdc8e47e15aedda2112affa7ab382bebe9fa3685d59a5ff39ab14cc06"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--tu-xiaodai--light-jp-blue--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/light-jp-blue/portrait--tu-xiaodai--light-jp-blue--default.cube",
+      "original_filename": "light-jp-blue.cube",
+      "source_path": "luts/portrait/light-jp-blue/light-jp-blue.cube",
+      "size": 970607,
+      "sha256": "7fa538059c8e35558372a32e6c584e8f7175295b8d70c00224c7d86b89b14b23",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/4e4f1087edb78364d09d19bac4e58cb0/uploadfiles/oss/2024/09/20240912163913932.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/20-32.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 2925,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/09/20240912163752647.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 2925,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/light-jp-blue.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "轻日系微冷调，着重肤色的优化，适合于日常大部分场景的拍摄。",
+  "schema_version": "1.0"
+}

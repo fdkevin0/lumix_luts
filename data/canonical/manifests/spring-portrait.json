@@ -1,0 +1,76 @@
+{
+  "canonical_id": "spring-portrait",
+  "name_zh": "春意人像",
+  "author": {
+    "name_zh": "波子Booz",
+    "name_en": "Bozi Booz",
+    "slug": "bozi-booz"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "soft",
+    "low-contrast",
+    "overcast"
+  ],
+  "official_descriptions": [
+    "影调柔和反差低，人物肤色友好，适合阴天拍摄呈现清冷"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 186,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/5e5574b3e4a40060a66c4f769465cf82/uploadfiles/oss/2024/06/20240612140437648.zip",
+      "download_path": "oss/2024/06/20240612140437648.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162130684.jpg",
+      "official_title_raw": "by 波子Booz 春意人像",
+      "official_description": "影调柔和反差低，人物肤色友好，适合阴天拍摄呈现清冷",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/11-32.zip",
+      "archive_sha256": "56f98d9f0044cbaf903f1b8452b26ee51daa6d0ad1b35a27456ad8a3a8268a94"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--bozi-booz--spring-portrait--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/bozi-booz/spring-portrait/portrait--bozi-booz--spring-portrait--default.cube",
+      "original_filename": "spring-portrait.cube",
+      "source_path": "luts/portrait/spring-portrait/spring-portrait.cube",
+      "size": 723080,
+      "sha256": "09f4b8f2be43c05c3e2daf754abef14a9adc345e675873385e305f2916270d7c",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/5e5574b3e4a40060a66c4f769465cf82/uploadfiles/oss/2024/06/20240612140437648.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/11-32.zip"
+    },
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "portrait--bozi-booz--spring-portrait--default.vlt",
+      "canonical_path": "data/canonical/luts/portrait/bozi-booz/spring-portrait/portrait--bozi-booz--spring-portrait--default.vlt",
+      "original_filename": "spring-portrait.vlt",
+      "source_path": "luts/portrait/spring-portrait/spring-portrait.vlt",
+      "size": 63599,
+      "sha256": "124c20ea66c8498d3dddd0b199ab2badb1c4bc016ba8d6346d2c76770258ac34",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/5e5574b3e4a40060a66c4f769465cf82/uploadfiles/oss/2024/06/20240612140437648.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/11-32.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 186,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162130684.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 186,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/spring-portrait.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "影调柔和反差低，人物肤色友好，适合阴天拍摄呈现清冷",
+  "schema_version": "1.0"
+}

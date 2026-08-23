@@ -1,0 +1,64 @@
+{
+  "canonical_id": "camping-vibe",
+  "name_zh": "露营氛围",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "camping",
+    "film",
+    "outdoor",
+    "atmosphere"
+  ],
+  "official_descriptions": [
+    "色彩偏胶片氛围感，保证画面色彩的同时保留原片的味道"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 204,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/102d8d8137aef1c833ed6e5cec6a22c6/uploadfiles/oss/2024/06/20240612142258138.zip",
+      "download_path": "oss/2024/06/20240612142258138.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163512405.jpg",
+      "official_title_raw": "by 郭宾 露营氛围",
+      "official_description": "色彩偏胶片氛围感，保证画面色彩的同时保留原片的味道",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/36-33.zip",
+      "archive_sha256": "05ff9cec807df000ea0b913a8bb7768dad38ab03970cefd287644f387579af9f"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--guo-bin--camping-vibe--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/camping-vibe/outdoor--guo-bin--camping-vibe--default.cube",
+      "original_filename": "camping-vibe.cube",
+      "source_path": "luts/outdoor/camping-vibe/camping-vibe.cube",
+      "size": 963042,
+      "sha256": "851a90fa54e4ab6596986ab82140e304c14ff6e9485cb1e696b5ac5e29f03b3f",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/102d8d8137aef1c833ed6e5cec6a22c6/uploadfiles/oss/2024/06/20240612142258138.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/36-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 204,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163512405.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 204,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/camping-vibe.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "色彩偏胶片氛围感，保证画面色彩的同时保留原片的味道",
+  "schema_version": "1.0"
+}

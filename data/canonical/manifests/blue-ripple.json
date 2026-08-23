@@ -1,0 +1,65 @@
+{
+  "canonical_id": "blue-ripple",
+  "name_zh": "蓝漾",
+  "author": {
+    "name_zh": "兔小呆",
+    "name_en": "Tu Xiaodai",
+    "slug": "tu-xiaodai"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "japanese-style",
+    "cool-tone",
+    "skin-tone",
+    "versatile",
+    "beginner"
+  ],
+  "official_descriptions": [
+    "一款轻日系微冷调的调色lut，着重进行了肤色的优化，没有很重的风格化影调，泛用性强，在阴天环境下也适用，对于lut使用者的门槛较低，适合初学者使用。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 42166,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/d8f22951b4da5c9784a6ea2a6f30da8e/uploadfiles/oss/2025/11/TXD%20ColorHarmony%20LUT%20-std.zip",
+      "download_path": "oss/2025/11/TXD ColorHarmony LUT -std.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/蓝漾.png",
+      "official_title_raw": "by兔小呆 蓝漾",
+      "official_description": "一款轻日系微冷调的调色lut，着重进行了肤色的优化，没有很重的风格化影调，泛用性强，在阴天环境下也适用，对于lut使用者的门槛较低，适合初学者使用。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/46-33.zip",
+      "archive_sha256": "934562bcb3b0e9ba847ba2e9ce8e3823a9c64fae06249beff65c02d8e741f13e"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--tu-xiaodai--blue-ripple--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/tu-xiaodai/blue-ripple/outdoor--tu-xiaodai--blue-ripple--default.cube",
+      "original_filename": "blue-ripple.cube",
+      "source_path": "luts/outdoor/blue-ripple/blue-ripple.cube",
+      "size": 970607,
+      "sha256": "7fa538059c8e35558372a32e6c584e8f7175295b8d70c00224c7d86b89b14b23",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/d8f22951b4da5c9784a6ea2a6f30da8e/uploadfiles/oss/2025/11/TXD%20ColorHarmony%20LUT%20-std.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/46-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 42166,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/蓝漾.png",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 42166,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/blue-ripple.png",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "一款轻日系微冷调的调色lut，着重进行了肤色的优化，没有很重的风格化影调，泛用性强，在阴天环境下也适用，对于lut使用者的门槛较低，适合初学者使用。",
+  "schema_version": "1.0"
+}

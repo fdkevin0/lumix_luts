@@ -1,0 +1,67 @@
+{
+  "canonical_id": "millennium-echo-warm",
+  "name_zh": "千禧回声 Warm",
+  "author": {
+    "name_zh": "德松Desong",
+    "name_en": "Desong",
+    "slug": "desong"
+  },
+  "category": "anniversary",
+  "category_zh": "25周年专属",
+  "tags": [
+    "ccd",
+    "retro",
+    "y2k",
+    "portrait"
+  ],
+  "official_descriptions": [
+    "此预设以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。在模仿CCD影调色调的同时不降低画质。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。 预设提供“warm“和”cold“两种色温偏向的版本，可以依据喜好与拍摄场景做选择。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 55224,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/7096096b4f610e75f2a95e2dcf625a92/uploadfiles/oss/2026/03/24/15553063798/%E5%BE%B7%E6%9D%BE-%E5%8D%83%E7%A6%A7%E5%9B%9E%E5%A3%B0.zip",
+      "download_path": "oss/2026/03/24/15553063798/德松-千禧回声.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/微信图片_20260325164707.jpg",
+      "official_title_raw": "by德松Desong-千禧回声",
+      "official_description": "此预设以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。在模仿CCD影调色调的同时不降低画质。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。 预设提供“warm“和”cold“两种色温偏向的版本，可以依据喜好与拍摄场景做选择。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/03-113.zip",
+      "archive_sha256": "9282c3ac51221b4fbb7669f8f6f2c3a1f9ea11e64d7bcfa050aee04554538744"
+    }
+  ],
+  "files": [
+    {
+      "variant": "warm",
+      "format": "cube",
+      "normalized_filename": "anniversary--desong--millennium-echo-warm--default.cube",
+      "canonical_path": "data/canonical/luts/anniversary/desong/millennium-echo-warm/anniversary--desong--millennium-echo-warm--default.cube",
+      "original_filename": "73ec0931880d84bd8a73754ec6acb212_1f57406f3aa403dcec575ad7a39d635f_8.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/02-113.zip::73ec0931880d84bd8a73754ec6acb212_1f57406f3aa403dcec575ad7a39d635f_8.cube",
+      "size": 962389,
+      "sha256": "6880f3ec2f7e5b68e6a682ea506240799803e29db44a43cd3763936bf7f29740",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/7096096b4f610e75f2a95e2dcf625a92/uploadfiles/oss/2026/03/24/15553063798/%E5%BE%B7%E6%9D%BE-%E5%8D%83%E7%A6%A7%E5%9B%9E%E5%A3%B0.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/02-113.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 55224,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/微信图片_20260325164707.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 55224,
+      "variant": "warm",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260325164707.jpg",
+      "canonical_path": "data/canonical/previews/millennium-echo-warm.jpg",
+      "sha256": "5fa9c14f4c2d9720871dccb1d1eafb768dce37f0f2a1888868b537e20895f615",
+      "status": "official-source"
+    }
+  ],
+  "legacy_entry_id": "millennium-echo",
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "此预设以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。在模仿CCD影调色调的同时不降低画质。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。 预设提供“warm“和”cold“两种色温偏向的版本，可以依据喜好与拍摄场景做选择。",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,65 @@
+{
+  "canonical_id": "rice-field-village",
+  "name_zh": "稻田乡村",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "rural",
+    "green-yellow",
+    "film",
+    "portrait",
+    "village"
+  ],
+  "official_descriptions": [
+    "绿黄色部分过度协调，人物肤色也保留了胶片色的风格"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 205,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/b2c0e8da572106765d6f711f88870bb6/uploadfiles/oss/2024/06/20240612142340678.zip",
+      "download_path": "oss/2024/06/20240612142340678.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163459660.jpg",
+      "official_title_raw": "by 郭宾 稻田乡村",
+      "official_description": "绿黄色部分过度协调，人物肤色也保留了胶片色的风格",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/37-33.zip",
+      "archive_sha256": "699b8f482d470f018fa224c7e85214fc62031e14189bc9565ab8b5b31b228b58"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--guo-bin--rice-field-village--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/rice-field-village/outdoor--guo-bin--rice-field-village--default.cube",
+      "original_filename": "rice-field-village.cube",
+      "source_path": "luts/outdoor/rice-field-village/rice-field-village.cube",
+      "size": 961637,
+      "sha256": "6f17356c2aece8fffde90307d050a903383939cd4a67b748fd264a1a0c6ac520",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/b2c0e8da572106765d6f711f88870bb6/uploadfiles/oss/2024/06/20240612142340678.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/37-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 205,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163459660.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 205,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/rice-field-village.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "绿黄色部分过度协调，人物肤色也保留了胶片色的风格",
+  "schema_version": "1.0"
+}

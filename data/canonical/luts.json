@@ -1,0 +1,4935 @@
+{
+  "meta": {
+    "updated": "2026-08-24",
+    "total_luts": 57,
+    "total_files": 63,
+    "official_card_count": 57,
+    "merged_duplicate_card_count": 0,
+    "duplicate_content_groups": {
+      "7fa538059c8e35558372a32e6c584e8f7175295b8d70c00224c7d86b89b14b23": [
+        "data/canonical/luts/portrait/tu-xiaodai/light-jp-blue/portrait--tu-xiaodai--light-jp-blue--default.cube",
+        "data/canonical/luts/outdoor/tu-xiaodai/blue-ripple/outdoor--tu-xiaodai--blue-ripple--default.cube"
+      ]
+    },
+    "source": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx"
+  },
+  "categories": [
+    {
+      "id": "anniversary",
+      "name_zh": "25周年专属",
+      "name_en": "25th Anniversary",
+      "lut_count": 4
+    },
+    {
+      "id": "portrait",
+      "name_zh": "人像",
+      "name_en": "Portrait",
+      "lut_count": 21
+    },
+    {
+      "id": "outdoor",
+      "name_zh": "户外",
+      "name_en": "Outdoor",
+      "lut_count": 23
+    },
+    {
+      "id": "indoor",
+      "name_zh": "室内",
+      "name_en": "Indoor",
+      "lut_count": 9
+    }
+  ],
+  "authors": [
+    {
+      "slug": "ali-halip",
+      "name_zh": "阿里Halip",
+      "name_en": "Ali Halip",
+      "lut_count": 1
+    },
+    {
+      "slug": "ba-wenhuan",
+      "name_zh": "巴文欢",
+      "name_en": "Ba Wenhuan",
+      "lut_count": 3
+    },
+    {
+      "slug": "bozi-booz",
+      "name_zh": "波子Booz",
+      "name_en": "Bozi Booz",
+      "lut_count": 3
+    },
+    {
+      "slug": "desong",
+      "name_zh": "德松Desong",
+      "name_en": "Desong",
+      "lut_count": 4
+    },
+    {
+      "slug": "ejay",
+      "name_zh": "EJAY",
+      "name_en": "EJAY",
+      "lut_count": 5
+    },
+    {
+      "slug": "guo-bin",
+      "name_zh": "郭宾",
+      "name_en": "Guo Bin",
+      "lut_count": 13
+    },
+    {
+      "slug": "hailuoke",
+      "name_zh": "海螺壳",
+      "name_en": "Hailuoke",
+      "lut_count": 5
+    },
+    {
+      "slug": "jon-simo",
+      "name_zh": "Jon Simo",
+      "name_en": "Jon Simo",
+      "lut_count": 3
+    },
+    {
+      "slug": "plady",
+      "name_zh": "plady",
+      "name_en": "Plady",
+      "lut_count": 5
+    },
+    {
+      "slug": "qingtian",
+      "name_zh": "晴天",
+      "name_en": "Qingtian",
+      "lut_count": 2
+    },
+    {
+      "slug": "tu-xiaodai",
+      "name_zh": "兔小呆",
+      "name_en": "Tu Xiaodai",
+      "lut_count": 7
+    },
+    {
+      "slug": "xiao-zhai",
+      "name_zh": "小翟同学",
+      "name_en": "Xiao Zhai",
+      "lut_count": 1
+    },
+    {
+      "slug": "xue-luyao",
+      "name_zh": "薛璐瑶",
+      "name_en": "Xue Luyao",
+      "lut_count": 3
+    },
+    {
+      "slug": "zhang-heng",
+      "name_zh": "张恒",
+      "name_en": "Zhang Heng",
+      "lut_count": 1
+    },
+    {
+      "slug": "zhou",
+      "name_zh": "舟zhou",
+      "name_en": "Zhou",
+      "lut_count": 1
+    }
+  ],
+  "tags": [
+    "2383",
+    "aesthetic",
+    "architecture",
+    "atmosphere",
+    "autumn",
+    "balanced",
+    "beginner",
+    "black-and-white",
+    "bleach-bypass",
+    "blue",
+    "bw",
+    "camping",
+    "candy",
+    "ccd",
+    "cinematic",
+    "classic",
+    "cold-tone",
+    "color-temperature",
+    "contrast",
+    "cool-tone",
+    "cuisine",
+    "cyan",
+    "cyan-green",
+    "cyan-orange",
+    "cyan-shift",
+    "cyan-tone",
+    "daily",
+    "dark-tone",
+    "day-for-night",
+    "dusk",
+    "eterna",
+    "film",
+    "food",
+    "fresh",
+    "front-light",
+    "golden",
+    "grain",
+    "green",
+    "green-yellow",
+    "grey",
+    "healing",
+    "high-brightness",
+    "high-contrast",
+    "high-latitude",
+    "indoor",
+    "japanese-style",
+    "landscape",
+    "layered",
+    "lighting",
+    "lighting-critical",
+    "low-contrast",
+    "low-saturation",
+    "magenta",
+    "mint",
+    "moody",
+    "moss",
+    "natural",
+    "nature",
+    "night",
+    "night-sim",
+    "nostalgic",
+    "outdoor",
+    "overcast",
+    "pink",
+    "portra800",
+    "portrait",
+    "positive-film",
+    "purple-blue",
+    "rain",
+    "red-blue-yellow",
+    "red-reduction",
+    "retro",
+    "rice-field",
+    "rich",
+    "rural",
+    "seaside",
+    "shadow-detail",
+    "silver",
+    "skin-tone",
+    "snow",
+    "soft",
+    "storytelling",
+    "street",
+    "summer",
+    "sunset",
+    "teal-orange",
+    "tibet",
+    "urban",
+    "velvia",
+    "verdant",
+    "versatile",
+    "village",
+    "vintage",
+    "vivid",
+    "vlog",
+    "warm",
+    "warm-cool",
+    "warm-highlight",
+    "warm-tone",
+    "warm-white",
+    "warm-yellow",
+    "white",
+    "y2k",
+    "yellow-green",
+    "youth"
+  ],
+  "generators": [
+    "Adobe Lightroom 1.24.0",
+    "Adobe Lightroom 1.34.0",
+    "Adobe Photoshop",
+    "DaVinci Resolve",
+    "LUMIX Lab",
+    "Picture Instruments Look Converter",
+    "hand-authored",
+    "panasonic-vlt"
+  ],
+  "lut_3d_sizes": [
+    16,
+    17,
+    32,
+    33,
+    65
+  ],
+  "formats": [
+    "cube",
+    "vlt"
+  ],
+  "luts": [
+    {
+      "id": "aesthetic-portrait",
+      "name_zh": "唯美人像",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "保证肤色透亮的同时，让黄色和绿色更有胶片氛围。",
+      "tags": [
+        "portrait",
+        "aesthetic",
+        "film",
+        "skin-tone",
+        "warm"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 969226,
+      "files": [
+        {
+          "name": "portrait--guo-bin--aesthetic-portrait--default.cube",
+          "type": "cube",
+          "size": 969226,
+          "sha256": "92030e3a9fb2c19e92d75c2cd91b86d9adf3071b60ec05f4856b555e7409c283",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/guo-bin/aesthetic-portrait/portrait--guo-bin--aesthetic-portrait--default.cube",
+          "original_filename": "aesthetic-portrait.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/aesthetic-portrait.jpg",
+      "official_name": "唯美人像",
+      "display_name": "唯美人像",
+      "official_descriptions": [
+        "保证肤色透亮的同时，让黄色和绿色更有胶片氛围"
+      ],
+      "display_description": "保证肤色透亮的同时，让黄色和绿色更有胶片氛围",
+      "source_items": [
+        {
+          "remote_item_id": 190,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/0314ae6e5d9126eaa4949e9dc047b375/uploadfiles/oss/2024/06/20240612141001947.zip",
+          "download_path": "oss/2024/06/20240612141001947.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162242574.jpg",
+          "official_title_raw": "by 郭宾 唯美人像",
+          "official_description": "保证肤色透亮的同时，让黄色和绿色更有胶片氛围",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/15-32.zip",
+          "archive_sha256": "a49ab73100a9e956f482180e7b34c0c7bfa496146505d2f12c1fe4b7a8b79a9a"
+        }
+      ],
+      "canonical_id": "aesthetic-portrait",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/aesthetic-portrait.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "blue-ripple",
+      "name_zh": "蓝漾",
+      "author": {
+        "name_zh": "兔小呆",
+        "name_en": "Tu Xiaodai",
+        "slug": "tu-xiaodai"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "一款轻日系微冷调的调色LUT，着重进行了肤色的优化，没有很重的风格化影调，泛用性强，在阴天环境下也适用，适合初学者使用。",
+      "tags": [
+        "japanese-style",
+        "cool-tone",
+        "skin-tone",
+        "versatile",
+        "beginner"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "Adobe Lightroom 1.24.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970607,
+      "files": [
+        {
+          "name": "outdoor--tu-xiaodai--blue-ripple--default.cube",
+          "type": "cube",
+          "size": 970607,
+          "sha256": "7fa538059c8e35558372a32e6c584e8f7175295b8d70c00224c7d86b89b14b23",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/tu-xiaodai/blue-ripple/outdoor--tu-xiaodai--blue-ripple--default.cube",
+          "original_filename": "blue-ripple.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.24.0",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/blue-ripple.png",
+      "official_name": "蓝漾",
+      "display_name": "蓝漾",
+      "official_descriptions": [
+        "一款轻日系微冷调的调色lut，着重进行了肤色的优化，没有很重的风格化影调，泛用性强，在阴天环境下也适用，对于lut使用者的门槛较低，适合初学者使用。"
+      ],
+      "display_description": "一款轻日系微冷调的调色lut，着重进行了肤色的优化，没有很重的风格化影调，泛用性强，在阴天环境下也适用，对于lut使用者的门槛较低，适合初学者使用。",
+      "source_items": [
+        {
+          "remote_item_id": 42166,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/d8f22951b4da5c9784a6ea2a6f30da8e/uploadfiles/oss/2025/11/TXD%20ColorHarmony%20LUT%20-std.zip",
+          "download_path": "oss/2025/11/TXD ColorHarmony LUT -std.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/蓝漾.png",
+          "official_title_raw": "by兔小呆 蓝漾",
+          "official_description": "一款轻日系微冷调的调色lut，着重进行了肤色的优化，没有很重的风格化影调，泛用性强，在阴天环境下也适用，对于lut使用者的门槛较低，适合初学者使用。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/46-33.zip",
+          "archive_sha256": "934562bcb3b0e9ba847ba2e9ce8e3823a9c64fae06249beff65c02d8e741f13e"
+        }
+      ],
+      "canonical_id": "blue-ripple",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/blue-ripple.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "bw-old-film",
+      "name_zh": "黑白旧胶片",
+      "author": {
+        "name_zh": "海螺壳",
+        "name_en": "Hailuoke",
+        "slug": "hailuoke"
+      },
+      "category": "indoor",
+      "category_zh": "室内",
+      "description": "低对比的暗部和亮部，高宽容度的宛如传统黑白电影。",
+      "tags": [
+        "bw",
+        "black-and-white",
+        "film",
+        "low-contrast",
+        "high-latitude"
+      ],
+      "format": "cube",
+      "lut_3d_size": 32,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "filter6",
+        "generator": "Picture Instruments Look Converter",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 688212,
+      "files": [
+        {
+          "name": "indoor--hailuoke--bw-old-film--default.cube",
+          "type": "cube",
+          "size": 688212,
+          "sha256": "46facdd466adb416ccef1458d2445d06e47facc9e87e44f26b9ca4b5fd0b2a7f",
+          "variant": "default",
+          "public_path": "canonical/luts/indoor/hailuoke/bw-old-film/indoor--hailuoke--bw-old-film--default.cube",
+          "original_filename": "bw-old-film.cube",
+          "lut_3d_size": 32,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "Picture Instruments Look Converter",
+          "copyright": null,
+          "title": "filter6"
+        }
+      ],
+      "preview_image": "canonical/previews/bw-old-film.jpg",
+      "official_name": "黑白旧胶片",
+      "display_name": "黑白旧胶片",
+      "official_descriptions": [
+        "低对比的暗部和亮部，高宽容度的宛如传统黑白电影"
+      ],
+      "display_description": "低对比的暗部和亮部，高宽容度的宛如传统黑白电影",
+      "source_items": [
+        {
+          "remote_item_id": 213,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/5c3e68d5846d9c75aa5a4f31828ef818/uploadfiles/oss/2024/06/20240612151332053.zip",
+          "download_path": "oss/2024/06/20240612151332053.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164112701.jpg",
+          "official_title_raw": "by 海螺壳 黑白旧胶片",
+          "official_description": "低对比的暗部和亮部，高宽容度的宛如传统黑白电影",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/49-34.zip",
+          "archive_sha256": "67bc450e5628a335588de13902fc42766f7e041919d6b27b8625ce5e5d40e658"
+        }
+      ],
+      "canonical_id": "bw-old-film",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/bw-old-film.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "camping-vibe",
+      "name_zh": "露营氛围",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "色彩偏胶片氛围感，保证画面色彩的同时保留原片的味道。",
+      "tags": [
+        "camping",
+        "film",
+        "outdoor",
+        "atmosphere"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 963042,
+      "files": [
+        {
+          "name": "outdoor--guo-bin--camping-vibe--default.cube",
+          "type": "cube",
+          "size": 963042,
+          "sha256": "851a90fa54e4ab6596986ab82140e304c14ff6e9485cb1e696b5ac5e29f03b3f",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/guo-bin/camping-vibe/outdoor--guo-bin--camping-vibe--default.cube",
+          "original_filename": "camping-vibe.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/camping-vibe.jpg",
+      "official_name": "露营氛围",
+      "display_name": "露营氛围",
+      "official_descriptions": [
+        "色彩偏胶片氛围感，保证画面色彩的同时保留原片的味道"
+      ],
+      "display_description": "色彩偏胶片氛围感，保证画面色彩的同时保留原片的味道",
+      "source_items": [
+        {
+          "remote_item_id": 204,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/102d8d8137aef1c833ed6e5cec6a22c6/uploadfiles/oss/2024/06/20240612142258138.zip",
+          "download_path": "oss/2024/06/20240612142258138.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163512405.jpg",
+          "official_title_raw": "by 郭宾 露营氛围",
+          "official_description": "色彩偏胶片氛围感，保证画面色彩的同时保留原片的味道",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/36-33.zip",
+          "archive_sha256": "05ff9cec807df000ea0b913a8bb7768dad38ab03970cefd287644f387579af9f"
+        }
+      ],
+      "canonical_id": "camping-vibe",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/camping-vibe.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "candy-color",
+      "name_zh": "糖果色",
+      "author": {
+        "name_zh": "小翟同学",
+        "name_en": "Xiao Zhai",
+        "slug": "xiao-zhai"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "糖果色；低饱和度高明度；青蓝色天空+橙黄色建筑撞色。",
+      "tags": [
+        "candy",
+        "low-saturation",
+        "high-brightness",
+        "cyan-orange",
+        "architecture"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 991413,
+      "files": [
+        {
+          "name": "outdoor--xiao-zhai--candy-color--default.cube",
+          "type": "cube",
+          "size": 991413,
+          "sha256": "183c1de7353b4bb7debf3cec23980bc853f717c74c5c575d69ad6c69c491142a",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/xiao-zhai/candy-color/outdoor--xiao-zhai--candy-color--default.cube",
+          "original_filename": "candy-color.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/candy-color.jpg",
+      "official_name": "糖果色",
+      "display_name": "糖果色",
+      "official_descriptions": [
+        "糖果色；低饱和度高明度；青蓝色天空+橙黄色建筑撞色。"
+      ],
+      "display_description": "糖果色；低饱和度高明度；青蓝色天空+橙黄色建筑撞色。",
+      "source_items": [
+        {
+          "remote_item_id": 7622,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/ac536fdc02600d2b4556420d86f19ceb/uploadfiles/oss/2024/11/%E7%B3%96%E6%9E%9C%E8%89%B2.zip",
+          "download_path": "oss/2024/11/糖果色.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/11/92befc277b62be21e1c4e6dccfbc122.png",
+          "official_title_raw": "by 小翟同学 糖果色",
+          "official_description": "糖果色；低饱和度高明度；青蓝色天空+橙黄色建筑撞色。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/45-33.zip",
+          "archive_sha256": "ee1fd8e38a784786d2c7e8a5a056d846b98782a5feb0d6f17e2a6b0971998633"
+        }
+      ],
+      "canonical_id": "candy-color",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/candy-color.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "cinema-tone",
+      "name_zh": "影院色调",
+      "author": {
+        "name_zh": "EJAY",
+        "name_en": "EJAY",
+        "slug": "ejay"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "色调柔和低饱和，蓝色会往青色偏移。",
+      "tags": [
+        "cinematic",
+        "low-saturation",
+        "cyan-shift",
+        "soft"
+      ],
+      "format": "vlt",
+      "lut_3d_size": 17,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "panasonic-vlt",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 69382,
+      "files": [
+        {
+          "name": "outdoor--ejay--cinema-tone--default.vlt",
+          "type": "vlt",
+          "size": 69382,
+          "sha256": "6f6cfd660b86acc545f2696256770c2766cda79d72cfbbd789dc3bf4f9373bc1",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/ejay/cinema-tone/outdoor--ejay--cinema-tone--default.vlt",
+          "original_filename": "cinema-tone.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/cinema-tone.jpg",
+      "official_name": "影院色调",
+      "display_name": "影院色调",
+      "official_descriptions": [
+        "色调柔和低饱和，蓝色会往青色偏移"
+      ],
+      "display_description": "色调柔和低饱和，蓝色会往青色偏移",
+      "source_items": [
+        {
+          "remote_item_id": 211,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/52268c629eb6b50769605601f7789b27/uploadfiles/oss/2024/06/20240612150818260.zip",
+          "download_path": "oss/2024/06/20240612150818260.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163327540.jpg",
+          "official_title_raw": "by EJAY 影院色调",
+          "official_description": "色调柔和低饱和，蓝色会往青色偏移",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/43-33.zip",
+          "archive_sha256": "2594fa3b5e73a17c29d4963616edbdde966aee5d5d7efe95c0d0645ef9651b0d"
+        }
+      ],
+      "canonical_id": "cinema-tone",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/cinema-tone.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "dark-tone-story",
+      "name_zh": "暗调故事",
+      "author": {
+        "name_zh": "巴文欢",
+        "name_en": "Ba Wenhuan",
+        "slug": "ba-wenhuan"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "基于2383风格，根据vlog曲线特性加以调整生成。",
+      "tags": [
+        "cinematic",
+        "dark-tone",
+        "vlog",
+        "2383"
+      ],
+      "format": "vlt",
+      "lut_3d_size": 17,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "panasonic-vlt",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 62565,
+      "files": [
+        {
+          "name": "outdoor--ba-wenhuan--dark-tone-story--default.vlt",
+          "type": "vlt",
+          "size": 62565,
+          "sha256": "ea94c9ca24512cac2e4715f7214b05fe3e528e5602ced52105ed495570f737f6",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/ba-wenhuan/dark-tone-story/outdoor--ba-wenhuan--dark-tone-story--default.vlt",
+          "original_filename": "dark-tone-story.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/dark-tone-story.jpg",
+      "official_name": "暗调故事",
+      "display_name": "暗调故事",
+      "official_descriptions": [
+        "基于2383风格，根据vlog曲线特性加以调整生成"
+      ],
+      "display_description": "基于2383风格，根据vlog曲线特性加以调整生成",
+      "source_items": [
+        {
+          "remote_item_id": 195,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/249a53c4342721de9e8ff4ef7dbbbba9/uploadfiles/oss/2024/06/20240612141741367.zip",
+          "download_path": "oss/2024/06/20240612141741367.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163716869.jpg",
+          "official_title_raw": "by 巴文欢 暗调故事",
+          "official_description": "基于2383风格，根据vlog曲线特性加以调整生成",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/27-33.zip",
+          "archive_sha256": "fe49938b5eb671d42f02ea25843a1b54ce17aa984a263a4921efe3a94bf40dc4"
+        }
+      ],
+      "canonical_id": "dark-tone-story",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/dark-tone-story.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "day-for-night",
+      "name_zh": "幻化",
+      "author": {
+        "name_zh": "Jon Simo",
+        "name_en": "Jon Simo",
+        "slug": "jon-simo"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "适用于白天模仿夜间拍摄的LUT。",
+      "tags": [
+        "day-for-night",
+        "cinematic",
+        "night-sim"
+      ],
+      "format": "cube",
+      "lut_3d_size": 16,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": null,
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 114704,
+      "files": [
+        {
+          "name": "outdoor--jon-simo--day-for-night--default.cube",
+          "type": "cube",
+          "size": 114704,
+          "sha256": "aee1c516dbef61d404030164b2fdca61e8159aa85539b2213fc66382d09d68be",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/jon-simo/day-for-night/outdoor--jon-simo--day-for-night--default.cube",
+          "original_filename": "day-for-night.cube",
+          "lut_3d_size": 16,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": null,
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/day-for-night.jpg",
+      "official_name": "幻化",
+      "display_name": "幻化",
+      "official_descriptions": [
+        "适用于白天模仿夜间拍摄的LUT"
+      ],
+      "display_description": "适用于白天模仿夜间拍摄的LUT",
+      "source_items": [
+        {
+          "remote_item_id": 202,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/c490482f625bd0fab5a93b5f9b8c8b19/uploadfiles/oss/2024/06/20240612142159983.zip",
+          "download_path": "oss/2024/06/20240612142159983.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163545841.jpg",
+          "official_title_raw": "by Jon Simo 幻化",
+          "official_description": "适用于白天模仿夜间拍摄的LUT",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/34-33.zip",
+          "archive_sha256": "c145e2d3382669ec2873651347b415c8ce4d6577a69dfdd5625cec0effbb268e"
+        }
+      ],
+      "canonical_id": "day-for-night",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/day-for-night.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "dusk-atmosphere",
+      "name_zh": "黄昏氛围",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "整体色调自然舒适，保留了暗部细节突出傍晚的氛围。",
+      "tags": [
+        "dusk",
+        "natural",
+        "shadow-detail",
+        "atmosphere"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 906136,
+      "files": [
+        {
+          "name": "outdoor--guo-bin--dusk-atmosphere--default.cube",
+          "type": "cube",
+          "size": 906136,
+          "sha256": "b0b4e2a432b35b3142234e3e2e90616a06e4f423df09770125a9f70bbfbc0387",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/guo-bin/dusk-atmosphere/outdoor--guo-bin--dusk-atmosphere--default.cube",
+          "original_filename": "dusk-atmosphere.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/dusk-atmosphere.jpg",
+      "official_name": "黄昏氛围",
+      "display_name": "黄昏氛围",
+      "official_descriptions": [
+        "整体色调自然舒适，保留了暗部细节突出傍晚的氛围"
+      ],
+      "display_description": "整体色调自然舒适，保留了暗部细节突出傍晚的氛围",
+      "source_items": [
+        {
+          "remote_item_id": 207,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/95b827cb6ed94b7a83c51c9eb1cf5dcb/uploadfiles/oss/2024/06/20240612142532396.zip",
+          "download_path": "oss/2024/06/20240612142532396.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163426286.jpg",
+          "official_title_raw": "by 郭宾 黄昏氛围",
+          "official_description": "整体色调自然舒适，保留了暗部细节突出傍晚的氛围",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/39-33.zip",
+          "archive_sha256": "d43407174e91a601b3cfd4afb9dd3849c0ab8649ac7c065b554531ccd132ca2e"
+        }
+      ],
+      "canonical_id": "dusk-atmosphere",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/dusk-atmosphere.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "film-impression",
+      "name_zh": "胶片印象",
+      "author": {
+        "name_zh": "EJAY",
+        "name_en": "EJAY",
+        "slug": "ejay"
+      },
+      "category": "indoor",
+      "category_zh": "室内",
+      "description": "经典复古，可以机内模拟颗粒效果。",
+      "tags": [
+        "film",
+        "vintage",
+        "grain",
+        "classic"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970911,
+      "files": [
+        {
+          "name": "indoor--ejay--film-impression--default.cube",
+          "type": "cube",
+          "size": 970911,
+          "sha256": "ca4b94ec66d19ff9e99407e89e5d3d6c0469c789036f9fbe6d6c0ab1fead4150",
+          "variant": "default",
+          "public_path": "canonical/luts/indoor/ejay/film-impression/indoor--ejay--film-impression--default.cube",
+          "original_filename": "film-impression.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/film-impression.jpg",
+      "official_name": "胶片印象",
+      "display_name": "胶片印象",
+      "official_descriptions": [
+        "经典复古，可以机内模拟颗粒效果"
+      ],
+      "display_description": "经典复古，可以机内模拟颗粒效果",
+      "source_items": [
+        {
+          "remote_item_id": 220,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/e8dfa3f47076a9ce88784e17d4ba8ba9/uploadfiles/oss/2024/06/20240612152046331.zip",
+          "download_path": "oss/2024/06/20240612152046331.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163955552.jpg",
+          "official_title_raw": "by EJAY 胶片印象",
+          "official_description": "经典复古，可以机内模拟颗粒效果",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/56-34.zip",
+          "archive_sha256": "780a5bf583c0cf63edba80abaf409a8cc7b511fc69792c21e2a6525192d7a12b"
+        }
+      ],
+      "canonical_id": "film-impression",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/film-impression.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "film-vintage",
+      "name_zh": "胶片复古",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "indoor",
+      "category_zh": "室内",
+      "description": "整体色彩饱满，整体呈现暖黄复古的色彩感。",
+      "tags": [
+        "film",
+        "vintage",
+        "warm-yellow",
+        "indoor"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 775229,
+      "files": [
+        {
+          "name": "indoor--guo-bin--film-vintage--default.cube",
+          "type": "cube",
+          "size": 775229,
+          "sha256": "81213f6d895e96f4196d926273e237016415dca94b73c137b102e14979f99b15",
+          "variant": "default",
+          "public_path": "canonical/luts/indoor/guo-bin/film-vintage/indoor--guo-bin--film-vintage--default.cube",
+          "original_filename": "film-vintage.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/film-vintage.jpg",
+      "official_name": "胶片复古",
+      "display_name": "胶片复古",
+      "official_descriptions": [
+        "整体色彩饱满，整体呈现暖黄复古的色彩感"
+      ],
+      "display_description": "整体色彩饱满，整体呈现暖黄复古的色彩感",
+      "source_items": [
+        {
+          "remote_item_id": 214,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/16c1d6d47b47c47a87beba0f2b6f16ef/uploadfiles/oss/2024/06/20240612151518091.zip",
+          "download_path": "oss/2024/06/20240612151518091.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164101860.jpg",
+          "official_title_raw": "by 郭宾 胶片复古",
+          "official_description": "整体色彩饱满，整体呈现暖黄复古的色彩感",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/50-34.zip",
+          "archive_sha256": "5b5770de7c30756f2294246abfc19cabea15923cd361fb0aa7977a0bbd118383"
+        }
+      ],
+      "canonical_id": "film-vintage",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/film-vintage.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "food-film",
+      "name_zh": "美食胶片",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "indoor",
+      "category_zh": "室内",
+      "description": "画面色调清新自然，食物本身色彩赋予了风格化的胶片感。",
+      "tags": [
+        "food",
+        "film",
+        "fresh",
+        "natural"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 961770,
+      "files": [
+        {
+          "name": "indoor--guo-bin--food-film--default.cube",
+          "type": "cube",
+          "size": 961770,
+          "sha256": "de025d0d33ae326bd5b002b222060806d364b6e7450090e969086b5a3fc7563e",
+          "variant": "default",
+          "public_path": "canonical/luts/indoor/guo-bin/food-film/indoor--guo-bin--food-film--default.cube",
+          "original_filename": "food-film.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/food-film.jpg",
+      "official_name": "美食胶片",
+      "display_name": "美食胶片",
+      "official_descriptions": [
+        "画面色调清新自然，食物本身色彩赋予了风格化的胶片感"
+      ],
+      "display_description": "画面色调清新自然，食物本身色彩赋予了风格化的胶片感",
+      "source_items": [
+        {
+          "remote_item_id": 215,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/2725074c753a1e6c663a49b50c06128f/uploadfiles/oss/2024/06/20240612151638709.zip",
+          "download_path": "oss/2024/06/20240612151638709.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164050191.jpg",
+          "official_title_raw": "by 郭宾 美食胶片",
+          "official_description": "画面色调清新自然，食物本身色彩赋予了风格化的胶片感",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/51-34.zip",
+          "archive_sha256": "f6218d684739579d95104bbaf2cc47b52a0c9987c4253700f80dab4ee95dc87c"
+        }
+      ],
+      "canonical_id": "food-film",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/food-film.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "forest-green-cool",
+      "name_zh": "森绿清冷",
+      "author": {
+        "name_zh": "波子Booz",
+        "name_en": "Bozi Booz",
+        "slug": "bozi-booz"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "明显的黄绿倾向，肤色有单独优化，适合顺光拍摄场景。",
+      "tags": [
+        "portrait",
+        "green",
+        "yellow-green",
+        "skin-tone",
+        "front-light"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 1018123,
+      "files": [
+        {
+          "name": "portrait--bozi-booz--forest-green-cool--default.cube",
+          "type": "cube",
+          "size": 948195,
+          "sha256": "e5e0a3d2ee5a8a8e69eb5e3cc38d3942c9dea3ab4c37c6cabf366ab952c31e6f",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/bozi-booz/forest-green-cool/portrait--bozi-booz--forest-green-cool--default.cube",
+          "original_filename": "forest-green-cool.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        },
+        {
+          "name": "portrait--bozi-booz--forest-green-cool--default.vlt",
+          "type": "vlt",
+          "size": 69928,
+          "sha256": "2713df561289ed81bb49463f139f11003c675db432a23893ba00f4af90c42f26",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/bozi-booz/forest-green-cool/portrait--bozi-booz--forest-green-cool--default.vlt",
+          "original_filename": "forest-green-cool.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/forest-green-cool.jpg",
+      "official_name": "森绿清冷",
+      "display_name": "森绿清冷",
+      "official_descriptions": [
+        "明显的黄绿倾向，肤色有单独优化，适合顺光拍摄场景"
+      ],
+      "display_description": "明显的黄绿倾向，肤色有单独优化，适合顺光拍摄场景",
+      "source_items": [
+        {
+          "remote_item_id": 187,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/ce39b83b80139a408f9bc784d52279f4/uploadfiles/oss/2024/06/20240612140731638.zip",
+          "download_path": "oss/2024/06/20240612140731638.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162154411.jpg",
+          "official_title_raw": "by 波子Booz 森绿清冷",
+          "official_description": "明显的黄绿倾向，肤色有单独优化，适合顺光拍摄场景",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/12-32.zip",
+          "archive_sha256": "9fc2792c00928323dc2daccdd508071149e90ca7d952300446fce635804d066a"
+        }
+      ],
+      "canonical_id": "forest-green-cool",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/forest-green-cool.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "fresh-cuisine",
+      "name_zh": "清新美食",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "画面整体色调清新自然，赋予了风格化的胶片感。",
+      "tags": [
+        "food",
+        "fresh",
+        "natural",
+        "film",
+        "cuisine"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 958546,
+      "files": [
+        {
+          "name": "outdoor--guo-bin--fresh-cuisine--default.cube",
+          "type": "cube",
+          "size": 958546,
+          "sha256": "e981a8f8a5fcd4f133e40aa6f79c1ca98fc6a21dfd1a50d555b2cb2b3d974856",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/guo-bin/fresh-cuisine/outdoor--guo-bin--fresh-cuisine--default.cube",
+          "original_filename": "fresh-cuisine.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/fresh-cuisine.jpg",
+      "official_name": "清新美食",
+      "display_name": "清新美食",
+      "official_descriptions": [
+        "画面整体色调清新自然，赋予了风格化的胶片感"
+      ],
+      "display_description": "画面整体色调清新自然，赋予了风格化的胶片感",
+      "source_items": [
+        {
+          "remote_item_id": 203,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/1b2117f6d6e8f357ce679b44b0a4a4b5/uploadfiles/oss/2024/06/20240612142229823.zip",
+          "download_path": "oss/2024/06/20240612142229823.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163533274.jpg",
+          "official_title_raw": "by 郭宾 清新美食",
+          "official_description": "画面整体色调清新自然，赋予了风格化的胶片感",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/35-33.zip",
+          "archive_sha256": "d06b12a8862ceacc775235e6ab014acb85ffae51061d1ff63d18dd1bc0573d0b"
+        }
+      ],
+      "canonical_id": "fresh-cuisine",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/fresh-cuisine.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "golden-rice-field",
+      "name_zh": "金色稻田",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "绿色以及黄色部分过度的更加协调，保留了胶片色的风格。",
+      "tags": [
+        "golden",
+        "rural",
+        "film",
+        "rice-field",
+        "autumn"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 971468,
+      "files": [
+        {
+          "name": "outdoor--guo-bin--golden-rice-field--default.cube",
+          "type": "cube",
+          "size": 971468,
+          "sha256": "3c75b76c8e9d078f81f6129d7759633ff99e3fcc54f3957884ac80f4d9d4e876",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/guo-bin/golden-rice-field/outdoor--guo-bin--golden-rice-field--default.cube",
+          "original_filename": "golden-rice-field.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/golden-rice-field.jpg",
+      "official_name": "金色稻田",
+      "display_name": "金色稻田",
+      "official_descriptions": [
+        "绿色以及黄色部分过度的更加协调，保留了胶片色的风格"
+      ],
+      "display_description": "绿色以及黄色部分过度的更加协调，保留了胶片色的风格",
+      "source_items": [
+        {
+          "remote_item_id": 208,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/94a8e1cd2c79a367a604ad4148223c67/uploadfiles/oss/2024/06/20240612150315616.zip",
+          "download_path": "oss/2024/06/20240612150315616.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163408769.jpg",
+          "official_title_raw": "by 郭宾 金色稻田",
+          "official_description": "绿色以及黄色部分过度的更加协调，保留了胶片色的风格",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/40-33.zip",
+          "archive_sha256": "b6d0905b57c82bfe29271542d8c60f43b2c55ee541a44206a27d311ab7e9ba1f"
+        }
+      ],
+      "canonical_id": "golden-rice-field",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/golden-rice-field.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "grey-cinema",
+      "name_zh": "灰度电影",
+      "author": {
+        "name_zh": "Plady",
+        "name_en": "Plady",
+        "slug": "plady"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "晴天时蓝天呈现高级银灰色，阴天街拍则散发清冷气息。",
+      "tags": [
+        "cinematic",
+        "grey",
+        "silver",
+        "street",
+        "overcast"
+      ],
+      "format": "cube",
+      "lut_3d_size": 32,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": "Silver02",
+        "generator": "Adobe Lightroom 1.34.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 885013,
+      "files": [
+        {
+          "name": "outdoor--plady--grey-cinema--default.cube",
+          "type": "cube",
+          "size": 885013,
+          "sha256": "64f37bac736d8fe2449dcdde68db1e49dcb6783c0931ba0690a4b7c91b2cbdf9",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/plady/grey-cinema/outdoor--plady--grey-cinema--default.cube",
+          "original_filename": "grey-cinema.cube",
+          "lut_3d_size": 32,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.34.0",
+          "copyright": null,
+          "title": "Silver02"
+        }
+      ],
+      "preview_image": "canonical/previews/grey-cinema.jpg",
+      "official_name": "灰度电影",
+      "display_name": "灰度电影",
+      "official_descriptions": [
+        "晴天时蓝天呈现高级银灰色，阴天街拍则散发清冷气息"
+      ],
+      "display_description": "晴天时蓝天呈现高级银灰色，阴天街拍则散发清冷气息",
+      "source_items": [
+        {
+          "remote_item_id": 200,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/cddd3bd95debfae1d474cef81370a05f/uploadfiles/oss/2024/06/20240612142048198.zip",
+          "download_path": "oss/2024/06/20240612142048198.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163607910.jpg",
+          "official_title_raw": "by Plady 灰度电影",
+          "official_description": "晴天时蓝天呈现高级银灰色，阴天街拍则散发清冷气息",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/32-33.zip",
+          "archive_sha256": "9cf0f628961e0422dd185a456871cb2141a4e12f372f704dc749e91b3241787a"
+        }
+      ],
+      "canonical_id": "grey-cinema",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/grey-cinema.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "gritty-cinema",
+      "name_zh": "暮色",
+      "author": {
+        "name_zh": "Jon Simo",
+        "name_en": "Jon Simo",
+        "slug": "jon-simo"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "电影感调色LUT。",
+      "tags": [
+        "cinematic",
+        "film",
+        "moody"
+      ],
+      "format": "cube",
+      "lut_3d_size": 16,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": null,
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 115105,
+      "files": [
+        {
+          "name": "portrait--jon-simo--gritty-cinema--default.cube",
+          "type": "cube",
+          "size": 115105,
+          "sha256": "bcbb773a2a286b20fe7b143a2ee0f82fafca5a789320453b3af10197f2870866",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/jon-simo/gritty-cinema/portrait--jon-simo--gritty-cinema--default.cube",
+          "original_filename": "gritty-cinema.cube",
+          "lut_3d_size": 16,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": null,
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/gritty-cinema.jpg",
+      "official_name": "暮色",
+      "display_name": "暮色",
+      "official_descriptions": [
+        "电影感调色LUT"
+      ],
+      "display_description": "电影感调色LUT",
+      "source_items": [
+        {
+          "remote_item_id": 188,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/6470215ab4f66447fe2550d094099b8f/uploadfiles/oss/2024/06/20240612140844325.zip",
+          "download_path": "oss/2024/06/20240612140844325.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162208150.jpg",
+          "official_title_raw": "by Jon Simo 暮色",
+          "official_description": "电影感调色LUT",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/13-32.zip",
+          "archive_sha256": "35482d39a9d9f3c8a92856dfb7057a47441ddd61b9dc4e5ed45ce470a1e829ff"
+        }
+      ],
+      "canonical_id": "gritty-cinema",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/gritty-cinema.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "healing-light",
+      "name_zh": "治愈光影",
+      "author": {
+        "name_zh": "张恒",
+        "name_en": "Zhang Heng",
+        "slug": "zhang-heng"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "如同一缕柔和的阳光，为影像带来温暖而宁静的色调。",
+      "tags": [
+        "portrait",
+        "warm-tone",
+        "soft",
+        "healing"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 971837,
+      "files": [
+        {
+          "name": "portrait--zhang-heng--healing-light--default.cube",
+          "type": "cube",
+          "size": 971837,
+          "sha256": "692a138dae52ef669eb18fc5a6655f008640c7a61f1a91e4d5c2c355e11d2563",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/zhang-heng/healing-light/portrait--zhang-heng--healing-light--default.cube",
+          "original_filename": "healing-light.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/healing-light.jpg",
+      "official_name": "治愈光影",
+      "display_name": "治愈光影",
+      "official_descriptions": [
+        "如同一缕柔和的阳光，为影像带来温暖而宁静的色调"
+      ],
+      "display_description": "如同一缕柔和的阳光，为影像带来温暖而宁静的色调",
+      "source_items": [
+        {
+          "remote_item_id": 181,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/5776b5c20760cc47a25ff4e9d46d8d4c/uploadfiles/oss/2024/06/20240612135807112.zip",
+          "download_path": "oss/2024/06/20240612135807112.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/07/微信图片_20260710143703.png",
+          "official_title_raw": "by 张恒 治愈光影",
+          "official_description": "如同一缕柔和的阳光，为影像带来温暖而宁静的色调",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/06-32.zip",
+          "archive_sha256": "0a96111e095793f56bf283df799210772b0f8c5b55d7e5f7e29919da3c73026f"
+        }
+      ],
+      "canonical_id": "healing-light",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/healing-light.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "high-low-contrast",
+      "name_zh": "高低对比度",
+      "author": {
+        "name_zh": "薛璐瑶",
+        "name_en": "Xue Luyao",
+        "slug": "xue-luyao"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "统一光比和室外早中晚不同的阳光色温。",
+      "tags": [
+        "contrast",
+        "outdoor",
+        "color-temperature",
+        "balanced"
+      ],
+      "format": "cube",
+      "lut_3d_size": 65,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 14038159,
+      "files": [
+        {
+          "name": "portrait--xue-luyao--high-low-contrast--cold.cube",
+          "type": "cube",
+          "size": 7131092,
+          "sha256": "0dd924cc041387b53d3c5da556e2de8899c13c2ade6ff8899c568ae598bec467",
+          "variant": "cold",
+          "public_path": "canonical/luts/portrait/xue-luyao/high-low-contrast/portrait--xue-luyao--high-low-contrast--cold.cube",
+          "original_filename": "high-low-contrast_cold.cube",
+          "lut_3d_size": 65,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        },
+        {
+          "name": "portrait--xue-luyao--high-low-contrast--warm.cube",
+          "type": "cube",
+          "size": 6907067,
+          "sha256": "9bf126d37881974f475a832d954df1b853dabb910b074d4575a8c6be1617e6a6",
+          "variant": "warm",
+          "public_path": "canonical/luts/portrait/xue-luyao/high-low-contrast/portrait--xue-luyao--high-low-contrast--warm.cube",
+          "original_filename": "high-low-contrast_warm.cube",
+          "lut_3d_size": 65,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/high-low-contrast.jpg",
+      "official_name": "高低对比度",
+      "display_name": "高低对比度",
+      "official_descriptions": [
+        "统一光比和室外早中晚不同的阳光色温"
+      ],
+      "display_description": "统一光比和室外早中晚不同的阳光色温",
+      "source_items": [
+        {
+          "remote_item_id": 185,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/720f9343055d1c71d85c3ae03cbe78cf/uploadfiles/oss/2024/06/20240612140416154.zip",
+          "download_path": "oss/2024/06/20240612140416154.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162104814.jpg",
+          "official_title_raw": "by 薛璐瑶 高低对比度",
+          "official_description": "统一光比和室外早中晚不同的阳光色温",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/10-32.zip",
+          "archive_sha256": "12db6e02b1fb87c10724a8692eb5cce3bbe98a69e27e9562c4c71c5078b79d5b"
+        }
+      ],
+      "canonical_id": "high-low-contrast",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/high-low-contrast.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "japanese-cyan-tone",
+      "name_zh": "日系青调",
+      "author": {
+        "name_zh": "EJAY",
+        "name_en": "EJAY",
+        "slug": "ejay"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "色彩偏青高短调为主，适合人像阴天。",
+      "tags": [
+        "portrait",
+        "japanese-style",
+        "cyan",
+        "overcast"
+      ],
+      "format": "vlt",
+      "lut_3d_size": 17,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "panasonic-vlt",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 67151,
+      "files": [
+        {
+          "name": "portrait--ejay--japanese-cyan-tone--default.vlt",
+          "type": "vlt",
+          "size": 67151,
+          "sha256": "58571b244f32b00f725bf15de536f8fe7ddb6de31c6b05b4e1eec11ea221940c",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/ejay/japanese-cyan-tone/portrait--ejay--japanese-cyan-tone--default.vlt",
+          "original_filename": "japanese-cyan-tone.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/japanese-cyan-tone.jpg",
+      "official_name": "日系青调",
+      "display_name": "日系青调",
+      "official_descriptions": [
+        "色彩偏青高短调为主，适合人像阴天"
+      ],
+      "display_description": "色彩偏青高短调为主，适合人像阴天",
+      "source_items": [
+        {
+          "remote_item_id": 192,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/d20525e64a0bfdacb6052cd9a106b753/uploadfiles/oss/2024/06/20240612141212552.zip",
+          "download_path": "oss/2024/06/20240612141212552.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162308783.jpg",
+          "official_title_raw": "by EJAY 日系青调",
+          "official_description": "色彩偏青高短调为主，适合人像阴天",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/17-32.zip",
+          "archive_sha256": "5dafe9dce29a60ea859c8e1d3f6b984a347a53dda61acfdeb25aeeb0a185a88b"
+        }
+      ],
+      "canonical_id": "japanese-cyan-tone",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/japanese-cyan-tone.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "light-green",
+      "name_zh": "轻柔绿意",
+      "author": {
+        "name_zh": "晴天",
+        "name_en": "Qingtian",
+        "slug": "qingtian"
+      },
+      "category": "indoor",
+      "category_zh": "室内",
+      "description": "以电影感绿色系为核心，在呈现高级绿色质感的同时，精准保护人物肤色的通透感。特别为LUMIX相机优化。建议在充足光线下稍加曝光使用。",
+      "tags": [
+        "cinematic",
+        "green",
+        "portrait",
+        "skin-tone",
+        "fresh"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": "PORT",
+      "internal": {
+        "title": "Generated by LUMIX Lab",
+        "generator": "LUMIX Lab",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970368,
+      "files": [
+        {
+          "name": "indoor--qingtian--light-green--default.cube",
+          "type": "cube",
+          "size": 970368,
+          "sha256": "f691c4ada4da3b4d51b8eb6baffe43c03c14e15914b4a9f6538ca1eb1228c803",
+          "variant": "default",
+          "public_path": "canonical/luts/indoor/qingtian/light-green/indoor--qingtian--light-green--default.cube",
+          "original_filename": "light-green.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "LUMIX Lab",
+          "copyright": null,
+          "title": "Generated by LUMIX Lab"
+        }
+      ],
+      "preview_image": "canonical/previews/light-green.png",
+      "official_name": "轻柔绿意",
+      "display_name": "轻柔绿意",
+      "official_descriptions": [
+        "这款LUT以电影感绿色系为核心，在呈现高级绿色质感的同时，精准保护人物肤色的通透感。特别为LUMIX相机优化。建议在充足光线下稍加曝光使用，轻松打造富有呼吸感的电影级画面。"
+      ],
+      "display_description": "这款LUT以电影感绿色系为核心，在呈现高级绿色质感的同时，精准保护人物肤色的通透感。特别为LUMIX相机优化。建议在充足光线下稍加曝光使用，轻松打造富有呼吸感的电影级画面。",
+      "source_items": [
+        {
+          "remote_item_id": 42173,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/77d7485b8eeb29f2e11f0b61e87cadf8/uploadfiles/oss/2025/11/%EF%BC%88%E8%BD%BB%E6%9F%94%E7%BB%BF%E6%84%8F%EF%BC%89Light%20Green-port.zip",
+          "download_path": "oss/2025/11/（轻柔绿意）Light Green-port.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/轻柔绿意.png",
+          "official_title_raw": "by晴天📸 轻柔绿意",
+          "official_description": "这款LUT以电影感绿色系为核心，在呈现高级绿色质感的同时，精准保护人物肤色的通透感。特别为LUMIX相机优化。建议在充足光线下稍加曝光使用，轻松打造富有呼吸感的电影级画面。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/57-34.zip",
+          "archive_sha256": "8a055a9ffbde089ac422ea89ae4e975a169bed2e557338cf8a9d7af844f15aa5"
+        }
+      ],
+      "canonical_id": "light-green",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/light-green.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "light-jp-blue",
+      "name_zh": "轻日系-蓝",
+      "author": {
+        "name_zh": "兔小呆",
+        "name_en": "Tu Xiaodai",
+        "slug": "tu-xiaodai"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "轻日系微冷调，着重肤色的优化，适合于日常大部分场景的拍摄。",
+      "tags": [
+        "japanese-style",
+        "cool-tone",
+        "skin-tone",
+        "daily"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "Adobe Lightroom 1.24.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970607,
+      "files": [
+        {
+          "name": "portrait--tu-xiaodai--light-jp-blue--default.cube",
+          "type": "cube",
+          "size": 970607,
+          "sha256": "7fa538059c8e35558372a32e6c584e8f7175295b8d70c00224c7d86b89b14b23",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/tu-xiaodai/light-jp-blue/portrait--tu-xiaodai--light-jp-blue--default.cube",
+          "original_filename": "light-jp-blue.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.24.0",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/light-jp-blue.jpg",
+      "official_name": "轻日系-蓝",
+      "display_name": "轻日系-蓝",
+      "official_descriptions": [
+        "轻日系微冷调，着重肤色的优化，适合于日常大部分场景的拍摄。"
+      ],
+      "display_description": "轻日系微冷调，着重肤色的优化，适合于日常大部分场景的拍摄。",
+      "source_items": [
+        {
+          "remote_item_id": 2925,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/4e4f1087edb78364d09d19bac4e58cb0/uploadfiles/oss/2024/09/20240912163913932.zip",
+          "download_path": "oss/2024/09/20240912163913932.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/09/20240912163752647.jpg",
+          "official_title_raw": "by 兔小呆 轻日系-蓝",
+          "official_description": "轻日系微冷调，着重肤色的优化，适合于日常大部分场景的拍摄。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/20-32.zip",
+          "archive_sha256": "5ada53bfdc8e47e15aedda2112affa7ab382bebe9fa3685d59a5ff39ab14cc06"
+        }
+      ],
+      "canonical_id": "light-jp-blue",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/light-jp-blue.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "magenta-old-film",
+      "name_zh": "洋红旧胶片",
+      "author": {
+        "name_zh": "海螺壳",
+        "name_en": "Hailuoke",
+        "slug": "hailuoke"
+      },
+      "category": "indoor",
+      "category_zh": "室内",
+      "description": "整体偏洋红，带来故事叙述的怀旧感。",
+      "tags": [
+        "film",
+        "magenta",
+        "nostalgic",
+        "storytelling"
+      ],
+      "format": "cube",
+      "lut_3d_size": 32,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "filter3",
+        "generator": "Picture Instruments Look Converter",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 688212,
+      "files": [
+        {
+          "name": "indoor--hailuoke--magenta-old-film--default.cube",
+          "type": "cube",
+          "size": 688212,
+          "sha256": "7f92a7708b56e6eef944d315fc0e60e4453f0d0efa7fd15605848d82cd8146c9",
+          "variant": "default",
+          "public_path": "canonical/luts/indoor/hailuoke/magenta-old-film/indoor--hailuoke--magenta-old-film--default.cube",
+          "original_filename": "magenta-old-film.cube",
+          "lut_3d_size": 32,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "Picture Instruments Look Converter",
+          "copyright": null,
+          "title": "filter3"
+        }
+      ],
+      "preview_image": "canonical/previews/magenta-old-film.jpg",
+      "official_name": "洋红旧胶片",
+      "display_name": "洋红旧胶片",
+      "official_descriptions": [
+        "整体偏洋红，带来故事叙述的怀旧感"
+      ],
+      "display_description": "整体偏洋红，带来故事叙述的怀旧感",
+      "source_items": [
+        {
+          "remote_item_id": 219,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/34b96c1cf1041536482100582d6e49d5/uploadfiles/oss/2024/06/20240612152016374.zip",
+          "download_path": "oss/2024/06/20240612152016374.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164007940.jpg",
+          "official_title_raw": "by 海螺壳 洋红旧胶片",
+          "official_description": "整体偏洋红，带来故事叙述的怀旧感",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/55-34.zip",
+          "archive_sha256": "656093cb492e8956e3a833be838d0ec173090b7fc43d6c49febcb1f9fde8a9e5"
+        }
+      ],
+      "canonical_id": "magenta-old-film",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/magenta-old-film.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "millennium-echo-cold",
+      "name_zh": "千禧回声 Cold",
+      "author": {
+        "name_zh": "德松Desong",
+        "name_en": "Desong",
+        "slug": "desong"
+      },
+      "category": "anniversary",
+      "category_zh": "25周年专属",
+      "description": "以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。提供warm和cold两种色温偏向的版本。",
+      "tags": [
+        "ccd",
+        "retro",
+        "y2k",
+        "portrait"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "hand-authored",
+        "copyright": "Created by DESONG SHI",
+        "color_profile": null
+      },
+      "total_size": 970384,
+      "files": [
+        {
+          "name": "anniversary--desong--millennium-echo-cold--default.cube",
+          "type": "cube",
+          "size": 970384,
+          "sha256": "1616e709340549ff4beef53d72bb5ed7d607e7fffc0fb97cc53d701e76a30ca1",
+          "variant": "cold",
+          "public_path": "canonical/luts/anniversary/desong/millennium-echo-cold/anniversary--desong--millennium-echo-cold--default.cube",
+          "original_filename": "millennium-echo.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "hand-authored",
+          "copyright": "Created by DESONG SHI",
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/millennium-echo-cold.png",
+      "official_name": "千禧回声 Cold",
+      "display_name": "千禧回声 Cold",
+      "official_descriptions": [
+        "此预设以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。 预设提供“warm“和”cold“两种色温偏向的版本，可以依据喜好与拍摄场景做选择。"
+      ],
+      "display_description": "此预设以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。 预设提供“warm“和”cold“两种色温偏向的版本，可以依据喜好与拍摄场景做选择。",
+      "source_items": [
+        {
+          "remote_item_id": 55223,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/8e2f57c8dc2df1c44f5e3c02093e59d7/uploadfiles/oss/2026/03/%E5%BE%B7%E6%9D%BE-%E5%8D%83%E7%A6%A7%E5%9B%9E%E5%A3%B0.zip",
+          "download_path": "oss/2026/03/德松-千禧回声.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/微信图片_20260325164723.png",
+          "official_title_raw": "by 德松Desong-千禧回声",
+          "official_description": "此预设以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。 预设提供“warm“和”cold“两种色温偏向的版本，可以依据喜好与拍摄场景做选择。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/02-113.zip",
+          "archive_sha256": "9282c3ac51221b4fbb7669f8f6f2c3a1f9ea11e64d7bcfa050aee04554538744"
+        }
+      ],
+      "canonical_id": "millennium-echo-cold",
+      "preview_images": [
+        {
+          "variant": "cold",
+          "path": "canonical/previews/millennium-echo-cold.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "millennium-echo-warm",
+      "name_zh": "千禧回声 Warm",
+      "author": {
+        "name_zh": "德松Desong",
+        "name_en": "Desong",
+        "slug": "desong"
+      },
+      "category": "anniversary",
+      "category_zh": "25周年专属",
+      "description": "以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。提供warm和cold两种色温偏向的版本。",
+      "tags": [
+        "ccd",
+        "retro",
+        "y2k",
+        "portrait"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "hand-authored",
+        "copyright": "Created by DESONG SHI",
+        "color_profile": null
+      },
+      "total_size": 962389,
+      "files": [
+        {
+          "name": "anniversary--desong--millennium-echo-warm--default.cube",
+          "type": "cube",
+          "size": 962389,
+          "sha256": "6880f3ec2f7e5b68e6a682ea506240799803e29db44a43cd3763936bf7f29740",
+          "variant": "warm",
+          "public_path": "canonical/luts/anniversary/desong/millennium-echo-warm/anniversary--desong--millennium-echo-warm--default.cube",
+          "original_filename": "73ec0931880d84bd8a73754ec6acb212_1f57406f3aa403dcec575ad7a39d635f_8.cube",
+          "lut_3d_size": null,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": null,
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/millennium-echo-warm.jpg",
+      "official_name": "千禧回声 Warm",
+      "display_name": "千禧回声 Warm",
+      "official_descriptions": [
+        "此预设以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。在模仿CCD影调色调的同时不降低画质。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。 预设提供“warm“和”cold“两种色温偏向的版本，可以依据喜好与拍摄场景做选择。"
+      ],
+      "display_description": "此预设以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。在模仿CCD影调色调的同时不降低画质。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。 预设提供“warm“和”cold“两种色温偏向的版本，可以依据喜好与拍摄场景做选择。",
+      "source_items": [
+        {
+          "remote_item_id": 55224,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/7096096b4f610e75f2a95e2dcf625a92/uploadfiles/oss/2026/03/24/15553063798/%E5%BE%B7%E6%9D%BE-%E5%8D%83%E7%A6%A7%E5%9B%9E%E5%A3%B0.zip",
+          "download_path": "oss/2026/03/24/15553063798/德松-千禧回声.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/微信图片_20260325164707.jpg",
+          "official_title_raw": "by德松Desong-千禧回声",
+          "official_description": "此预设以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。在模仿CCD影调色调的同时不降低画质。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。 预设提供“warm“和”cold“两种色温偏向的版本，可以依据喜好与拍摄场景做选择。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/03-113.zip",
+          "archive_sha256": "9282c3ac51221b4fbb7669f8f6f2c3a1f9ea11e64d7bcfa050aee04554538744"
+        }
+      ],
+      "canonical_id": "millennium-echo-warm",
+      "preview_images": [
+        {
+          "variant": "warm",
+          "path": "canonical/previews/millennium-echo-warm.jpg",
+          "source_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260325164707.jpg",
+          "status": "official-source"
+        }
+      ]
+    },
+    {
+      "id": "mosslight",
+      "name_zh": "薄暮苔痕",
+      "author": {
+        "name_zh": "德松Desong",
+        "name_en": "Desong",
+        "slug": "desong"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "以人像胶片的影调色调为基础风格，增加少量温暖的色彩偏向。在光线充足的情况下表现最佳，对比度适中。在光线不足的情况下保证肤色优先。",
+      "tags": [
+        "portrait",
+        "film",
+        "warm",
+        "moss",
+        "dusk"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "hand-authored",
+        "copyright": "Created by Desong",
+        "color_profile": "/System/Library/ColorSync/Profiles/sRGB Profile.icc"
+      },
+      "total_size": 970449,
+      "files": [
+        {
+          "name": "portrait--desong--mosslight--default.cube",
+          "type": "cube",
+          "size": 970449,
+          "sha256": "ca5930be2599e24f5a34f5c45c5e5a21739305edf5a91fc8a6af50d1fe0c3fb1",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/desong/mosslight/portrait--desong--mosslight--default.cube",
+          "original_filename": "mosslight.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "hand-authored",
+          "copyright": "Created by Desong",
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/mosslight.png",
+      "official_name": "薄暮苔痕",
+      "display_name": "薄暮苔痕",
+      "official_descriptions": [
+        "以人像胶片的影调色调为基础风格，增加少量温暖的色彩偏向。在光线充足的情况下表现最佳，对比度适中，呈现明快清亮的质感；在光线不足的情况下保证肤色优先，对比度有所增加，暗部会呈现少量黄绿色偏向。"
+      ],
+      "display_description": "以人像胶片的影调色调为基础风格，增加少量温暖的色彩偏向。在光线充足的情况下表现最佳，对比度适中，呈现明快清亮的质感；在光线不足的情况下保证肤色优先，对比度有所增加，暗部会呈现少量黄绿色偏向。",
+      "source_items": [
+        {
+          "remote_item_id": 42165,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/fcc444c4d0a9239d5dbb2cb8ed1b741a/uploadfiles/oss/2025/11/%EF%BC%88%E8%96%84%E6%9A%AE%E8%8B%94%E7%97%95%EF%BC%89Mosslight-std.zip",
+          "download_path": "oss/2025/11/（薄暮苔痕）Mosslight-std.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/薄暮苔痕.png",
+          "official_title_raw": "by德松Desong 薄暮苔痕",
+          "official_description": "以人像胶片的影调色调为基础风格，增加少量温暖的色彩偏向。在光线充足的情况下表现最佳，对比度适中，呈现明快清亮的质感；在光线不足的情况下保证肤色优先，对比度有所增加，暗部会呈现少量黄绿色偏向。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/24-32.zip",
+          "archive_sha256": "afc4ca779bcf7a839c9e806337eb349dd6f3cad22fcd395974f154e7c565211f"
+        }
+      ],
+      "canonical_id": "mosslight",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/mosslight.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "patina-of-rain",
+      "name_zh": "苔痕雨季",
+      "author": {
+        "name_zh": "舟zhou",
+        "name_en": "Zhou",
+        "slug": "zhou"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "专为阴雨与多云天气设计的景观LUT，通过重塑绿色光谱，将其转化为柔和、深沉且充满生命力的色调，如同雨后被浸润的青苔，温润而安宁。",
+      "tags": [
+        "landscape",
+        "rain",
+        "green",
+        "moss",
+        "moody"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": "STD",
+      "internal": {
+        "title": "Generated by LUMIX Lab",
+        "generator": "LUMIX Lab",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970367,
+      "files": [
+        {
+          "name": "outdoor--zhou--patina-of-rain--default.cube",
+          "type": "cube",
+          "size": 970367,
+          "sha256": "ee024096be82612fcfd44804cf55f1662e10f12285083834e0cff02542aae15f",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/zhou/patina-of-rain/outdoor--zhou--patina-of-rain--default.cube",
+          "original_filename": "patina-of-rain.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "LUMIX Lab",
+          "copyright": null,
+          "title": "Generated by LUMIX Lab"
+        }
+      ],
+      "preview_image": "canonical/previews/patina-of-rain.png",
+      "official_name": "苔痕雨季",
+      "display_name": "苔痕雨季",
+      "official_descriptions": [
+        "这是一款专为阴雨与多云天气设计的景观LUT，通过重塑绿色光谱，将其转化为柔和、深沉且充满生命力的色调，如同雨后被浸润的青苔，温润而安宁。"
+      ],
+      "display_description": "这是一款专为阴雨与多云天气设计的景观LUT，通过重塑绿色光谱，将其转化为柔和、深沉且充满生命力的色调，如同雨后被浸润的青苔，温润而安宁。",
+      "source_items": [
+        {
+          "remote_item_id": 42170,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/89ba605ebf5f5c1ea4fbf1b2559bffc4/uploadfiles/oss/2025/11/Patina%20of%20Rain-std.zip",
+          "download_path": "oss/2025/11/Patina of Rain-std.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/微信图片_20251120164310.png",
+          "official_title_raw": "by舟zhou 苔痕雨季",
+          "official_description": "这是一款专为阴雨与多云天气设计的景观LUT，通过重塑绿色光谱，将其转化为柔和、深沉且充满生命力的色调，如同雨后被浸润的青苔，温润而安宁。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/48-33.zip",
+          "archive_sha256": "64059965ea0c933ab726f91e4cd2a1c582dbd88517a513df0564f46d59772ded"
+        }
+      ],
+      "canonical_id": "patina-of-rain",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/patina-of-rain.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "pink-youth",
+      "name_zh": "粉黛青春",
+      "author": {
+        "name_zh": "巴文欢",
+        "name_en": "Ba Wenhuan",
+        "slug": "ba-wenhuan"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "基于2383风格，根据vlog曲线特性加以调整生成。",
+      "tags": [
+        "cinematic",
+        "pink",
+        "youth",
+        "vlog",
+        "2383"
+      ],
+      "format": "vlt",
+      "lut_3d_size": 17,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "panasonic-vlt",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 71101,
+      "files": [
+        {
+          "name": "outdoor--ba-wenhuan--pink-youth--default.vlt",
+          "type": "vlt",
+          "size": 71101,
+          "sha256": "d657ddb537292960e2808e821a239fd0a54d19e3b28492a19d3001a04e83dcb5",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/ba-wenhuan/pink-youth/outdoor--ba-wenhuan--pink-youth--default.vlt",
+          "original_filename": "pink-youth.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/pink-youth.jpg",
+      "official_name": "粉黛青春",
+      "display_name": "粉黛青春",
+      "official_descriptions": [
+        "基于2383风格，根据vlog曲线特性加以调整生成"
+      ],
+      "display_description": "基于2383风格，根据vlog曲线特性加以调整生成",
+      "source_items": [
+        {
+          "remote_item_id": 196,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/b79de8ecbd11f7711b718e47784d9866/uploadfiles/oss/2024/06/20240612141821679.zip",
+          "download_path": "oss/2024/06/20240612141821679.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163707940.jpg",
+          "official_title_raw": "by 巴文欢 粉黛青春",
+          "official_description": "基于2383风格，根据vlog曲线特性加以调整生成",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/28-33.zip",
+          "archive_sha256": "49ae811f1eac70b9212aeeb52774f75abf4d1ffb247493af2d18579678093e7a"
+        }
+      ],
+      "canonical_id": "pink-youth",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/pink-youth.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "positive-film",
+      "name_zh": "正片",
+      "author": {
+        "name_zh": "海螺壳",
+        "name_en": "Hailuoke",
+        "slug": "hailuoke"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "鲜明的红蓝黄色彩直出，基于胶卷正片色彩设计而成。",
+      "tags": [
+        "film",
+        "positive-film",
+        "vivid",
+        "red-blue-yellow"
+      ],
+      "format": "cube",
+      "lut_3d_size": 32,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "filter1",
+        "generator": "Picture Instruments Look Converter",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 688212,
+      "files": [
+        {
+          "name": "outdoor--hailuoke--positive-film--default.cube",
+          "type": "cube",
+          "size": 688212,
+          "sha256": "c9960b9e954e9d43933ff5b41efd66e2fc85399fcf9cdc2a2061deebd2e7dbb0",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/hailuoke/positive-film/outdoor--hailuoke--positive-film--default.cube",
+          "original_filename": "positive-film.cube",
+          "lut_3d_size": 32,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "Picture Instruments Look Converter",
+          "copyright": null,
+          "title": "filter1"
+        }
+      ],
+      "preview_image": "canonical/previews/positive-film.jpg",
+      "official_name": "正片",
+      "display_name": "正片",
+      "official_descriptions": [
+        "鲜明的红蓝黄色彩直出，基于胶卷正片色彩设计而成"
+      ],
+      "display_description": "鲜明的红蓝黄色彩直出，基于胶卷正片色彩设计而成",
+      "source_items": [
+        {
+          "remote_item_id": 210,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/e72eecae7b68940b607fe054f0069e7d/uploadfiles/oss/2024/06/20240612150616405.zip",
+          "download_path": "oss/2024/06/20240612150616405.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163340475.jpg",
+          "official_title_raw": "by 海螺壳 正片",
+          "official_description": "鲜明的红蓝黄色彩直出，基于胶卷正片色彩设计而成",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/42-33.zip",
+          "archive_sha256": "450547d3e2dd981ba5a94348583c8dbe7f829b763a3328323f7340b907cb9b8e"
+        }
+      ],
+      "canonical_id": "positive-film",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/positive-film.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "rice-field-village",
+      "name_zh": "稻田乡村",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "绿黄色部分过度协调，人物肤色也保留了胶片色的风格。",
+      "tags": [
+        "rural",
+        "green-yellow",
+        "film",
+        "portrait",
+        "village"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 961637,
+      "files": [
+        {
+          "name": "outdoor--guo-bin--rice-field-village--default.cube",
+          "type": "cube",
+          "size": 961637,
+          "sha256": "6f17356c2aece8fffde90307d050a903383939cd4a67b748fd264a1a0c6ac520",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/guo-bin/rice-field-village/outdoor--guo-bin--rice-field-village--default.cube",
+          "original_filename": "rice-field-village.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/rice-field-village.jpg",
+      "official_name": "稻田乡村",
+      "display_name": "稻田乡村",
+      "official_descriptions": [
+        "绿黄色部分过度协调，人物肤色也保留了胶片色的风格"
+      ],
+      "display_description": "绿黄色部分过度协调，人物肤色也保留了胶片色的风格",
+      "source_items": [
+        {
+          "remote_item_id": 205,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/b2c0e8da572106765d6f711f88870bb6/uploadfiles/oss/2024/06/20240612142340678.zip",
+          "download_path": "oss/2024/06/20240612142340678.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163459660.jpg",
+          "official_title_raw": "by 郭宾 稻田乡村",
+          "official_description": "绿黄色部分过度协调，人物肤色也保留了胶片色的风格",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/37-33.zip",
+          "archive_sha256": "699b8f482d470f018fa224c7e85214fc62031e14189bc9565ab8b5b31b228b58"
+        }
+      ],
+      "canonical_id": "rice-field-village",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/rice-field-village.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "rich-tone",
+      "name_zh": "浓厚格调",
+      "author": {
+        "name_zh": "Plady",
+        "name_en": "Plady",
+        "slug": "plady"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "具有低饱和度特性，类似留银冲洗的复古胶片味道。",
+      "tags": [
+        "film",
+        "rich",
+        "low-saturation",
+        "retro"
+      ],
+      "format": "cube",
+      "lut_3d_size": 32,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": "Silver04",
+        "generator": "Adobe Lightroom 1.34.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 885013,
+      "files": [
+        {
+          "name": "outdoor--plady--rich-tone--default.cube",
+          "type": "cube",
+          "size": 885013,
+          "sha256": "da43c86543d27ecc7fff2f9b36297fb381859caa97e2512391894ff0b7666d76",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/plady/rich-tone/outdoor--plady--rich-tone--default.cube",
+          "original_filename": "rich-tone.cube",
+          "lut_3d_size": 32,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.34.0",
+          "copyright": null,
+          "title": "Silver04"
+        }
+      ],
+      "preview_image": "canonical/previews/rich-tone.jpg",
+      "official_name": "浓厚格调",
+      "display_name": "浓厚格调",
+      "official_descriptions": [
+        "具有低饱和度特性，类似留银冲洗的复古胶片味道"
+      ],
+      "display_description": "具有低饱和度特性，类似留银冲洗的复古胶片味道",
+      "source_items": [
+        {
+          "remote_item_id": 199,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/b9ba24aa25a4ea1a51bea01b263ba42a/uploadfiles/oss/2024/06/20240612142018352.zip",
+          "download_path": "oss/2024/06/20240612142018352.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163625338.jpg",
+          "official_title_raw": "by Plady 浓厚格调",
+          "official_description": "具有低饱和度特性，类似留银冲洗的复古胶片味道",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/31-33.zip",
+          "archive_sha256": "a195d70a540012d1f2bee942b97e814abac237930c32f285b81752d9525bb5f8"
+        }
+      ],
+      "canonical_id": "rich-tone",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/rich-tone.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "seaside-portrait",
+      "name_zh": "海边人像",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "让海水以及绿色背景更偏青绿色，画面更加具有胶片感。",
+      "tags": [
+        "portrait",
+        "seaside",
+        "cyan-green",
+        "film"
+      ],
+      "format": "cube",
+      "lut_3d_size": 65,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 6576840,
+      "files": [
+        {
+          "name": "portrait--guo-bin--seaside-portrait--default.cube",
+          "type": "cube",
+          "size": 6576840,
+          "sha256": "111ccdd3d13f11a8266941117f228cda668d42e884e8c30ec214cef7e37ad61c",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/guo-bin/seaside-portrait/portrait--guo-bin--seaside-portrait--default.cube",
+          "original_filename": "seaside-portrait.cube",
+          "lut_3d_size": 65,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/seaside-portrait.jpg",
+      "official_name": "海边人像",
+      "display_name": "海边人像",
+      "official_descriptions": [
+        "让海水以及绿色背景更偏青绿色，画面更加具有胶片感"
+      ],
+      "display_description": "让海水以及绿色背景更偏青绿色，画面更加具有胶片感",
+      "source_items": [
+        {
+          "remote_item_id": 189,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/5994cd28b94357ea5be9e92f87fbc721/uploadfiles/oss/2024/06/20240612140917672.zip",
+          "download_path": "oss/2024/06/20240612140917672.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709161916736.jpg",
+          "official_title_raw": "by 郭宾 海边人像",
+          "official_description": "让海水以及绿色背景更偏青绿色，画面更加具有胶片感",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/14-32.zip",
+          "archive_sha256": "d324721dd241f373d395443209925f59065cff1109d7a79949dbd0c9b8671af2"
+        }
+      ],
+      "canonical_id": "seaside-portrait",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/seaside-portrait.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "seaside-sunset",
+      "name_zh": "海边夕阳",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "冷暖对比更大，在冷暖上做出了不同效果。",
+      "tags": [
+        "portrait",
+        "sunset",
+        "warm-cool",
+        "seaside"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 957295,
+      "files": [
+        {
+          "name": "portrait--guo-bin--seaside-sunset--default.cube",
+          "type": "cube",
+          "size": 957295,
+          "sha256": "08deb5dc5962864c22f21add2f25280e0fb4e81ada0ed95f6a22cd4516b484f2",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/guo-bin/seaside-sunset/portrait--guo-bin--seaside-sunset--default.cube",
+          "original_filename": "seaside-sunset.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/seaside-sunset.jpg",
+      "official_name": "海边夕阳",
+      "display_name": "海边夕阳",
+      "official_descriptions": [
+        "冷暖对比更大，在冷暖上做除了不同效果"
+      ],
+      "display_description": "冷暖对比更大，在冷暖上做除了不同效果",
+      "source_items": [
+        {
+          "remote_item_id": 182,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/efc836500d7f8ce73f15351ac2fd5a14/uploadfiles/oss/2024/06/20240612135925027.zip",
+          "download_path": "oss/2024/06/20240612135925027.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709161902757.jpg",
+          "official_title_raw": "by 郭宾 海边夕阳",
+          "official_description": "冷暖对比更大，在冷暖上做除了不同效果",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/07-32.zip",
+          "archive_sha256": "3a0ffc3c619a56f426d1f336b76a3d3f730ba85d8abb77915b978b1873c716ca"
+        }
+      ],
+      "canonical_id": "seaside-sunset",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/seaside-sunset.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "skin-tone-opt",
+      "name_zh": "肤色优化",
+      "author": {
+        "name_zh": "EJAY",
+        "name_en": "EJAY",
+        "slug": "ejay"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "不改变其他色调，削弱红色溢出。",
+      "tags": [
+        "portrait",
+        "skin-tone",
+        "red-reduction"
+      ],
+      "format": "vlt",
+      "lut_3d_size": 17,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "panasonic-vlt",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 69340,
+      "files": [
+        {
+          "name": "portrait--ejay--skin-tone-opt--default.vlt",
+          "type": "vlt",
+          "size": 69340,
+          "sha256": "50062307fd2a3f360588bdae3384fa784dafaaae30846be8a9c8ee36e65efa83",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/ejay/skin-tone-opt/portrait--ejay--skin-tone-opt--default.vlt",
+          "original_filename": "skin-tone-opt.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/skin-tone-opt.jpg",
+      "official_name": "肤色优化",
+      "display_name": "肤色优化",
+      "official_descriptions": [
+        "不改变其他色调，削弱红色溢出"
+      ],
+      "display_description": "不改变其他色调，削弱红色溢出",
+      "source_items": [
+        {
+          "remote_item_id": 193,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/ca0371a9a300ad37a4469f16d67a99c8/uploadfiles/oss/2024/06/20240612141248773.zip",
+          "download_path": "oss/2024/06/20240612141248773.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162328568.jpg",
+          "official_title_raw": "by EJAY 肤色优化",
+          "official_description": "不改变其他色调，削弱红色溢出",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/18-32.zip",
+          "archive_sha256": "c2bfbadf4a80388e55f0f4a419c34e79859f614dfbf9b808e8fe754e05e5bb2c"
+        }
+      ],
+      "canonical_id": "skin-tone-opt",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/skin-tone-opt.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "snow-portrait",
+      "name_zh": "雪天人像",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "适用雪天人像，整体色调清冷干净的同时又保证肤色透亮。",
+      "tags": [
+        "portrait",
+        "snow",
+        "cool-tone",
+        "skin-tone"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 765873,
+      "files": [
+        {
+          "name": "portrait--guo-bin--snow-portrait--default.cube",
+          "type": "cube",
+          "size": 765873,
+          "sha256": "8ad735b1f6c44432a2c8cfbb4f33dd14dd6a83454197dc71a0e3bc6014dda145",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/guo-bin/snow-portrait/portrait--guo-bin--snow-portrait--default.cube",
+          "original_filename": "snow-portrait.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/snow-portrait.jpg",
+      "official_name": "雪天人像",
+      "display_name": "雪天人像",
+      "official_descriptions": [
+        "适用雪天人像，整体色调清冷干净的同时又保证肤色透亮"
+      ],
+      "display_description": "适用雪天人像，整体色调清冷干净的同时又保证肤色透亮",
+      "source_items": [
+        {
+          "remote_item_id": 87,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/195a8f2a8b41861be4ccd8413576889c/uploadfiles/oss/2024/06/20240612135622777.zip",
+          "download_path": "oss/2024/06/20240612135622777.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709161834838.jpg",
+          "official_title_raw": "by 郭宾 雪天人像",
+          "official_description": "适用雪天人像，整体色调清冷干净的同时又保证肤色透亮",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/05-32.zip",
+          "archive_sha256": "bb016b484a86183e9790733a21c29b7eaa448ea1e56377a8e0bb74540e374227"
+        }
+      ],
+      "canonical_id": "snow-portrait",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/snow-portrait.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "spring-portrait",
+      "name_zh": "春意人像",
+      "author": {
+        "name_zh": "波子Booz",
+        "name_en": "Bozi Booz",
+        "slug": "bozi-booz"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "影调柔和反差低，人物肤色友好，适合阴天拍摄呈现清冷。",
+      "tags": [
+        "portrait",
+        "soft",
+        "low-contrast",
+        "overcast"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 786679,
+      "files": [
+        {
+          "name": "portrait--bozi-booz--spring-portrait--default.cube",
+          "type": "cube",
+          "size": 723080,
+          "sha256": "09f4b8f2be43c05c3e2daf754abef14a9adc345e675873385e305f2916270d7c",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/bozi-booz/spring-portrait/portrait--bozi-booz--spring-portrait--default.cube",
+          "original_filename": "spring-portrait.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        },
+        {
+          "name": "portrait--bozi-booz--spring-portrait--default.vlt",
+          "type": "vlt",
+          "size": 63599,
+          "sha256": "124c20ea66c8498d3dddd0b199ab2badb1c4bc016ba8d6346d2c76770258ac34",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/bozi-booz/spring-portrait/portrait--bozi-booz--spring-portrait--default.vlt",
+          "original_filename": "spring-portrait.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/spring-portrait.jpg",
+      "official_name": "春意人像",
+      "display_name": "春意人像",
+      "official_descriptions": [
+        "影调柔和反差低，人物肤色友好，适合阴天拍摄呈现清冷"
+      ],
+      "display_description": "影调柔和反差低，人物肤色友好，适合阴天拍摄呈现清冷",
+      "source_items": [
+        {
+          "remote_item_id": 186,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/5e5574b3e4a40060a66c4f769465cf82/uploadfiles/oss/2024/06/20240612140437648.zip",
+          "download_path": "oss/2024/06/20240612140437648.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162130684.jpg",
+          "official_title_raw": "by 波子Booz 春意人像",
+          "official_description": "影调柔和反差低，人物肤色友好，适合阴天拍摄呈现清冷",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/11-32.zip",
+          "archive_sha256": "56f98d9f0044cbaf903f1b8452b26ee51daa6d0ad1b35a27456ad8a3a8268a94"
+        }
+      ],
+      "canonical_id": "spring-portrait",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/spring-portrait.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "summer",
+      "name_zh": "夏日",
+      "author": {
+        "name_zh": "阿里Halip",
+        "name_en": "Ali Halip",
+        "slug": "ali-halip"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "使用时叠加Sample LUT2，透明度控制色彩亮度。",
+      "tags": [
+        "summer",
+        "outdoor",
+        "layered"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 985981,
+      "files": [
+        {
+          "name": "outdoor--ali-halip--summer--default.cube",
+          "type": "cube",
+          "size": 985981,
+          "sha256": "78216ea9cf2dccde8274539ddf6d7231081333b678bcf52b0cb8790ff0a23bcf",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/ali-halip/summer/outdoor--ali-halip--summer--default.cube",
+          "original_filename": "summer.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/summer.jpg",
+      "official_name": "夏日",
+      "display_name": "夏日",
+      "official_descriptions": [
+        "使用时叠加Sample LUT2，透明度控制色彩亮度"
+      ],
+      "display_description": "使用时叠加Sample LUT2，透明度控制色彩亮度",
+      "source_items": [
+        {
+          "remote_item_id": 194,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/7414c725c506a036d2dfccba7b386411/uploadfiles/oss/2024/06/20240612141642060.zip",
+          "download_path": "oss/2024/06/20240612141642060.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163732208.jpg",
+          "official_title_raw": "by 阿里Halip 夏日",
+          "official_description": "使用时叠加Sample LUT2，透明度控制色彩亮度",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/26-33.zip",
+          "archive_sha256": "9668097dc705f8ce0922e84c28fa0d07cb371fa6115cf009808a987a61eb5521"
+        }
+      ],
+      "canonical_id": "summer",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/summer.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "summer-breeze",
+      "name_zh": "夏日暖风",
+      "author": {
+        "name_zh": "Plady",
+        "name_en": "Plady",
+        "slug": "plady"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "具有低饱和度特性，类似留银冲洗的复古胶片味道。",
+      "tags": [
+        "film",
+        "summer",
+        "low-saturation",
+        "retro",
+        "bleach-bypass"
+      ],
+      "format": "cube",
+      "lut_3d_size": 32,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": "Silver03",
+        "generator": "Adobe Lightroom 1.34.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 885013,
+      "files": [
+        {
+          "name": "outdoor--plady--summer-breeze--default.cube",
+          "type": "cube",
+          "size": 885013,
+          "sha256": "2654d94cfdf8dd2b038e90ce760450d188ec9f0fb371c2aab57713cf3cf69d47",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/plady/summer-breeze/outdoor--plady--summer-breeze--default.cube",
+          "original_filename": "summer-breeze.cube",
+          "lut_3d_size": 32,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.34.0",
+          "copyright": null,
+          "title": "Silver03"
+        }
+      ],
+      "preview_image": "canonical/previews/summer-breeze.jpg",
+      "official_name": "夏日暖风",
+      "display_name": "夏日暖风",
+      "official_descriptions": [
+        "具有低饱和度特性，类似留银冲洗的复古胶片味道"
+      ],
+      "display_description": "具有低饱和度特性，类似留银冲洗的复古胶片味道",
+      "source_items": [
+        {
+          "remote_item_id": 198,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/31d5f606f26504b55dd8756fc8ba81a0/uploadfiles/oss/2024/06/20240612141941337.zip",
+          "download_path": "oss/2024/06/20240612141941337.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163637435.jpg",
+          "official_title_raw": "by Plady 夏日暖风",
+          "official_description": "具有低饱和度特性，类似留银冲洗的复古胶片味道",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/30-33.zip",
+          "archive_sha256": "e2e3ca9c2adf1a2112cfc5793c90cdcdb0f460dd8f9d7f18eb0e95c7e0a444c3"
+        }
+      ],
+      "canonical_id": "summer-breeze",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/summer-breeze.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "sunny-mint",
+      "name_zh": "晴天薄荷",
+      "author": {
+        "name_zh": "晴天",
+        "name_en": "Qingtian",
+        "slug": "qingtian"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "专为人像与绿植设计的薄荷味LUT，灵感源自松下经典色彩，通过微偏青绿的低对比色调、受保护的粉润肤色与低饱和青翠绿植，轻松打造通透干净、充满呼吸感的日系清新影像。建议在柔和光线下配合轻微过曝使用。",
+      "tags": [
+        "portrait",
+        "mint",
+        "green",
+        "japanese-style",
+        "fresh"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": "PORT",
+      "internal": {
+        "title": "Generated by LUMIX Lab",
+        "generator": "LUMIX Lab",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970368,
+      "files": [
+        {
+          "name": "outdoor--qingtian--sunny-mint--default.cube",
+          "type": "cube",
+          "size": 970368,
+          "sha256": "f1e4f55a8536c08866ecea082d71792c612ae7e5cd2b6b1f9d9a72ffd264180f",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/qingtian/sunny-mint/outdoor--qingtian--sunny-mint--default.cube",
+          "original_filename": "sunny-mint.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "LUMIX Lab",
+          "copyright": null,
+          "title": "Generated by LUMIX Lab"
+        }
+      ],
+      "preview_image": "canonical/previews/sunny-mint.png",
+      "official_name": "晴天薄荷",
+      "display_name": "晴天薄荷",
+      "official_descriptions": [
+        "这款专为人像与绿植设计的“薄荷味”LUT，灵感源自松下经典色彩，通过微偏青绿的低对比色调、受保护的粉润肤色与低饱和青翠绿植，轻松打造通透干净、充满呼吸感的日系清新影像，建议在柔和光线下配合轻微过曝使用，效果更自然。"
+      ],
+      "display_description": "这款专为人像与绿植设计的“薄荷味”LUT，灵感源自松下经典色彩，通过微偏青绿的低对比色调、受保护的粉润肤色与低饱和青翠绿植，轻松打造通透干净、充满呼吸感的日系清新影像，建议在柔和光线下配合轻微过曝使用，效果更自然。",
+      "source_items": [
+        {
+          "remote_item_id": 42167,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/3ad5345db80eb2e06cce0adedf619191/uploadfiles/oss/2025/11/(%E6%99%B4%E5%A4%A9%E8%96%84%E8%8D%B7%EF%BC%89Sunny%20Mint-port.zip",
+          "download_path": "oss/2025/11/(晴天薄荷）Sunny Mint-port.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/晴天薄荷1.png",
+          "official_title_raw": "by晴天📸 晴天薄荷",
+          "official_description": "这款专为人像与绿植设计的“薄荷味”LUT，灵感源自松下经典色彩，通过微偏青绿的低对比色调、受保护的粉润肤色与低饱和青翠绿植，轻松打造通透干净、充满呼吸感的日系清新影像，建议在柔和光线下配合轻微过曝使用，效果更自然。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/47-33.zip",
+          "archive_sha256": "1e9cbdf7592fd0e31841be0a849c444763cc754692cc7b6be5df47a77072cf02"
+        }
+      ],
+      "canonical_id": "sunny-mint",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/sunny-mint.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "teal-orange-tone",
+      "name_zh": "青橙色调",
+      "author": {
+        "name_zh": "薛璐瑶",
+        "name_en": "Xue Luyao",
+        "slug": "xue-luyao"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "多半用于夜景的拍摄，不同灯光下有适度的冷暖和色偏。",
+      "tags": [
+        "night",
+        "teal-orange",
+        "urban",
+        "lighting"
+      ],
+      "format": "cube",
+      "lut_3d_size": 65,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 10826082,
+      "files": [
+        {
+          "name": "portrait--xue-luyao--teal-orange-tone--cold.cube",
+          "type": "cube",
+          "size": 5464225,
+          "sha256": "681244c3b1e4a6ba40b91b76e352384a2f809ca768451150dd1ce29ddd2df17b",
+          "variant": "cold",
+          "public_path": "canonical/luts/portrait/xue-luyao/teal-orange-tone/portrait--xue-luyao--teal-orange-tone--cold.cube",
+          "original_filename": "teal-orange-tone_cold.cube",
+          "lut_3d_size": 65,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        },
+        {
+          "name": "portrait--xue-luyao--teal-orange-tone--warm.cube",
+          "type": "cube",
+          "size": 5361857,
+          "sha256": "eff6364ac9a24879316caeafa0dd34cd978f52331501c90dcc006d67de650579",
+          "variant": "warm",
+          "public_path": "canonical/luts/portrait/xue-luyao/teal-orange-tone/portrait--xue-luyao--teal-orange-tone--warm.cube",
+          "original_filename": "teal-orange-tone_warm.cube",
+          "lut_3d_size": 65,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/teal-orange-tone.jpg",
+      "official_name": "青橙色调",
+      "display_name": "青橙色调",
+      "official_descriptions": [
+        "多半用于夜景的拍摄，不同灯光下有适度的冷暖和色偏"
+      ],
+      "display_description": "多半用于夜景的拍摄，不同灯光下有适度的冷暖和色偏",
+      "source_items": [
+        {
+          "remote_item_id": 184,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/ef4544e53efc5800aa24daf896b2db26/uploadfiles/oss/2024/06/20240612140242266.zip",
+          "download_path": "oss/2024/06/20240612140242266.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162044211.jpg",
+          "official_title_raw": "by 薛璐瑶 青橙色调",
+          "official_description": "多半用于夜景的拍摄，不同灯光下有适度的冷暖和色偏",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/09-32.zip",
+          "archive_sha256": "15e1095c098fb2e46e7c52de4cf7f427aa4695331a4fa3a7f6d9d38e16a2a19f"
+        }
+      ],
+      "canonical_id": "teal-orange-tone",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/teal-orange-tone.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "tibet-warm-light",
+      "name_zh": "藏区暖光",
+      "author": {
+        "name_zh": "海螺壳",
+        "name_en": "Hailuoke",
+        "slug": "hailuoke"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "整体偏暖，低对比，给人温暖柔和的视觉感受。",
+      "tags": [
+        "portrait",
+        "warm-tone",
+        "low-contrast",
+        "tibet"
+      ],
+      "format": "cube",
+      "lut_3d_size": 32,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "IMG 5726pf",
+        "generator": "Picture Instruments Look Converter",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 688215,
+      "files": [
+        {
+          "name": "portrait--hailuoke--tibet-warm-light--default.cube",
+          "type": "cube",
+          "size": 688215,
+          "sha256": "e2eddd1741c86ed44891a8d2b439e0e7425b87c112eaac8e6aa2359c15ecdcc3",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/hailuoke/tibet-warm-light/portrait--hailuoke--tibet-warm-light--default.cube",
+          "original_filename": "tibet-warm-light.cube",
+          "lut_3d_size": 32,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "Picture Instruments Look Converter",
+          "copyright": null,
+          "title": "IMG 5726pf"
+        }
+      ],
+      "preview_image": "canonical/previews/tibet-warm-light.jpg",
+      "official_name": "藏区暖光",
+      "display_name": "藏区暖光",
+      "official_descriptions": [
+        "整体偏暖，低对比，给人温暖柔和的视觉感受"
+      ],
+      "display_description": "整体偏暖，低对比，给人温暖柔和的视觉感受",
+      "source_items": [
+        {
+          "remote_item_id": 191,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/0395bf61280aeae3a3d41b63036c23a6/uploadfiles/oss/2024/06/20240612141139437.zip",
+          "download_path": "oss/2024/06/20240612141139437.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162253876.jpg",
+          "official_title_raw": "by 海螺壳 藏区暖光",
+          "official_description": "整体偏暖，低对比，给人温暖柔和的视觉感受",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/16-32.zip",
+          "archive_sha256": "7618c2ca3e3812c6adaac38d0e29c4445bbc66f516e7a562f7d79853cc41f538"
+        }
+      ],
+      "canonical_id": "tibet-warm-light",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/tibet-warm-light.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "txd-agfaphoto-lebox",
+      "name_zh": "TXD AgfaPhoto LeBox",
+      "author": {
+        "name_zh": "兔小呆",
+        "name_en": "Tu Xiaodai",
+        "slug": "tu-xiaodai"
+      },
+      "category": "anniversary",
+      "category_zh": "25周年专属",
+      "description": "爱克发一次性胶片模拟。整体色调偏冷，带有轻微的青蓝倾向，尤其在高光和阴影处表现明显，能让画面显得干净、冷静。色彩倾向对蓝色和绿色的还原更突出，红色和橙色则相对柔和，整体呈现出一种褪色复古感。在自然光下肤色偏冷白，用闪光灯时会略微偏暖。对比度中等偏高，适合表现街头、城市的硬朗感。",
+      "tags": [
+        "film",
+        "cold-tone",
+        "retro",
+        "street"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "Adobe Lightroom 1.24.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970617,
+      "files": [
+        {
+          "name": "anniversary--tu-xiaodai--txd-agfaphoto-lebox--default.cube",
+          "type": "cube",
+          "size": 970617,
+          "sha256": "46669a6c553a43151a15349796f96a1b77f5678a5790513b1c1a519ccfab92cc",
+          "variant": "default",
+          "public_path": "canonical/luts/anniversary/tu-xiaodai/txd-agfaphoto-lebox/anniversary--tu-xiaodai--txd-agfaphoto-lebox--default.cube",
+          "original_filename": "txd-agfaphoto-lebox.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.24.0",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/txd-agfaphoto-lebox.png",
+      "official_name": "TXD AgfaPhoto LeBox",
+      "display_name": "TXD AgfaPhoto LeBox",
+      "official_descriptions": [
+        "爱克发一次性胶片模拟 整体色调偏冷，带有轻微的青蓝倾向，尤其在高光和阴影处表现明显，能让画面显得干净、冷静。 色彩倾向，对蓝色和绿色的还原更突出，红色和橙色则相对柔和，不会过于艳丽，整体呈现出一种 “褪色复古感”。 在自然光下肤色偏冷白，用闪光灯时会略微偏暖，带有胶片特有的柔焦质感。对比度中等偏高，高光部分容易轻微过曝，暗部则会保留一定细节但偏冷，整体影调偏 “硬”，适合表现街头、城市的硬朗感。颗粒偏重，建议机内打开颗粒拍摄。"
+      ],
+      "display_description": "爱克发一次性胶片模拟 整体色调偏冷，带有轻微的青蓝倾向，尤其在高光和阴影处表现明显，能让画面显得干净、冷静。 色彩倾向，对蓝色和绿色的还原更突出，红色和橙色则相对柔和，不会过于艳丽，整体呈现出一种 “褪色复古感”。 在自然光下肤色偏冷白，用闪光灯时会略微偏暖，带有胶片特有的柔焦质感。对比度中等偏高，高光部分容易轻微过曝，暗部则会保留一定细节但偏冷，整体影调偏 “硬”，适合表现街头、城市的硬朗感。颗粒偏重，建议机内打开颗粒拍摄。",
+      "source_items": [
+        {
+          "remote_item_id": 55220,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/f3d8ab36c7f8df42c57dc460cc587b1f/uploadfiles/oss/2026/03/VOL%2023%20TXD%20AgfaPhoto%20LeBox.zip",
+          "download_path": "oss/2026/03/VOL 23 TXD AgfaPhoto LeBox.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/微信图片_20260325164720.png",
+          "official_title_raw": "by 兔小呆 TXD AgfaPhoto LeBox",
+          "official_description": "爱克发一次性胶片模拟 整体色调偏冷，带有轻微的青蓝倾向，尤其在高光和阴影处表现明显，能让画面显得干净、冷静。 色彩倾向，对蓝色和绿色的还原更突出，红色和橙色则相对柔和，不会过于艳丽，整体呈现出一种 “褪色复古感”。 在自然光下肤色偏冷白，用闪光灯时会略微偏暖，带有胶片特有的柔焦质感。对比度中等偏高，高光部分容易轻微过曝，暗部则会保留一定细节但偏冷，整体影调偏 “硬”，适合表现街头、城市的硬朗感。颗粒偏重，建议机内打开颗粒拍摄。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/01-113.zip",
+          "archive_sha256": "0a6eb3c62752698e7138e4663f57288568ffe0f62686206ecc68310ba68548cf"
+        }
+      ],
+      "canonical_id": "txd-agfaphoto-lebox",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/txd-agfaphoto-lebox.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "txd-eterna",
+      "name_zh": "TXD Eterna",
+      "author": {
+        "name_zh": "兔小呆",
+        "name_en": "Tu Xiaodai",
+        "slug": "tu-xiaodai"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "基于STD调色，从徕卡Eternal滤镜中获得调色思路，改变了影调但保留了蓝紫的味道。整体色调偏重，比较吃光线。人像拍摄时一定要有光源。",
+      "tags": [
+        "film",
+        "eterna",
+        "purple-blue",
+        "portrait",
+        "lighting-critical"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "Adobe Lightroom 1.24.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970598,
+      "files": [
+        {
+          "name": "portrait--tu-xiaodai--txd-eterna--default.cube",
+          "type": "cube",
+          "size": 970598,
+          "sha256": "c90c59fad1979c05c0473f3b90436acdc5ae809efc70134e0b4eae562fe6c105",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/tu-xiaodai/txd-eterna/portrait--tu-xiaodai--txd-eterna--default.cube",
+          "original_filename": "txd-eterna.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.24.0",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/txd-eterna.png",
+      "official_name": "TXD Eterna",
+      "display_name": "TXD Eterna",
+      "official_descriptions": [
+        "基于STD 调色，从徕卡Eternal滤镜中获得调色的一些想法，改变了影调，但保留了蓝紫的味道，最终甚至有了一些Classic Negative的味道，同时优化了肤色。Lut的整体色调还是偏重，比较吃光线，人像拍摄时一定要有光源，如果没有直射光源时，机内曝光补偿+1/3~2/3，机内阴影+1~+2来使用，扫街机内推荐打开颗粒LOW"
+      ],
+      "display_description": "基于STD 调色，从徕卡Eternal滤镜中获得调色的一些想法，改变了影调，但保留了蓝紫的味道，最终甚至有了一些Classic Negative的味道，同时优化了肤色。Lut的整体色调还是偏重，比较吃光线，人像拍摄时一定要有光源，如果没有直射光源时，机内曝光补偿+1/3~2/3，机内阴影+1~+2来使用，扫街机内推荐打开颗粒LOW",
+      "source_items": [
+        {
+          "remote_item_id": 42169,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/a4e13ca8b550d122e1ea173162bc93fa/uploadfiles/oss/2025/11/TXD%20Eternal%20.zip",
+          "download_path": "oss/2025/11/TXD Eternal .zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/TXD Eternal.png",
+          "official_title_raw": "by兔小呆 TXD Eterna",
+          "official_description": "基于STD 调色，从徕卡Eternal滤镜中获得调色的一些想法，改变了影调，但保留了蓝紫的味道，最终甚至有了一些Classic Negative的味道，同时优化了肤色。Lut的整体色调还是偏重，比较吃光线，人像拍摄时一定要有光源，如果没有直射光源时，机内曝光补偿+1/3~2/3，机内阴影+1~+2来使用，扫街机内推荐打开颗粒LOW",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/25-32.zip",
+          "archive_sha256": "181590ac14ab156f4398b708a46e807e0ec6f62b9ea3448fa47c2e0b08abb313"
+        }
+      ],
+      "canonical_id": "txd-eterna",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/txd-eterna.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "txd-grainy-film",
+      "name_zh": "TXD Grainy Film",
+      "author": {
+        "name_zh": "兔小呆",
+        "name_en": "Tu Xiaodai",
+        "slug": "tu-xiaodai"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "对比较强，有着不错的胶片质感。",
+      "tags": [
+        "film",
+        "high-contrast",
+        "grain",
+        "portrait"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "Adobe Lightroom 1.24.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970605,
+      "files": [
+        {
+          "name": "portrait--tu-xiaodai--txd-grainy-film--default.cube",
+          "type": "cube",
+          "size": 970605,
+          "sha256": "c58cf395467c59b88668ef07cae3fd6a59adf03f0f611428d8497b237997e735",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/tu-xiaodai/txd-grainy-film/portrait--tu-xiaodai--txd-grainy-film--default.cube",
+          "original_filename": "txd-grainy-film.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.24.0",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/txd-grainy-film.jpg",
+      "official_name": "TXD Grainy Film",
+      "display_name": "TXD Grainy Film",
+      "official_descriptions": [
+        "对比较强，有着不错的胶片质感。"
+      ],
+      "display_description": "对比较强，有着不错的胶片质感。",
+      "source_items": [
+        {
+          "remote_item_id": 673,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/87b03cf1e87c02affdcb8199ed0debe8/uploadfiles/oss/2024/07/20240709171227519.rar",
+          "download_path": "oss/2024/07/20240709171227519.rar",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709171219747.jpg",
+          "official_title_raw": "by 兔小呆 TXD Grainy Film",
+          "official_description": "对比较强，有着不错的胶片质感。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/19-32.rar",
+          "archive_sha256": "2200a130b9037e7f39b09ff165d5b543e18c205e1bc6e6bf938607f1c08c8ce1"
+        }
+      ],
+      "canonical_id": "txd-grainy-film",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/txd-grainy-film.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "txd-rag-film-cned2",
+      "name_zh": "TXD RaG Film CNED2",
+      "author": {
+        "name_zh": "兔小呆",
+        "name_en": "Tu Xiaodai",
+        "slug": "tu-xiaodai"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "对肤色进行了一定优化，适合夏日日常扫街、花草和人像的拍摄。",
+      "tags": [
+        "film",
+        "summer",
+        "street",
+        "portrait",
+        "skin-tone"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "Adobe Lightroom 1.24.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970635,
+      "files": [
+        {
+          "name": "portrait--tu-xiaodai--txd-rag-film-cned2--default.cube",
+          "type": "cube",
+          "size": 970635,
+          "sha256": "bde7ff31048f32b92c39a8470c5797738ca11d24e54af753335b9e9393599db6",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/tu-xiaodai/txd-rag-film-cned2/portrait--tu-xiaodai--txd-rag-film-cned2--default.cube",
+          "original_filename": "txd-rag-film-cned2.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.24.0",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/txd-rag-film-cned2.png",
+      "official_name": "TXD RaG Film CNED2",
+      "display_name": "TXD RaG Film CNED2",
+      "official_descriptions": [
+        "对肤色进行了一定优化，适合夏日日常扫街 花草 和人像的拍摄。"
+      ],
+      "display_description": "对肤色进行了一定优化，适合夏日日常扫街 花草 和人像的拍摄。",
+      "source_items": [
+        {
+          "remote_item_id": 31957,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/ff76a52776461d4d27971162a15ef21a/uploadfiles/oss/2025/08/VOL17%20TXD%20RaG%20Film%20CNED2.zip",
+          "download_path": "oss/2025/08/VOL17 TXD RaG Film CNED2.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/08/微信图片_20250812101652.png",
+          "official_title_raw": "by 兔小呆 TXD RaG Film CNED2",
+          "official_description": "对肤色进行了一定优化，适合夏日日常扫街 花草 和人像的拍摄。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/22-32.zip",
+          "archive_sha256": "cb23cbbbaea386baf94cda1f439dab1ff5bafb6710cad02ed398389e9046477f"
+        }
+      ],
+      "canonical_id": "txd-rag-film-cned2",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/txd-rag-film-cned2.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "verdant-breath",
+      "name_zh": "葱绿气息",
+      "author": {
+        "name_zh": "巴文欢",
+        "name_en": "Ba Wenhuan",
+        "slug": "ba-wenhuan"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "由Portra800和Velvia胶片风格调整生成。",
+      "tags": [
+        "film",
+        "green",
+        "portra800",
+        "velvia",
+        "nature"
+      ],
+      "format": "vlt",
+      "lut_3d_size": 17,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "panasonic-vlt",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 68447,
+      "files": [
+        {
+          "name": "outdoor--ba-wenhuan--verdant-breath--default.vlt",
+          "type": "vlt",
+          "size": 68447,
+          "sha256": "376698204053b3a55666ba83b5260952389f9e511b7abb3a2df275087ad492f7",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/ba-wenhuan/verdant-breath/outdoor--ba-wenhuan--verdant-breath--default.vlt",
+          "original_filename": "verdant-breath.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/verdant-breath.jpg",
+      "official_name": "葱绿气息",
+      "display_name": "葱绿气息",
+      "official_descriptions": [
+        "由portra800和Velvia胶片风格调整生成"
+      ],
+      "display_description": "由portra800和Velvia胶片风格调整生成",
+      "source_items": [
+        {
+          "remote_item_id": 197,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/6d549743a24779f71e87014700739b46/uploadfiles/oss/2024/06/20240612141906904.zip",
+          "download_path": "oss/2024/06/20240612141906904.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163656109.jpg",
+          "official_title_raw": "by 巴文欢 葱绿气息",
+          "official_description": "由portra800和Velvia胶片风格调整生成",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/29-33.zip",
+          "archive_sha256": "369669146eb61149dd013ecc61d307b0493cb667d254e93e2e271e41af8dba5c"
+        }
+      ],
+      "canonical_id": "verdant-breath",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/verdant-breath.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "verdant-scenery",
+      "name_zh": "青绿风景",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "整体色系偏胶片氛围感，可以让画面风格化变得强烈。",
+      "tags": [
+        "landscape",
+        "green",
+        "film",
+        "verdant"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 965607,
+      "files": [
+        {
+          "name": "outdoor--guo-bin--verdant-scenery--default.cube",
+          "type": "cube",
+          "size": 965607,
+          "sha256": "9646aa8ad7b1b4c09c388e865180d518c59d4665145577642d5a6f0a72bf0827",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/guo-bin/verdant-scenery/outdoor--guo-bin--verdant-scenery--default.cube",
+          "original_filename": "verdant-scenery.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/verdant-scenery.jpg",
+      "official_name": "青绿风景",
+      "display_name": "青绿风景",
+      "official_descriptions": [
+        "整体⾊系偏胶⽚氛围感，可以让画⾯⻛格化变得强烈"
+      ],
+      "display_description": "整体⾊系偏胶⽚氛围感，可以让画⾯⻛格化变得强烈",
+      "source_items": [
+        {
+          "remote_item_id": 209,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/8c3ee3431073bd603f7331fd710ac02b/uploadfiles/oss/2024/06/20240612150533645.zip",
+          "download_path": "oss/2024/06/20240612150533645.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163358371.jpg",
+          "official_title_raw": "by 郭宾 青绿风景",
+          "official_description": "整体⾊系偏胶⽚氛围感，可以让画⾯⻛格化变得强烈",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/41-33.zip",
+          "archive_sha256": "1bc529f6e9a61ff9cccd60070e14a5d0d0fe75c2744344ef06f1e884eaa5eac1"
+        }
+      ],
+      "canonical_id": "verdant-scenery",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/verdant-scenery.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "vintage-blue-tone",
+      "name_zh": "复古蓝调",
+      "author": {
+        "name_zh": "波子Booz",
+        "name_en": "Bozi Booz",
+        "slug": "bozi-booz"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "明暗反差相对较高，适合顺光拍摄的场景。",
+      "tags": [
+        "vintage",
+        "blue",
+        "high-contrast",
+        "front-light"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 1016283,
+      "files": [
+        {
+          "name": "outdoor--bozi-booz--vintage-blue-tone--default.cube",
+          "type": "cube",
+          "size": 947970,
+          "sha256": "f1de00e661198038e70fa573fd0a2891cf42770e5940df8d17fdd6f97a46f8ec",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/bozi-booz/vintage-blue-tone/outdoor--bozi-booz--vintage-blue-tone--default.cube",
+          "original_filename": "vintage-blue-tone.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        },
+        {
+          "name": "outdoor--bozi-booz--vintage-blue-tone--default.vlt",
+          "type": "vlt",
+          "size": 68313,
+          "sha256": "ceac17c0eff4f1b91e0561c17c6e8825ab4d0f3dc5772a7cc0fa6d39d16b2152",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/bozi-booz/vintage-blue-tone/outdoor--bozi-booz--vintage-blue-tone--default.vlt",
+          "original_filename": "vintage-blue-tone.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/vintage-blue-tone.jpg",
+      "official_name": "复古蓝调",
+      "display_name": "复古蓝调",
+      "official_descriptions": [
+        "明暗反差相对较高，适合顺光拍摄的场景"
+      ],
+      "display_description": "明暗反差相对较高，适合顺光拍摄的场景",
+      "source_items": [
+        {
+          "remote_item_id": 201,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/ab28e9fd6508226a444deeccb7abffbe/uploadfiles/oss/2024/06/20240612142133391.zip",
+          "download_path": "oss/2024/06/20240612142133391.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163556592.jpg",
+          "official_title_raw": "by 波子Booz 复古蓝调",
+          "official_description": "明暗反差相对较高，适合顺光拍摄的场景",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/33-33.zip",
+          "archive_sha256": "82d34ce4a28eaa3b28c1b232c13053ced80f6144123527680a02c3f2d651124c"
+        }
+      ],
+      "canonical_id": "vintage-blue-tone",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/vintage-blue-tone.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "vintage-old-film",
+      "name_zh": "复古旧胶片",
+      "author": {
+        "name_zh": "海螺壳",
+        "name_en": "Hailuoke",
+        "slug": "hailuoke"
+      },
+      "category": "indoor",
+      "category_zh": "室内",
+      "description": "基于旧胶片设计的色彩配比。整体偏暖，浓郁的怀旧感。",
+      "tags": [
+        "film",
+        "vintage",
+        "warm",
+        "nostalgic"
+      ],
+      "format": "cube",
+      "lut_3d_size": 32,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "filter4",
+        "generator": "Picture Instruments Look Converter",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 688212,
+      "files": [
+        {
+          "name": "indoor--hailuoke--vintage-old-film--default.cube",
+          "type": "cube",
+          "size": 688212,
+          "sha256": "97e2866b958fdc8aa962845f681c9ad6abfba70856ff8f7cea3f02dc413533cd",
+          "variant": "default",
+          "public_path": "canonical/luts/indoor/hailuoke/vintage-old-film/indoor--hailuoke--vintage-old-film--default.cube",
+          "original_filename": "vintage-old-film.cube",
+          "lut_3d_size": 32,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "Picture Instruments Look Converter",
+          "copyright": null,
+          "title": "filter4"
+        }
+      ],
+      "preview_image": "canonical/previews/vintage-old-film.jpg",
+      "official_name": "复古旧胶片",
+      "display_name": "复古旧胶片",
+      "official_descriptions": [
+        "基于旧胶片设计的色彩配比。整体偏暖。浓郁的怀旧感"
+      ],
+      "display_description": "基于旧胶片设计的色彩配比。整体偏暖。浓郁的怀旧感",
+      "source_items": [
+        {
+          "remote_item_id": 218,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/6c98afd26729c25f94df04dc66c6ced9/uploadfiles/oss/2024/06/20240612151948495.zip",
+          "download_path": "oss/2024/06/20240612151948495.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164020786.jpg",
+          "official_title_raw": "by 海螺壳 复古旧胶片",
+          "official_description": "基于旧胶片设计的色彩配比。整体偏暖。浓郁的怀旧感",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/54-34.zip",
+          "archive_sha256": "8560021170c9685ab227d2dc0cd0b6494a1cdbdd48dd6248b068f833520dcd3b"
+        }
+      ],
+      "canonical_id": "vintage-old-film",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/vintage-old-film.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "vintage-summer",
+      "name_zh": "复古夏日",
+      "author": {
+        "name_zh": "德松Desong",
+        "name_en": "Desong",
+        "slug": "desong"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "绿色系胶片的影调色调为基础风格，突出对蓝、绿色彩的刻画，同时对红色、橙色也有非常生动的呈现。亮部暖调细腻，暗部偏蓝带洋红。",
+      "tags": [
+        "film",
+        "summer",
+        "green",
+        "vintage",
+        "portrait"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "hand-authored",
+        "copyright": "Created by Desong",
+        "color_profile": null
+      },
+      "total_size": 962059,
+      "files": [
+        {
+          "name": "portrait--desong--vintage-summer--default.cube",
+          "type": "cube",
+          "size": 962059,
+          "sha256": "1e1f7323a9a226090020db79e0cd5c12e7fcfd0479384ab900d1b8538a37f7dc",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/desong/vintage-summer/portrait--desong--vintage-summer--default.cube",
+          "original_filename": "vintage-summer.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "hand-authored",
+          "copyright": "Created by Desong",
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/vintage-summer.png",
+      "official_name": "复古夏日",
+      "display_name": "复古夏日",
+      "official_descriptions": [
+        "绿色系胶片的影调色调为基础风格，突出对蓝、绿色彩的刻画，同时对红色、橙色也有非常生动的呈现。在此基础上强调柔和自然的人像肤色表现。亮部暖调细腻，暗部偏蓝带洋红。"
+      ],
+      "display_description": "绿色系胶片的影调色调为基础风格，突出对蓝、绿色彩的刻画，同时对红色、橙色也有非常生动的呈现。在此基础上强调柔和自然的人像肤色表现。亮部暖调细腻，暗部偏蓝带洋红。",
+      "source_items": [
+        {
+          "remote_item_id": 42163,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/efb827469e61d2175f83e6b258d779cb/uploadfiles/oss/2025/11/%E5%A4%8D%E5%8F%A4%E5%A4%8F%E6%97%A5VintageSummer-std.zip",
+          "download_path": "oss/2025/11/复古夏日VintageSummer-std.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/复古夏日.png",
+          "official_title_raw": "by德松Desong 复古夏日",
+          "official_description": "绿色系胶片的影调色调为基础风格，突出对蓝、绿色彩的刻画，同时对红色、橙色也有非常生动的呈现。在此基础上强调柔和自然的人像肤色表现。亮部暖调细腻，暗部偏蓝带洋红。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/23-32.zip",
+          "archive_sha256": "1d1586e6f0445d4aedcc719dd9067127b75c89a267de6d721f7c3f542ac02bba"
+        }
+      ],
+      "canonical_id": "vintage-summer",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/vintage-summer.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "vintage-vibes",
+      "name_zh": "怀旧",
+      "author": {
+        "name_zh": "Jon Simo",
+        "name_en": "Jon Simo",
+        "slug": "jon-simo"
+      },
+      "category": "indoor",
+      "category_zh": "室内",
+      "description": "明显的暖色调，复古氛围感怀旧LUT。",
+      "tags": [
+        "vintage",
+        "warm",
+        "nostalgic",
+        "indoor"
+      ],
+      "format": "cube",
+      "lut_3d_size": 16,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": null,
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 114704,
+      "files": [
+        {
+          "name": "indoor--jon-simo--vintage-vibes--default.cube",
+          "type": "cube",
+          "size": 114704,
+          "sha256": "81038e7b6b4cb9596adda2470e625b14a624f4a4b4436ef312e33c74c7a486af",
+          "variant": "default",
+          "public_path": "canonical/luts/indoor/jon-simo/vintage-vibes/indoor--jon-simo--vintage-vibes--default.cube",
+          "original_filename": "vintage-vibes.cube",
+          "lut_3d_size": 16,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": null,
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/vintage-vibes.jpg",
+      "official_name": "怀旧",
+      "display_name": "怀旧",
+      "official_descriptions": [
+        "明显的暖色调，复古氛围感怀旧LUT"
+      ],
+      "display_description": "明显的暖色调，复古氛围感怀旧LUT",
+      "source_items": [
+        {
+          "remote_item_id": 217,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/2d8681213038410b69b3dc9376cd20bd/uploadfiles/oss/2024/06/20240612151842612.zip",
+          "download_path": "oss/2024/06/20240612151842612.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164029543.jpg",
+          "official_title_raw": "by Jon Simo 怀旧",
+          "official_description": "明显的暖色调，复古氛围感怀旧LUT",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/53-34.zip",
+          "archive_sha256": "a4a985bf91f628a07ab99593f3ee33afce12487ae94e0a65b1b24b935cddcdd2"
+        }
+      ],
+      "canonical_id": "vintage-vibes",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/vintage-vibes.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "warm-cool-tone",
+      "name_zh": "冷暖色调",
+      "author": {
+        "name_zh": "薛璐瑶",
+        "name_en": "Xue Luyao",
+        "slug": "xue-luyao"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "对室内光源作出了冷暖不同色调，人物看着更加自然。",
+      "tags": [
+        "portrait",
+        "warm-cool",
+        "indoor",
+        "natural"
+      ],
+      "format": "cube",
+      "lut_3d_size": 65,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 14019751,
+      "files": [
+        {
+          "name": "portrait--xue-luyao--warm-cool-tone--cold.cube",
+          "type": "cube",
+          "size": 7446695,
+          "sha256": "dfef6b9493b45ca482b92d1f558e053b62f03b038222a30ef5cc8da0de291307",
+          "variant": "cold",
+          "public_path": "canonical/luts/portrait/xue-luyao/warm-cool-tone/portrait--xue-luyao--warm-cool-tone--cold.cube",
+          "original_filename": "warm-cool-tone_cold.cube",
+          "lut_3d_size": 65,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        },
+        {
+          "name": "portrait--xue-luyao--warm-cool-tone--warm.cube",
+          "type": "cube",
+          "size": 6573056,
+          "sha256": "787ef22782e2b4f85b117bab960f18ab3cee77c7ea096360dd307e708eadacd1",
+          "variant": "warm",
+          "public_path": "canonical/luts/portrait/xue-luyao/warm-cool-tone/portrait--xue-luyao--warm-cool-tone--warm.cube",
+          "original_filename": "warm-cool-tone_warm.cube",
+          "lut_3d_size": 65,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/warm-cool-tone.jpg",
+      "official_name": "冷暖色调",
+      "display_name": "冷暖色调",
+      "official_descriptions": [
+        "对室内光源作出了冷暖不同色调，人物看着更加自然"
+      ],
+      "display_description": "对室内光源作出了冷暖不同色调，人物看着更加自然",
+      "source_items": [
+        {
+          "remote_item_id": 183,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/0d52a55fac52c21bef1ebe6eff91f094/uploadfiles/oss/2024/06/20240612140126786.zip",
+          "download_path": "oss/2024/06/20240612140126786.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162027993.jpg",
+          "official_title_raw": "by 薛璐瑶 冷暖色调",
+          "official_description": "对室内光源作出了冷暖不同色调，人物看着更加自然",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/08-32.zip",
+          "archive_sha256": "cfdb02354b91f30935f55a7c115cc1770323306b336eff9c20f5a867d81ccc1c"
+        }
+      ],
+      "canonical_id": "warm-cool-tone",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/warm-cool-tone.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "warm-film-tone",
+      "name_zh": "暖调胶片",
+      "author": {
+        "name_zh": "EJAY",
+        "name_en": "EJAY",
+        "slug": "ejay"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "色调较暖对比强，拥有浓厚胶片味道。",
+      "tags": [
+        "film",
+        "warm",
+        "high-contrast"
+      ],
+      "format": "vlt",
+      "lut_3d_size": 17,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "panasonic-vlt",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 60736,
+      "files": [
+        {
+          "name": "outdoor--ejay--warm-film-tone--default.vlt",
+          "type": "vlt",
+          "size": 60736,
+          "sha256": "ee8cc34d3cc67334953094fb5145355ff00bb3afcc04b81f738086bcc9eadf13",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/ejay/warm-film-tone/outdoor--ejay--warm-film-tone--default.vlt",
+          "original_filename": "warm-film-tone.vlt",
+          "lut_3d_size": 17,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "panasonic-vlt",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/warm-film-tone.jpg",
+      "official_name": "暖调胶片",
+      "display_name": "暖调胶片",
+      "official_descriptions": [
+        "色调较暖对比强，拥有浓厚胶片味道"
+      ],
+      "display_description": "色调较暖对比强，拥有浓厚胶片味道",
+      "source_items": [
+        {
+          "remote_item_id": 212,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/e9bedb59243c716561a99c4ab2083438/uploadfiles/oss/2024/06/20240612150924628.zip",
+          "download_path": "oss/2024/06/20240612150924628.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163317253.jpg",
+          "official_title_raw": "by EJAY 暖调胶片",
+          "official_description": "色调较暖对比强，拥有浓厚胶片味道",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/44-33.zip",
+          "archive_sha256": "66fa34d15bb0f7d06d4e1a5eb6f1a082f9b71b3aa6c115f0032a3c03412d24ef"
+        }
+      ],
+      "canonical_id": "warm-film-tone",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/warm-film-tone.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "warm-skin-tone",
+      "name_zh": "暖白肤色",
+      "author": {
+        "name_zh": "兔小呆",
+        "name_en": "Tu Xiaodai",
+        "slug": "tu-xiaodai"
+      },
+      "category": "portrait",
+      "category_zh": "人像",
+      "description": "针对肤色进行优化，呈现为暖白色，可补充阴天面部失色。",
+      "tags": [
+        "portrait",
+        "warm-white",
+        "skin-tone",
+        "overcast"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": null,
+        "generator": "Adobe Lightroom 1.24.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 970598,
+      "files": [
+        {
+          "name": "portrait--tu-xiaodai--warm-skin-tone--default.cube",
+          "type": "cube",
+          "size": 970598,
+          "sha256": "b98ea9680e15ee71208b164083cce18a76e3f3e1020ae7b86d9a6e9ce42a5589",
+          "variant": "default",
+          "public_path": "canonical/luts/portrait/tu-xiaodai/warm-skin-tone/portrait--tu-xiaodai--warm-skin-tone--default.cube",
+          "original_filename": "warm-skin-tone.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.24.0",
+          "copyright": null,
+          "title": null
+        }
+      ],
+      "preview_image": "canonical/previews/warm-skin-tone.jpg",
+      "official_name": "暖白肤色",
+      "display_name": "暖白肤色",
+      "official_descriptions": [
+        "针对肤色进行优化，呈现为暖白色，可补充阴天面部失色"
+      ],
+      "display_description": "针对肤色进行优化，呈现为暖白色，可补充阴天面部失色",
+      "source_items": [
+        {
+          "remote_item_id": 12635,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/826cf0917a7ecaf173713893be6536de/uploadfiles/oss/2025/01/%E6%9A%96%E7%99%BD%E8%82%A4%E8%89%B2.zip",
+          "download_path": "oss/2025/01/暖白肤色.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/01/8fb1db26f85d6aef12c32a015e191e2.png",
+          "official_title_raw": "by 兔小呆 暖白肤色",
+          "official_description": "针对肤色进行优化，呈现为暖白色，可补充阴天面部失色",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/21-32.zip",
+          "archive_sha256": "e38ddc590c2cdf8393c3a8ee8c560dc964232801a13061ce087a78f50799bfab"
+        }
+      ],
+      "canonical_id": "warm-skin-tone",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/warm-skin-tone.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "warm-village",
+      "name_zh": "温暖乡村",
+      "author": {
+        "name_zh": "郭宾",
+        "name_en": "Guo Bin",
+        "slug": "guo-bin"
+      },
+      "category": "outdoor",
+      "category_zh": "户外",
+      "description": "整体色调是复古胶片色，暗部的一些绿色呈现出青绿色。",
+      "tags": [
+        "warm",
+        "rural",
+        "film",
+        "cyan-green",
+        "vintage"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": null,
+      "domain_max": null,
+      "photo_style": null,
+      "internal": {
+        "title": "Generated by Resolve",
+        "generator": "DaVinci Resolve",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 976435,
+      "files": [
+        {
+          "name": "outdoor--guo-bin--warm-village--default.cube",
+          "type": "cube",
+          "size": 976435,
+          "sha256": "a78ce2bbc243c5b99f3172a44b5df6416222c26bf653bfe0629226c7d6b341bf",
+          "variant": "default",
+          "public_path": "canonical/luts/outdoor/guo-bin/warm-village/outdoor--guo-bin--warm-village--default.cube",
+          "original_filename": "warm-village.cube",
+          "lut_3d_size": 33,
+          "domain_min": null,
+          "domain_max": null,
+          "generator": "DaVinci Resolve",
+          "copyright": null,
+          "title": "Generated by Resolve"
+        }
+      ],
+      "preview_image": "canonical/previews/warm-village.jpg",
+      "official_name": "温暖乡村",
+      "display_name": "温暖乡村",
+      "official_descriptions": [
+        "整体色调是复古胶片色，暗部的一些绿色呈现出青绿色"
+      ],
+      "display_description": "整体色调是复古胶片色，暗部的一些绿色呈现出青绿色",
+      "source_items": [
+        {
+          "remote_item_id": 206,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/ec1e22dadcbb2713fefaac7fd36e2bd8/uploadfiles/oss/2024/06/20240612142504887.zip",
+          "download_path": "oss/2024/06/20240612142504887.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163447704.jpg",
+          "official_title_raw": "by 郭宾 温暖乡村",
+          "official_description": "整体色调是复古胶片色，暗部的一些绿色呈现出青绿色",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/38-33.zip",
+          "archive_sha256": "2dd800ca5e5c077372cd6bada7b6b8bde67457bc24b55b357a8b406fc2ed9c3d"
+        }
+      ],
+      "canonical_id": "warm-village",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/warm-village.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "white-negative",
+      "name_zh": "白色负片",
+      "author": {
+        "name_zh": "Plady",
+        "name_en": "Plady",
+        "slug": "plady"
+      },
+      "category": "indoor",
+      "category_zh": "室内",
+      "description": "风格清淡低饱和度的特性，类似留银冲洗的复古胶片感。",
+      "tags": [
+        "film",
+        "low-saturation",
+        "bleach-bypass",
+        "retro",
+        "white"
+      ],
+      "format": "cube",
+      "lut_3d_size": 32,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": "Silver01",
+        "generator": "Adobe Lightroom 1.34.0",
+        "copyright": null,
+        "color_profile": null
+      },
+      "total_size": 885013,
+      "files": [
+        {
+          "name": "indoor--plady--white-negative--default.cube",
+          "type": "cube",
+          "size": 885013,
+          "sha256": "9b6207ae61e2a6d8965d5796270f4b770da42b17aa94e118d16ae73f562ac089",
+          "variant": "default",
+          "public_path": "canonical/luts/indoor/plady/white-negative/indoor--plady--white-negative--default.cube",
+          "original_filename": "white-negative.cube",
+          "lut_3d_size": 32,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Lightroom 1.34.0",
+          "copyright": null,
+          "title": "Silver01"
+        }
+      ],
+      "preview_image": "canonical/previews/white-negative.jpg",
+      "official_name": "白色负片",
+      "display_name": "白色负片",
+      "official_descriptions": [
+        "风格清淡低饱和度的特性，类似留银冲洗的复古胶片感"
+      ],
+      "display_description": "风格清淡低饱和度的特性，类似留银冲洗的复古胶片感",
+      "source_items": [
+        {
+          "remote_item_id": 216,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/0f9e94a029dd0f7cb83746ea0cdc879d/uploadfiles/oss/2025/08/%E7%99%BD%E8%89%B2%E8%B4%9F%E7%89%87-Plady-STD.rar",
+          "download_path": "oss/2025/08/白色负片-Plady-STD.rar",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164039372.jpg",
+          "official_title_raw": "by Plady 白色负片",
+          "official_description": "风格清淡低饱和度的特性，类似留银冲洗的复古胶片感",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/52-34.rar",
+          "archive_sha256": "b8804a0fecce7f3ff1de473a6d7cb9c703023d4a1c07777cbac5efcf42eb69f3"
+        }
+      ],
+      "canonical_id": "white-negative",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/white-negative.jpg",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    },
+    {
+      "id": "y2000",
+      "name_zh": "y2000",
+      "author": {
+        "name_zh": "plady",
+        "name_en": "Plady",
+        "slug": "plady"
+      },
+      "category": "anniversary",
+      "category_zh": "25周年专属",
+      "description": "参考早期CCD数码相机的成像风格，整体色调偏青，并在高光中加入轻微暖色，使画面在保持清透感的同时带有自然的阳光温度。高光略带溢出，暗部适度压缩。特别适合阳光环境与黄昏时段的人像拍摄。",
+      "tags": [
+        "ccd",
+        "cyan-tone",
+        "warm-highlight",
+        "portrait",
+        "sunset"
+      ],
+      "format": "cube",
+      "lut_3d_size": 33,
+      "domain_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "domain_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "photo_style": null,
+      "internal": {
+        "title": "Y2K Plady.psb",
+        "generator": "Adobe Photoshop",
+        "copyright": "Copyright: (C) Copyright 2026 Plady",
+        "color_profile": null
+      },
+      "total_size": 970518,
+      "files": [
+        {
+          "name": "anniversary--plady--y2000--default.cube",
+          "type": "cube",
+          "size": 970518,
+          "sha256": "f8ab0427bd4a40deb455305359cfbed5616b78d25e06232a757db7f689f47385",
+          "variant": "default",
+          "public_path": "canonical/luts/anniversary/plady/y2000/anniversary--plady--y2000--default.cube",
+          "original_filename": "y2000.cube",
+          "lut_3d_size": 33,
+          "domain_min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "domain_max": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "generator": "Adobe Photoshop",
+          "copyright": "Copyright: (C) Copyright 2026 Plady",
+          "title": "Y2K Plady.psb"
+        }
+      ],
+      "preview_image": "canonical/previews/y2000.png",
+      "official_name": "y2000",
+      "display_name": "y2000",
+      "official_descriptions": [
+        "参考早期 CCD 数码相机的成像风格，整体色调偏青，并在高光中加入轻微暖色，使画面在保持清透感的同时带有自然的阳光温度。高光略带溢出，暗部适度压缩，呈现出典型的 CCD 层次与色彩表现。搭配机内彩色颗粒直出效果更佳，特别适合阳光环境与黄昏时段的人像拍摄，可营造出温暖而带青调的复古数码质感。"
+      ],
+      "display_description": "参考早期 CCD 数码相机的成像风格，整体色调偏青，并在高光中加入轻微暖色，使画面在保持清透感的同时带有自然的阳光温度。高光略带溢出，暗部适度压缩，呈现出典型的 CCD 层次与色彩表现。搭配机内彩色颗粒直出效果更佳，特别适合阳光环境与黄昏时段的人像拍摄，可营造出温暖而带青调的复古数码质感。",
+      "source_items": [
+        {
+          "remote_item_id": 55225,
+          "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
+          "download_url": "http://oss.panasonicshuma.cn/202608240251/7be4595b7e6241191f03123b72fc9202/uploadfiles/oss/2026/03/8b73d82091d546be5d344219fcb99829_9c395a388e851311c63379299a2bd5b5_8.zip",
+          "download_path": "oss/2026/03/8b73d82091d546be5d344219fcb99829_9c395a388e851311c63379299a2bd5b5_8.zip",
+          "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/组 1.png",
+          "official_title_raw": "by plady-y2000",
+          "official_description": "参考早期 CCD 数码相机的成像风格，整体色调偏青，并在高光中加入轻微暖色，使画面在保持清透感的同时带有自然的阳光温度。高光略带溢出，暗部适度压缩，呈现出典型的 CCD 层次与色彩表现。搭配机内彩色颗粒直出效果更佳，特别适合阳光环境与黄昏时段的人像拍摄，可营造出温暖而带青调的复古数码质感。",
+          "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/04-113.zip",
+          "archive_sha256": "6e0477b01bda0225a3fdd3df657864ff826ccfc1a1654ed1a5801f4232f83077"
+        }
+      ],
+      "canonical_id": "y2000",
+      "preview_images": [
+        {
+          "variant": "default",
+          "path": "canonical/previews/y2000.png",
+          "source_url": null,
+          "status": "local-existing-preview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="inner">
+        <div>
+          <a href="/"><h1>LUMIX LUT Library</h1></a>
+          <div class="sub">松下实时 LUT 库 · 规范化下载与审计</div>
+        </div>
+        <nav>
+          <a href="/" class="btn btn-outline">← 返回列表</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>
+        LUTs sourced from
+        <a href="http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx" target="_blank"
+          >松下实时LUT库</a
+        >. For use with LUMIX S9, S5M2, S5M2X, G9M2, GH7.
+      </p>
+      <p>Snapshot generated 2026-08-24</p>
+    </footer>
+  </body>
+</html>

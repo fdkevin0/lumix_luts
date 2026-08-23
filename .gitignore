@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+site/_data/
+
+# Astro
+.astro/
+node_modules/
+dist/
+public/luts/
+public/previews/
+public/canonical/

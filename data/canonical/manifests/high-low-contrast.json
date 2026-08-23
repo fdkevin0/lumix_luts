@@ -1,0 +1,76 @@
+{
+  "canonical_id": "high-low-contrast",
+  "name_zh": "高低对比度",
+  "author": {
+    "name_zh": "薛璐瑶",
+    "name_en": "Xue Luyao",
+    "slug": "xue-luyao"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "contrast",
+    "outdoor",
+    "color-temperature",
+    "balanced"
+  ],
+  "official_descriptions": [
+    "统一光比和室外早中晚不同的阳光色温"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 185,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/720f9343055d1c71d85c3ae03cbe78cf/uploadfiles/oss/2024/06/20240612140416154.zip",
+      "download_path": "oss/2024/06/20240612140416154.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162104814.jpg",
+      "official_title_raw": "by 薛璐瑶 高低对比度",
+      "official_description": "统一光比和室外早中晚不同的阳光色温",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/10-32.zip",
+      "archive_sha256": "12db6e02b1fb87c10724a8692eb5cce3bbe98a69e27e9562c4c71c5078b79d5b"
+    }
+  ],
+  "files": [
+    {
+      "variant": "cold",
+      "format": "cube",
+      "normalized_filename": "portrait--xue-luyao--high-low-contrast--cold.cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/high-low-contrast/portrait--xue-luyao--high-low-contrast--cold.cube",
+      "original_filename": "high-low-contrast_cold.cube",
+      "source_path": "luts/portrait/high-low-contrast/high-low-contrast_cold.cube",
+      "size": 7131092,
+      "sha256": "0dd924cc041387b53d3c5da556e2de8899c13c2ade6ff8899c568ae598bec467",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/720f9343055d1c71d85c3ae03cbe78cf/uploadfiles/oss/2024/06/20240612140416154.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/10-32.zip"
+    },
+    {
+      "variant": "warm",
+      "format": "cube",
+      "normalized_filename": "portrait--xue-luyao--high-low-contrast--warm.cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/high-low-contrast/portrait--xue-luyao--high-low-contrast--warm.cube",
+      "original_filename": "high-low-contrast_warm.cube",
+      "source_path": "luts/portrait/high-low-contrast/high-low-contrast_warm.cube",
+      "size": 6907067,
+      "sha256": "9bf126d37881974f475a832d954df1b853dabb910b074d4575a8c6be1617e6a6",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/720f9343055d1c71d85c3ae03cbe78cf/uploadfiles/oss/2024/06/20240612140416154.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/10-32.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 185,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162104814.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 185,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/high-low-contrast.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "统一光比和室外早中晚不同的阳光色温",
+  "schema_version": "1.0"
+}

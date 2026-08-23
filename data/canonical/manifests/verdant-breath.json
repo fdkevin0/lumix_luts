@@ -1,0 +1,65 @@
+{
+  "canonical_id": "verdant-breath",
+  "name_zh": "葱绿气息",
+  "author": {
+    "name_zh": "巴文欢",
+    "name_en": "Ba Wenhuan",
+    "slug": "ba-wenhuan"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "film",
+    "green",
+    "portra800",
+    "velvia",
+    "nature"
+  ],
+  "official_descriptions": [
+    "由portra800和Velvia胶片风格调整生成"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 197,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/6d549743a24779f71e87014700739b46/uploadfiles/oss/2024/06/20240612141906904.zip",
+      "download_path": "oss/2024/06/20240612141906904.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163656109.jpg",
+      "official_title_raw": "by 巴文欢 葱绿气息",
+      "official_description": "由portra800和Velvia胶片风格调整生成",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/29-33.zip",
+      "archive_sha256": "369669146eb61149dd013ecc61d307b0493cb667d254e93e2e271e41af8dba5c"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "outdoor--ba-wenhuan--verdant-breath--default.vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ba-wenhuan/verdant-breath/outdoor--ba-wenhuan--verdant-breath--default.vlt",
+      "original_filename": "verdant-breath.vlt",
+      "source_path": "luts/outdoor/verdant-breath/verdant-breath.vlt",
+      "size": 68447,
+      "sha256": "376698204053b3a55666ba83b5260952389f9e511b7abb3a2df275087ad492f7",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/6d549743a24779f71e87014700739b46/uploadfiles/oss/2024/06/20240612141906904.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/29-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 197,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163656109.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 197,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/verdant-breath.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "由portra800和Velvia胶片风格调整生成",
+  "schema_version": "1.0"
+}

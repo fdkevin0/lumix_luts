@@ -1,0 +1,64 @@
+{
+  "canonical_id": "cinema-tone",
+  "name_zh": "影院色调",
+  "author": {
+    "name_zh": "EJAY",
+    "name_en": "EJAY",
+    "slug": "ejay"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "cinematic",
+    "low-saturation",
+    "cyan-shift",
+    "soft"
+  ],
+  "official_descriptions": [
+    "色调柔和低饱和，蓝色会往青色偏移"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 211,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/52268c629eb6b50769605601f7789b27/uploadfiles/oss/2024/06/20240612150818260.zip",
+      "download_path": "oss/2024/06/20240612150818260.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163327540.jpg",
+      "official_title_raw": "by EJAY 影院色调",
+      "official_description": "色调柔和低饱和，蓝色会往青色偏移",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/43-33.zip",
+      "archive_sha256": "2594fa3b5e73a17c29d4963616edbdde966aee5d5d7efe95c0d0645ef9651b0d"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "outdoor--ejay--cinema-tone--default.vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ejay/cinema-tone/outdoor--ejay--cinema-tone--default.vlt",
+      "original_filename": "cinema-tone.vlt",
+      "source_path": "luts/outdoor/cinema-tone/cinema-tone.vlt",
+      "size": 69382,
+      "sha256": "6f6cfd660b86acc545f2696256770c2766cda79d72cfbbd789dc3bf4f9373bc1",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/52268c629eb6b50769605601f7789b27/uploadfiles/oss/2024/06/20240612150818260.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/43-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 211,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163327540.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 211,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/cinema-tone.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "色调柔和低饱和，蓝色会往青色偏移",
+  "schema_version": "1.0"
+}

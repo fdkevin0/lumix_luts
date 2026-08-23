@@ -1,0 +1,64 @@
+{
+  "canonical_id": "vintage-vibes",
+  "name_zh": "怀旧",
+  "author": {
+    "name_zh": "Jon Simo",
+    "name_en": "Jon Simo",
+    "slug": "jon-simo"
+  },
+  "category": "indoor",
+  "category_zh": "室内",
+  "tags": [
+    "vintage",
+    "warm",
+    "nostalgic",
+    "indoor"
+  ],
+  "official_descriptions": [
+    "明显的暖色调，复古氛围感怀旧LUT"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 217,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/2d8681213038410b69b3dc9376cd20bd/uploadfiles/oss/2024/06/20240612151842612.zip",
+      "download_path": "oss/2024/06/20240612151842612.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164029543.jpg",
+      "official_title_raw": "by Jon Simo 怀旧",
+      "official_description": "明显的暖色调，复古氛围感怀旧LUT",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/53-34.zip",
+      "archive_sha256": "a4a985bf91f628a07ab99593f3ee33afce12487ae94e0a65b1b24b935cddcdd2"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "indoor--jon-simo--vintage-vibes--default.cube",
+      "canonical_path": "data/canonical/luts/indoor/jon-simo/vintage-vibes/indoor--jon-simo--vintage-vibes--default.cube",
+      "original_filename": "vintage-vibes.cube",
+      "source_path": "luts/indoor/vintage-vibes/vintage-vibes.cube",
+      "size": 114704,
+      "sha256": "81038e7b6b4cb9596adda2470e625b14a624f4a4b4436ef312e33c74c7a486af",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/2d8681213038410b69b3dc9376cd20bd/uploadfiles/oss/2024/06/20240612151842612.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/53-34.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 217,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164029543.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 217,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/vintage-vibes.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "明显的暖色调，复古氛围感怀旧LUT",
+  "schema_version": "1.0"
+}

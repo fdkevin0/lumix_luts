@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumix LUTs / Lumix 色彩预设</title>
+  <meta name="description" content="Panasonic Lumix 相机 .cube LUT 色彩预设下载">
+  <meta property="og:title" content="Lumix LUTs">
+  <meta property="og:description" content="Panasonic Lumix .cube LUT 色彩预设下载站">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>Lumix LUTs <span class="subtitle">色彩预设</span></h1>
+      <p class="header-desc">Panasonic Lumix 相机 Real Time LUT .cube 文件下载</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="filters">
+      <div class="filter-row">
+        <select id="collection-filter">
+          <option value="">全部合集 / All Collections</option>
+          <option value="25周年专属">25th Anniversary / 25周年专属</option>
+        </select>
+        <input type="text" id="search" placeholder="搜索 LUT / Search...">
+      </div>
+      <div class="filter-row">
+        <span class="filter-label">Photo Style:</span>
+        <div class="chip-group" id="style-chips"><button class="chip" data-style="STD">STD</button></div>
+      </div>
+      <div class="filter-row">
+        <span class="filter-label">Tags:</span>
+        <div class="chip-group" id="tag-chips"><button class="chip" data-tag="ccd">ccd</button>
+<button class="chip" data-tag="cold">cold</button>
+<button class="chip" data-tag="cyan">cyan</button>
+<button class="chip" data-tag="film-simulation">film-simulation</button>
+<button class="chip" data-tag="portrait">portrait</button>
+<button class="chip" data-tag="retro">retro</button>
+<button class="chip" data-tag="warm">warm</button>
+<button class="chip" data-tag="y2k">y2k</button></div>
+      </div>
+    </section>
+
+    <p class="result-count" id="result-count"></p>
+
+    <div class="grid" id="lut-grid"></div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>相机最多注册 39 个 LUT 文件 / Camera supports up to 39 LUT files</p>
+    <p><a href="https://github.com/" target="_blank" rel="noopener" id="repo-link">GitHub</a></p>
+  </footer>
+
+  <script id="luts-data" type="application/json">[
+  {
+    "id": "millennium-echo_warm_base_std",
+    "name": "Millennium Echo (Warm)",
+    "name_zh": "千禧回声（暖调）",
+    "author": "德松 Desong",
+    "author_link": "",
+    "collection": "25周年专属",
+    "collection_en": "25th Anniversary",
+    "file": "luts/25周年专属/德松Desong-千禧回声/Millennium Echo_warm_base_STD.cube",
+    "photo_style": "STD",
+    "tags": [
+      "retro",
+      "y2k",
+      "warm",
+      "portrait",
+      "ccd"
+    ],
+    "description_zh": "暖色调版本。以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。在模仿CCD影调色调的同时不降低画质。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。",
+    "description_en": "Warm tone variant. Inspired by Lumix CCD camera imaging style, refined color characteristics with unique millennium retro feel. Compresses highlights and shadows for a medium-low contrast tone while simulating the bright feel of early digital cameras with slight highlight bloom. Best performance in good lighting conditions; skin tones remain fair and rosy even in low light or with flash.",
+    "preview": ""
+  },
+  {
+    "id": "millennium-echo_cold_base_std",
+    "name": "Millennium Echo (Cold)",
+    "name_zh": "千禧回声（冷调）",
+    "author": "德松 Desong",
+    "author_link": "",
+    "collection": "25周年专属",
+    "collection_en": "25th Anniversary",
+    "file": "luts/25周年专属/德松Desong-千禧回声/Millennium Echo_cold_base_STD.cube",
+    "photo_style": "STD",
+    "tags": [
+      "retro",
+      "y2k",
+      "cold",
+      "portrait",
+      "ccd"
+    ],
+    "description_zh": "冷色调版本。以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。在模仿CCD影调色调的同时不降低画质。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。",
+    "description_en": "Cold tone variant. Inspired by Lumix CCD camera imaging style, refined color characteristics with unique millennium retro feel. Compresses highlights and shadows for a medium-low contrast tone while simulating the bright feel of early digital cameras with slight highlight bloom.",
+    "preview": ""
+  },
+  {
+    "id": "agfaphoto-lebox_base_std",
+    "name": "AgfaPhoto LeBox",
+    "name_zh": "AgfaPhoto LeBox",
+    "author": "兔小呆 TXD",
+    "author_link": "",
+    "collection": "25周年专属",
+    "collection_en": "25th Anniversary",
+    "file": "luts/25周年专属/兔小呆 TXD AgfaPhoto LeBox/AgfaPhoto LeBox_base_STD.cube",
+    "photo_style": "STD",
+    "tags": [
+      "retro",
+      "ccd",
+      "cyan",
+      "portrait",
+      "film-simulation"
+    ],
+    "description_zh": "参考早期 CCD 数码相机的成像风格，整体色调偏青，并在高光中加入轻微暖色，使画面在保持清透感的同时带有自然的阳光温度。高光略带溢出，暗部适度压缩，呈现出典型的 CCD 层次与色彩表现。搭配机内彩色颗粒直出效果更佳，特别适合阳光环境与黄昏时段的人像拍摄，可营造出温暖而带青调的复古数码质感。",
+    "description_en": "Referencing early CCD digital camera imaging style with an overall cyan-leaning tone and slight warmth in highlights, maintaining clarity while adding natural sunlight warmth. Highlights slightly bloom, shadows moderately compressed, presenting typical CCD layering and color expression. Best combined with in-camera color grain for straight-out-of-camera results. Especially suited for portrait shooting in sunny environments and golden hour, creating a warm yet cyan-tinted retro digital feel.",
+    "preview": ""
+  },
+  {
+    "id": "y2000_base_std",
+    "name": "Y2000",
+    "name_zh": "Y2000",
+    "author": "Plady",
+    "author_link": "",
+    "collection": "25周年专属",
+    "collection_en": "25th Anniversary",
+    "file": "luts/25周年专属/plady-y2000/Y2000_base_STD.cube",
+    "photo_style": "STD",
+    "tags": [
+      "retro",
+      "y2k",
+      "portrait",
+      "ccd"
+    ],
+    "description_zh": "以Lumix CCD相机的成像风格为灵感，提炼优化了其色彩特征并赋予画面独特的千禧年复古质感。在模仿CCD影调色调的同时不降低画质。通过压缩高光和阴影，呈现出对比度中等偏低的影调，同时模拟CCD带着些许高光溢出的早期数码特有的明快感。在光线充足的情况下表现最佳，在光线不足或开启闪光灯的情况下也能保证肤色白皙透红。对日常记录、人像写真、复古街拍及 Y2K 风格等多种场景都有很好的适用度。",
+    "description_en": "Inspired by Lumix CCD camera imaging style, refined color characteristics with unique millennium retro feel. Compresses highlights and shadows for a medium-low contrast tone while simulating the bright feel of early digital cameras with slight highlight bloom. Best performance in good lighting; skin tones remain fair and rosy even in low light or with flash. Suitable for daily snapshots, portrait photography, retro street photography, and Y2K style.",
+    "preview": ""
+  }
+]</script>
+  <script>var REPO_SLUG = "";</script>
+  <script src="script.js"></script>
+</body>
+</html>

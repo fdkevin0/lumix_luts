@@ -1,0 +1,63 @@
+{
+  "canonical_id": "warm-film-tone",
+  "name_zh": "暖调胶片",
+  "author": {
+    "name_zh": "EJAY",
+    "name_en": "EJAY",
+    "slug": "ejay"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "film",
+    "warm",
+    "high-contrast"
+  ],
+  "official_descriptions": [
+    "色调较暖对比强，拥有浓厚胶片味道"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 212,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/e9bedb59243c716561a99c4ab2083438/uploadfiles/oss/2024/06/20240612150924628.zip",
+      "download_path": "oss/2024/06/20240612150924628.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163317253.jpg",
+      "official_title_raw": "by EJAY 暖调胶片",
+      "official_description": "色调较暖对比强，拥有浓厚胶片味道",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/44-33.zip",
+      "archive_sha256": "66fa34d15bb0f7d06d4e1a5eb6f1a082f9b71b3aa6c115f0032a3c03412d24ef"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "outdoor--ejay--warm-film-tone--default.vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ejay/warm-film-tone/outdoor--ejay--warm-film-tone--default.vlt",
+      "original_filename": "warm-film-tone.vlt",
+      "source_path": "luts/outdoor/warm-film-tone/warm-film-tone.vlt",
+      "size": 60736,
+      "sha256": "ee8cc34d3cc67334953094fb5145355ff00bb3afcc04b81f738086bcc9eadf13",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/e9bedb59243c716561a99c4ab2083438/uploadfiles/oss/2024/06/20240612150924628.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/44-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 212,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163317253.jpg",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 212,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/warm-film-tone.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "色调较暖对比强，拥有浓厚胶片味道",
+  "schema_version": "1.0"
+}

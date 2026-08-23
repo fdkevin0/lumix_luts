@@ -1,0 +1,64 @@
+{
+  "canonical_id": "warm-skin-tone",
+  "name_zh": "暖白肤色",
+  "author": {
+    "name_zh": "兔小呆",
+    "name_en": "Tu Xiaodai",
+    "slug": "tu-xiaodai"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "warm-white",
+    "skin-tone",
+    "overcast"
+  ],
+  "official_descriptions": [
+    "针对肤色进行优化，呈现为暖白色，可补充阴天面部失色"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 12635,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/826cf0917a7ecaf173713893be6536de/uploadfiles/oss/2025/01/%E6%9A%96%E7%99%BD%E8%82%A4%E8%89%B2.zip",
+      "download_path": "oss/2025/01/暖白肤色.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/01/8fb1db26f85d6aef12c32a015e191e2.png",
+      "official_title_raw": "by 兔小呆 暖白肤色",
+      "official_description": "针对肤色进行优化，呈现为暖白色，可补充阴天面部失色",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/21-32.zip",
+      "archive_sha256": "e38ddc590c2cdf8393c3a8ee8c560dc964232801a13061ce087a78f50799bfab"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--tu-xiaodai--warm-skin-tone--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/warm-skin-tone/portrait--tu-xiaodai--warm-skin-tone--default.cube",
+      "original_filename": "warm-skin-tone.cube",
+      "source_path": "luts/portrait/warm-skin-tone/warm-skin-tone.cube",
+      "size": 970598,
+      "sha256": "b98ea9680e15ee71208b164083cce18a76e3f3e1020ae7b86d9a6e9ce42a5589",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/826cf0917a7ecaf173713893be6536de/uploadfiles/oss/2025/01/%E6%9A%96%E7%99%BD%E8%82%A4%E8%89%B2.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/21-32.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 12635,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/01/8fb1db26f85d6aef12c32a015e191e2.png",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 12635,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/warm-skin-tone.jpg",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "针对肤色进行优化，呈现为暖白色，可补充阴天面部失色",
+  "schema_version": "1.0"
+}

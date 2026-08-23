@@ -1,0 +1,65 @@
+{
+  "canonical_id": "sunny-mint",
+  "name_zh": "晴天薄荷",
+  "author": {
+    "name_zh": "晴天",
+    "name_en": "Qingtian",
+    "slug": "qingtian"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "portrait",
+    "mint",
+    "green",
+    "japanese-style",
+    "fresh"
+  ],
+  "official_descriptions": [
+    "这款专为人像与绿植设计的“薄荷味”LUT，灵感源自松下经典色彩，通过微偏青绿的低对比色调、受保护的粉润肤色与低饱和青翠绿植，轻松打造通透干净、充满呼吸感的日系清新影像，建议在柔和光线下配合轻微过曝使用，效果更自然。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 42167,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/3ad5345db80eb2e06cce0adedf619191/uploadfiles/oss/2025/11/(%E6%99%B4%E5%A4%A9%E8%96%84%E8%8D%B7%EF%BC%89Sunny%20Mint-port.zip",
+      "download_path": "oss/2025/11/(晴天薄荷）Sunny Mint-port.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/晴天薄荷1.png",
+      "official_title_raw": "by晴天📸 晴天薄荷",
+      "official_description": "这款专为人像与绿植设计的“薄荷味”LUT，灵感源自松下经典色彩，通过微偏青绿的低对比色调、受保护的粉润肤色与低饱和青翠绿植，轻松打造通透干净、充满呼吸感的日系清新影像，建议在柔和光线下配合轻微过曝使用，效果更自然。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/47-33.zip",
+      "archive_sha256": "1e9cbdf7592fd0e31841be0a849c444763cc754692cc7b6be5df47a77072cf02"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--qingtian--sunny-mint--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/qingtian/sunny-mint/outdoor--qingtian--sunny-mint--default.cube",
+      "original_filename": "sunny-mint.cube",
+      "source_path": "luts/outdoor/sunny-mint/sunny-mint.cube",
+      "size": 970368,
+      "sha256": "f1e4f55a8536c08866ecea082d71792c612ae7e5cd2b6b1f9d9a72ffd264180f",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/3ad5345db80eb2e06cce0adedf619191/uploadfiles/oss/2025/11/(%E6%99%B4%E5%A4%A9%E8%96%84%E8%8D%B7%EF%BC%89Sunny%20Mint-port.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/47-33.zip"
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 42167,
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/晴天薄荷1.png",
+      "status": "not-retrieved-in-snapshot"
+    },
+    {
+      "source_item_id": 42167,
+      "variant": "default",
+      "canonical_path": "data/canonical/previews/sunny-mint.png",
+      "status": "local-existing-preview"
+    }
+  ],
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "这款专为人像与绿植设计的“薄荷味”LUT，灵感源自松下经典色彩，通过微偏青绿的低对比色调、受保护的粉润肤色与低饱和青翠绿植，轻松打造通透干净、充满呼吸感的日系清新影像，建议在柔和光线下配合轻微过曝使用，效果更自然。",
+  "schema_version": "1.0"
+}
