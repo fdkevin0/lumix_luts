@@ -1,0 +1,30 @@
+---
+import Layout from '../components/Layout.astro';
+import LutCard from '../components/LutCard.astro';
+import FilterBar from '../components/FilterBar.astro';
+import { getAllLuts, getCategories, getAuthors, getAllTags, getGenerators, getLut3dSizes, getFormats, getMeta } from '../lib/data';
+
+const luts = getAllLuts();
+const meta = getMeta();
+const categories = getCategories();
+const authors = getAuthors();
+const tags = getAllTags();
+const generators = getGenerators();
+const lut3dSizes = getLut3dSizes();
+const formats = getFormats();
+---
+
+<Layout title="LUMIX LUT Library — 松下实时LUT库">
+  <FilterBar
+    categories={categories}
+    authors={authors}
+    tags={tags}
+    formats={formats}
+    lut3dSizes={lut3dSizes}
+    generators={generators}
+    totalLuts={meta.total_luts}
+  />
+  <div class="lut-grid">
+    {luts.map((lut) => <LutCard lut={lut} />)}
+  </div>
+</Layout>

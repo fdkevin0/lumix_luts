@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Astro
+.astro/
+.wrangler/
+node_modules/
+dist/
+public/

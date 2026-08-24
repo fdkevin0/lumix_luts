@@ -1,0 +1,29 @@
+{
+  "name": "lumix-luts",
+  "type": "module",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "prebuild": "node scripts/copy-assets.mjs",
+    "audit:canonical": "python3 scripts/build_canonical.py --snapshot 2026-08-24",
+    "validate:canonical": "python3 scripts/validate_canonical.py",
+    "check:generated": "npm run audit:canonical && git diff --exit-code -- data/canonical data/camera data/review data/snapshots",
+    "check:assets": "node scripts/check-build-assets.mjs",
+    "typecheck": "astro check --minimumFailingSeverity warning",
+    "check": "npm run check:generated && npm run validate:canonical && npm run typecheck && npm run build && npm run check:assets"
+  },
+  "dependencies": {
+    "astro": "^7.2.6"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "wrangler": "^4.125.0"
+  }
+}
