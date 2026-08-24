@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
+  site: 'https://lumix.fdkevin.cloud',
   output: 'static',
   vite: {
     server: {

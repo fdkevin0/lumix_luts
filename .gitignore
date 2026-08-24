@@ -5,6 +5,7 @@ site/_data/
 
 # Astro
 .astro/
+.wrangler/
 node_modules/
 dist/
 public/luts/

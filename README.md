@@ -80,6 +80,37 @@ DOMAIN_MAX 1.0 1.0 1.0
 
 各 LUT 文件的版权归其原作者所有。
 
+## Cloudflare Workers 部署
+
+网站以 Astro 静态站点部署到 Cloudflare Workers Static Assets，生产域名为
+`https://lumix.fdkevin.cloud`。Wrangler 配置位于 `wrangler.jsonc`，构建产物目录为
+`dist/`；Custom Domain 会在部署时由 Cloudflare 自动管理 DNS 和证书。
+
+手动部署：
+
+```bash
+npm run build
+npx wrangler deploy
+```
+
+本地预览 Workers Static Assets 构建结果：
+
+```bash
+npm run cf:dev
+```
+
+自动部署使用 Cloudflare Dashboard 的 Git 绑定。当前 Worker 已创建，因此进入
+**Workers & Pages → lumix-luts → Settings → Builds → Connect**，选择本仓库并使用
+以下构建设置：
+
+- Production branch：`main`
+- Build command：`npm run build`
+- Deploy command：`npx wrangler deploy`
+- Root directory：仓库根目录（留空）
+
+GitHub Actions 仅执行数据校验和 Astro 构建，不负责部署，也不需要 Cloudflare
+secrets。
+
 ## Canonical 数据与审计流程
 
 当前网站使用 `data/canonical/luts.json`，而不是直接使用旧版的 `luts/luts.json`。
