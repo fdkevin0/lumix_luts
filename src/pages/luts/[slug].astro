@@ -1,7 +1,7 @@
 ---
 import Layout from '../../components/Layout.astro';
 import { getLutBySlug, getAllSlugs } from '../../lib/data';
-import type { LutFile } from '../../types/lut';
+import LutDownload from '../../components/LutDownload.astro';
 
 export function getStaticPaths() {
   const slugs = getAllSlugs();
@@ -21,9 +21,6 @@ function formatSize(bytes: number): string {
   return bytes + ' B';
 }
 
-function downloadPath(file: LutFile): string {
-  return file.public_path;
-}
 ---
 
 <Layout title={`${lut.display_name ?? lut.name_zh} — LUMIX LUT`}>
@@ -67,6 +64,16 @@ function downloadPath(file: LutFile): string {
           <>
             <dt>照片风格</dt>
             <dd>{lut.photo_style}</dd>
+          </>
+        )}
+        {lut.base_photo_style && (
+          <>
+            <dt>基准照片风格</dt>
+            <dd>
+              {lut.base_photo_style.profile_name_zh}（{lut.base_photo_style.profile_tag}） · 图像标注：{lut.base_photo_style.raw_label}
+              {lut.base_photo_style.camera_effective_profile_tag && lut.base_photo_style.camera_effective_profile_tag !== lut.base_photo_style.profile_tag &&
+                ` · 文件缺少该字段，机身默认：${lut.base_photo_style.camera_effective_profile_tag}`}
+            </dd>
           </>
         )}
         {
@@ -114,9 +121,7 @@ function downloadPath(file: LutFile): string {
                 {file.sha256 ? ` · ${file.sha256.slice(0, 16)}...` : ''}
               </div>
             </div>
-            <a href={'/' + downloadPath(file)} class="btn btn-primary" download>
-              下载 .{file.type}
-            </a>
+            <LutDownload lut={lut} file={file} />
           </div>
         ))}
       </div>

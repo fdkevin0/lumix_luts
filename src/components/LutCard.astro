@@ -1,5 +1,6 @@
 ---
 import type { LutEntry } from '../types/lut';
+import LutDownload from './LutDownload.astro';
 
 export interface Props {
   lut: LutEntry;
@@ -9,7 +10,6 @@ const { lut } = Astro.props;
 const displayName = lut.display_name ?? lut.name_zh;
 const displayDescription = lut.display_description ?? lut.description;
 const desc = displayDescription.length > 80 ? displayDescription.slice(0, 80) + '...' : displayDescription;
-const downloadPath = (file: (typeof lut.files)[number]) => file.public_path;
 ---
 
 <div
@@ -38,6 +38,7 @@ const downloadPath = (file: (typeof lut.files)[number]) => file.public_path;
       <span>{lut.category_zh}</span>
       <span>.{lut.format}</span>
       {lut.lut_3d_size && <span>{lut.lut_3d_size}&sup3;</span>}
+      {lut.base_photo_style && <span>基于 {lut.base_photo_style.profile_name_zh}</span>}
     </div>
     <div class="lut-card-tags">
       {lut.tags.slice(0, 5).map((tag) => <span class="lut-card-tag">{tag}</span>)}
@@ -45,11 +46,7 @@ const downloadPath = (file: (typeof lut.files)[number]) => file.public_path;
     <div class="lut-card-desc">{desc}</div>
     <div class="lut-card-actions">
       <a href={`/luts/${lut.id}/`} class="btn btn-outline">详情</a>
-      {lut.files.slice(0, 1).map((file) => (
-        <a href={'/' + downloadPath(file)} class="btn btn-primary" download>
-          下载 .{file.type}
-        </a>
-      ))}
+      {lut.files.slice(0, 1).map((file) => <LutDownload lut={lut} file={file} compact />)}
     </div>
   </div>
 </div>

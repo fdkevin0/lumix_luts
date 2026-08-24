@@ -1,6 +1,5 @@
 import type { LutDatabase, LutEntry, CategoryMeta, AuthorMeta } from '../types/lut';
 // The canonical database is generated from an immutable official snapshot.
-// The canonical database is generated from an immutable official snapshot.
 import lutData from '../../data/canonical/luts.json';
 
 const db = lutData as unknown as LutDatabase;

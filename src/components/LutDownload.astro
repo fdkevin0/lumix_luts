@@ -1,0 +1,96 @@
+---
+import type { LutEntry, LutFile } from '../types/lut';
+import { buildDownloadTitle, LUMIX_ADVANCED_PARAMS, LUMIX_PHOTO_STYLES } from '../lib/cube-metadata';
+
+export interface Props {
+  lut: LutEntry;
+  file: LutFile;
+  compact?: boolean;
+}
+
+const { lut, file, compact = false } = Astro.props;
+const isCube = file.type.toLowerCase() === 'cube';
+const displayName = lut.display_name ?? lut.name_zh;
+const downloadTitle = buildDownloadTitle(displayName, file.variant);
+const defaultProfile = lut.base_photo_style?.profile_tag ?? lut.photo_style ?? 'VLOG';
+const downloadPath = file.public_path;
+const exceedsCameraGrid = typeof file.lut_3d_size === 'number' && file.lut_3d_size > 33;
+---
+
+{isCube ? (
+  <div class:list={['lut-download', { 'lut-download-compact': compact }]}>
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-lut-download
+      data-url={`/${downloadPath}`}
+      data-filename={file.name}
+      data-title={downloadTitle}
+      data-profile={defaultProfile}
+    >
+      下载 .cube
+    </button>
+    {!compact && (
+      <div class="lut-download-details">
+        {exceedsCameraGrid && <p class="lut-download-warning">兼容性提示：此文件为 {file.lut_3d_size} 点 LUT；当前实测可用，但 Panasonic 官方文档只保证 2–33 点兼容。本工具暂不派生或降采样，原始点数保持不变。</p>}
+        <details class="lut-download-options">
+          <summary>高级选项</summary>
+          <form data-lut-download-form data-url={`/${downloadPath}`} data-filename={file.name} data-title={downloadTitle} data-profile={defaultProfile}>
+          <label>
+            <span>TITLE</span>
+            <input name="title" value={downloadTitle} maxlength="128" />
+          </label>
+          <label>
+            <span>基准照片风格</span>
+            <select name="profile">
+              {LUMIX_PHOTO_STYLES.map(([tag, name]) => <option value={tag} selected={tag === defaultProfile}>{name}（{tag}）</option>)}
+            </select>
+          </label>
+          <fieldset>
+            <legend>官方画质调整（留空则保留原文件设置）</legend>
+            <div class="lut-advanced-grid">
+              <label>
+                <span>{LUMIX_ADVANCED_PARAMS[0][1]}（GRAINEFFECT）</span>
+                <select data-lumix-param="GRAINEFFECT" name="GRAINEFFECT">
+                  <option value="">不写入</option>
+                  <option value="OFF">关闭</option>
+                  <option value="LOW">低</option>
+                  <option value="STD">标准</option>
+                  <option value="HIGH">高</option>
+                </select>
+              </label>
+              <label>
+                <span>{LUMIX_ADVANCED_PARAMS[1][1]}（COLORNOISE）</span>
+                <select data-lumix-param="COLORNOISE" name="COLORNOISE">
+                  <option value="">不写入</option>
+                  <option value="OFF">关闭</option>
+                  <option value="ON">开启</option>
+                </select>
+              </label>
+              {LUMIX_ADVANCED_PARAMS.slice(2).map(([key, name]) => (
+                <label>
+                  <span>{name}（{key}）</span>
+                  <input data-lumix-param={key} name={key} type="text" inputmode="decimal" placeholder="如 -1.5 或 L40" />
+                </label>
+              ))}
+            </div>
+            <p class="lut-download-note">锐度与降噪：非 V-Log 为 −5…+5，V-Log 为 0…+10，步长 0.5；也可填写 LUMIX Lab 的 L0…L100。</p>
+          </fieldset>
+          <details class="lut-download-experimental">
+            <summary>实验性自定义注释</summary>
+            <label>
+              <span>每行一个 #KEY VALUE</span>
+              <textarea name="customComments" rows="3" placeholder="#LUMIXCONTRAST 0"></textarea>
+            </label>
+            <p class="lut-download-warning">这些注释没有经过 Panasonic 官方格式验证，不保证相机识别，也不会覆盖上方官方字段。</p>
+          </details>
+          <button type="submit" class="btn btn-primary" data-lut-download-submit>按以上设置下载</button>
+          <p class="lut-download-note">仅重写 .cube 头部元数据，LUT 数据行保持不变。Photo Style 和四项画质标签均有 Panasonic 官方手册依据；实际可用项目仍取决于相机、照片风格及固件。</p>
+          </form>
+        </details>
+      </div>
+    )}
+  </div>
+) : (
+  <a href={`/${downloadPath}`} class="btn btn-primary" download>下载 .{file.type}</a>
+)}

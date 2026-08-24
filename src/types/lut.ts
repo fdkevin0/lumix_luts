@@ -15,6 +15,16 @@ export interface LutFile {
   variant?: string;
   original_filename?: string;
   public_path: string;
+  lumix_photo_style?: string | null;
+}
+
+export interface BasePhotoStyle {
+  raw_label: string;
+  profile_tag: string;
+  profile_name_zh: string;
+  source?: 'cube' | 'preview-image';
+  cube_profile_tag?: string | null;
+  camera_effective_profile_tag?: string;
 }
 
 export interface LutInternal {
@@ -52,7 +62,12 @@ export interface LutEntry {
     path: string;
     source_url?: string;
     status?: string;
+    raw_label?: string;
+    profile_tag?: string;
+    profile_name_zh?: string;
+    profile_source?: 'cube' | 'preview-image';
   }>;
+  base_photo_style?: BasePhotoStyle;
   official_name?: string;
   display_name?: string;
   official_descriptions?: string[];

@@ -12,10 +12,11 @@
     "prebuild": "node scripts/copy-assets.mjs",
     "audit:canonical": "python3 scripts/build_canonical.py --snapshot 2026-08-24",
     "validate:canonical": "python3 scripts/validate_canonical.py",
+    "test:cube-metadata": "node --experimental-strip-types scripts/test_cube_metadata.mjs",
     "check:generated": "npm run audit:canonical && git diff --exit-code -- data/canonical data/camera data/review data/snapshots",
     "check:assets": "node scripts/check-build-assets.mjs",
     "typecheck": "astro check --minimumFailingSeverity warning",
-    "check": "npm run check:generated && npm run validate:canonical && npm run typecheck && npm run build && npm run check:assets"
+    "check": "npm run check:generated && npm run validate:canonical && npm run test:cube-metadata && npm run typecheck && npm run build && npm run check:assets"
   },
   "dependencies": {
     "astro": "^7.2.6"

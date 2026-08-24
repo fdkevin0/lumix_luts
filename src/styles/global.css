@@ -116,6 +116,88 @@ main {
   border-color: var(--accent);
 }
 
+.lut-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.lut-download-options {
+  width: 100%;
+  margin-top: 4px;
+  color: var(--text2);
+  font-size: 0.82rem;
+}
+.lut-download-details {
+  width: 100%;
+}
+.lut-download-warning {
+  margin-top: 6px;
+  color: #f2b84b;
+  font-size: 0.75rem;
+}
+.lut-download-options summary {
+  cursor: pointer;
+  color: var(--accent);
+  user-select: none;
+}
+.lut-download-options form {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 12px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.lut-download-options label,
+.lut-download-options fieldset {
+  display: grid;
+  gap: 4px;
+}
+.lut-download-options fieldset {
+  border: 1px solid var(--border);
+  padding: 8px;
+  min-width: 0;
+}
+.lut-download-options legend {
+  padding: 0 4px;
+  color: var(--text);
+}
+.lut-download-options input,
+.lut-download-options select,
+.lut-download-options textarea {
+  width: 100%;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 6px 8px;
+  font: inherit;
+}
+.lut-download-options textarea {
+  resize: vertical;
+  min-height: 5rem;
+}
+.lut-download-experimental {
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+}
+.lut-advanced-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(105px, 1fr));
+  gap: 8px;
+}
+.lut-download-note {
+  color: var(--text2);
+  font-size: 0.75rem;
+}
+.lut-download [aria-busy="true"] {
+  opacity: 0.65;
+  cursor: wait;
+}
+
 /* ============ Grid ============ */
 .lut-grid {
   display: grid;
