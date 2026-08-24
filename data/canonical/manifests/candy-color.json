@@ -42,22 +42,39 @@
       "size": 991413,
       "sha256": "183c1de7353b4bb7debf3cec23980bc853f717c74c5c575d69ad6c69c491142a",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ac536fdc02600d2b4556420d86f19ceb/uploadfiles/oss/2024/11/%E7%B3%96%E6%9E%9C%E8%89%B2.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/45-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/45-33.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 7622,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/11/92befc277b62be21e1c4e6dccfbc122.png",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于标准",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 7622,
       "variant": "default",
       "canonical_path": "data/canonical/previews/candy-color.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于标准",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于标准",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "糖果色；低饱和度高明度；青蓝色天空+橙黄色建筑撞色。",

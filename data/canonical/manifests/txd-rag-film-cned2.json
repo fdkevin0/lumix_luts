@@ -42,22 +42,39 @@
       "size": 970635,
       "sha256": "bde7ff31048f32b92c39a8470c5797738ca11d24e54af753335b9e9393599db6",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ff76a52776461d4d27971162a15ef21a/uploadfiles/oss/2025/08/VOL17%20TXD%20RaG%20Film%20CNED2.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/22-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/22-32.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 31957,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/08/微信图片_20250812101652.png",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于新经典模式",
+      "profile_tag": "LCLASN",
+      "profile_name_zh": "L.新经典",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 31957,
       "variant": "default",
       "canonical_path": "data/canonical/previews/txd-rag-film-cned2.png",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于新经典模式",
+      "profile_tag": "LCLASN",
+      "profile_name_zh": "L.新经典",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于新经典模式",
+    "profile_tag": "LCLASN",
+    "profile_name_zh": "L.新经典",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "对肤色进行了一定优化，适合夏日日常扫街 花草 和人像的拍摄。",

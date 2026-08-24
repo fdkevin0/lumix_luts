@@ -41,22 +41,39 @@
       "size": 885013,
       "sha256": "da43c86543d27ecc7fff2f9b36297fb381859caa97e2512391894ff0b7666d76",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/b9ba24aa25a4ea1a51bea01b263ba42a/uploadfiles/oss/2024/06/20240612142018352.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/31-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/31-33.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 199,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163625338.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于标准色调",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 199,
       "variant": "default",
       "canonical_path": "data/canonical/previews/rich-tone.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于标准色调",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于标准色调",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "具有低饱和度特性，类似留银冲洗的复古胶片味道",

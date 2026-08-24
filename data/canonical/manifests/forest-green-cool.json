@@ -42,7 +42,8 @@
       "size": 948195,
       "sha256": "e5e0a3d2ee5a8a8e69eb5e3cc38d3942c9dea3ab4c37c6cabf366ab952c31e6f",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ce39b83b80139a408f9bc784d52279f4/uploadfiles/oss/2024/06/20240612140731638.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/12-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/12-32.zip",
+      "lumix_photo_style": null
     },
     {
       "variant": "default",
@@ -54,22 +55,39 @@
       "size": 69928,
       "sha256": "2713df561289ed81bb49463f139f11003c675db432a23893ba00f4af90c42f26",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ce39b83b80139a408f9bc784d52279f4/uploadfiles/oss/2024/06/20240612140731638.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/12-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/12-32.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 187,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162154411.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 187,
       "variant": "default",
       "canonical_path": "data/canonical/previews/forest-green-cool.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "明显的黄绿倾向，肤色有单独优化，适合顺光拍摄场景",

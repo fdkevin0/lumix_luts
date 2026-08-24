@@ -41,22 +41,39 @@
       "size": 971837,
       "sha256": "692a138dae52ef669eb18fc5a6655f008640c7a61f1a91e4d5c2c355e11d2563",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/5776b5c20760cc47a25ff4e9d46d8d4c/uploadfiles/oss/2024/06/20240612135807112.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/06-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/06-32.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 181,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/07/微信图片_20260710143703.png",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 181,
       "variant": "default",
       "canonical_path": "data/canonical/previews/healing-light.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "如同一缕柔和的阳光，为影像带来温暖而宁静的色调",

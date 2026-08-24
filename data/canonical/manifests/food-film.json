@@ -41,22 +41,39 @@
       "size": 961770,
       "sha256": "de025d0d33ae326bd5b002b222060806d364b6e7450090e969086b5a3fc7563e",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/2725074c753a1e6c663a49b50c06128f/uploadfiles/oss/2024/06/20240612151638709.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/51-34.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/51-34.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 215,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164050191.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 215,
       "variant": "default",
       "canonical_path": "data/canonical/previews/food-film.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "画面色调清新自然，食物本身色彩赋予了风格化的胶片感",

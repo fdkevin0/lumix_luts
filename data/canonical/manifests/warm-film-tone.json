@@ -40,22 +40,39 @@
       "size": 60736,
       "sha256": "ee8cc34d3cc67334953094fb5145355ff00bb3afcc04b81f738086bcc9eadf13",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/e9bedb59243c716561a99c4ab2083438/uploadfiles/oss/2024/06/20240612150924628.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/44-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/44-33.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 212,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163317253.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于标准",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 212,
       "variant": "default",
       "canonical_path": "data/canonical/previews/warm-film-tone.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于标准",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于标准",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "色调较暖对比强，拥有浓厚胶片味道",

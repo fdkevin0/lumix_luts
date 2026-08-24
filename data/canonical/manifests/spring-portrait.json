@@ -41,7 +41,8 @@
       "size": 723080,
       "sha256": "09f4b8f2be43c05c3e2daf754abef14a9adc345e675873385e305f2916270d7c",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/5e5574b3e4a40060a66c4f769465cf82/uploadfiles/oss/2024/06/20240612140437648.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/11-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/11-32.zip",
+      "lumix_photo_style": null
     },
     {
       "variant": "default",
@@ -53,22 +54,39 @@
       "size": 63599,
       "sha256": "124c20ea66c8498d3dddd0b199ab2badb1c4bc016ba8d6346d2c76770258ac34",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/5e5574b3e4a40060a66c4f769465cf82/uploadfiles/oss/2024/06/20240612140437648.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/11-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/11-32.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 186,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162130684.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 186,
       "variant": "default",
       "canonical_path": "data/canonical/previews/spring-portrait.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "影调柔和反差低，人物肤色友好，适合阴天拍摄呈现清冷",

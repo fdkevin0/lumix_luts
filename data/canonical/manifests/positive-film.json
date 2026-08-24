@@ -41,22 +41,39 @@
       "size": 688212,
       "sha256": "c9960b9e954e9d43933ff5b41efd66e2fc85399fcf9cdc2a2061deebd2e7dbb0",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/e72eecae7b68940b607fe054f0069e7d/uploadfiles/oss/2024/06/20240612150616405.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/42-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/42-33.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 210,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163340475.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 210,
       "variant": "default",
       "canonical_path": "data/canonical/previews/positive-film.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "鲜明的红蓝黄色彩直出，基于胶卷正片色彩设计而成",

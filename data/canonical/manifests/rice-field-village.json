@@ -42,22 +42,39 @@
       "size": 961637,
       "sha256": "6f17356c2aece8fffde90307d050a903383939cd4a67b748fd264a1a0c6ac520",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/b2c0e8da572106765d6f711f88870bb6/uploadfiles/oss/2024/06/20240612142340678.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/37-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/37-33.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 205,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163459660.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 205,
       "variant": "default",
       "canonical_path": "data/canonical/previews/rice-field-village.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "绿黄色部分过度协调，人物肤色也保留了胶片色的风格",

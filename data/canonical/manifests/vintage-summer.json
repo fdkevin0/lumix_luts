@@ -42,22 +42,39 @@
       "size": 962059,
       "sha256": "1e1f7323a9a226090020db79e0cd5c12e7fcfd0479384ab900d1b8538a37f7dc",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/efb827469e61d2175f83e6b258d779cb/uploadfiles/oss/2025/11/%E5%A4%8D%E5%8F%A4%E5%A4%8F%E6%97%A5VintageSummer-std.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/23-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/23-32.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 42163,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/复古夏日.png",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于Std",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 42163,
       "variant": "default",
       "canonical_path": "data/canonical/previews/vintage-summer.png",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于Std",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于Std",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "绿色系胶片的影调色调为基础风格，突出对蓝、绿色彩的刻画，同时对红色、橙色也有非常生动的呈现。在此基础上强调柔和自然的人像肤色表现。亮部暖调细腻，暗部偏蓝带洋红。",

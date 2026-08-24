@@ -42,22 +42,39 @@
       "size": 958546,
       "sha256": "e981a8f8a5fcd4f133e40aa6f79c1ca98fc6a21dfd1a50d555b2cb2b3d974856",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/1b2117f6d6e8f357ce679b44b0a4a4b5/uploadfiles/oss/2024/06/20240612142229823.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/35-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/35-33.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 203,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163533274.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 203,
       "variant": "default",
       "canonical_path": "data/canonical/previews/fresh-cuisine.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "画面整体色调清新自然，赋予了风格化的胶片感",

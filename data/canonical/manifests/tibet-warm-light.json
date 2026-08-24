@@ -41,22 +41,39 @@
       "size": 688215,
       "sha256": "e2eddd1741c86ed44891a8d2b439e0e7425b87c112eaac8e6aa2359c15ecdcc3",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/0395bf61280aeae3a3d41b63036c23a6/uploadfiles/oss/2024/06/20240612141139437.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/16-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/16-32.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 191,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162253876.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 191,
       "variant": "default",
       "canonical_path": "data/canonical/previews/tibet-warm-light.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于标准色彩",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "整体偏暖，低对比，给人温暖柔和的视觉感受",

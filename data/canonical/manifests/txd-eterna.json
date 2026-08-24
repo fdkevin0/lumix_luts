@@ -42,22 +42,39 @@
       "size": 970598,
       "sha256": "c90c59fad1979c05c0473f3b90436acdc5ae809efc70134e0b4eae562fe6c105",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/a4e13ca8b550d122e1ea173162bc93fa/uploadfiles/oss/2025/11/TXD%20Eternal%20.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/25-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/25-32.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 42169,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/TXD Eternal.png",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于Std",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 42169,
       "variant": "default",
       "canonical_path": "data/canonical/previews/txd-eterna.png",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于Std",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于Std",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "基于STD 调色，从徕卡Eternal滤镜中获得调色的一些想法，改变了影调，但保留了蓝紫的味道，最终甚至有了一些Classic Negative的味道，同时优化了肤色。Lut的整体色调还是偏重，比较吃光线，人像拍摄时一定要有光源，如果没有直射光源时，机内曝光补偿+1/3~2/3，机内阴影+1~+2来使用，扫街机内推荐打开颗粒LOW",

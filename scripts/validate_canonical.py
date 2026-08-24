@@ -12,6 +12,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CANONICAL = ROOT / "data" / "canonical"
+ALLOWED_PHOTO_STYLES = {
+    "STD", "VIVD", "NAT", "FLAT", "LAND", "PORT", "LCLASN", "MONO",
+    "LMONO", "LMONOD", "LMONOS", "LEICAMONO", "CNEA2", "CNED2", "CNEV2",
+    "709L", "VLOG", "STDHLG", "MONOHLG", "2100HLG", "2100HLGF",
+}
 
 
 def file_hash(path: Path) -> str:
@@ -43,6 +48,16 @@ def cube_info(path: Path) -> tuple[int | None, int]:
     return size, points
 
 
+def lumix_photo_style(path: Path) -> str | None:
+    if path.suffix.lower() != ".cube":
+        return None
+    for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        stripped = line.strip()
+        if stripped.upper().startswith("#LUMIXPHOTOSTYLE "):
+            return stripped.split(None, 1)[1].split()[0].upper()
+    return None
+
+
 def main() -> int:
     manifest_path = CANONICAL / "manifest.json"
     database_path = CANONICAL / "luts.json"
@@ -52,8 +67,15 @@ def main() -> int:
 
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     database = json.loads(database_path.read_text(encoding="utf-8"))
+    profiles_path = CANONICAL / "preview-profiles.json"
     errors: list[str] = []
     warnings: list[str] = []
+
+    if not profiles_path.exists():
+        errors.append("missing preview profile annotation manifest")
+        profiles = {}
+    else:
+        profiles = json.loads(profiles_path.read_text(encoding="utf-8")).get("entries", {})
 
     if manifest["official_card_count"] != 57:
         errors.append(f"official card count={manifest['official_card_count']} expected 57")
@@ -100,6 +122,23 @@ def main() -> int:
         if lut_id in seen_ids:
             errors.append(f"duplicate canonical id: {lut_id}")
         seen_ids.add(lut_id)
+        profile = item.get("base_photo_style")
+        expected_profile = profiles.get(lut_id)
+        if not isinstance(profile, dict):
+            errors.append(f"missing base photo style object: {lut_id}")
+        elif not expected_profile:
+            errors.append(f"missing preview profile annotation: {lut_id}")
+        elif any(profile.get(key) != expected_profile.get(key) for key in ("raw_label", "profile_tag", "profile_name_zh")):
+            errors.append(f"database/profile annotation mismatch: {lut_id}")
+        elif profile.get("profile_tag") not in ALLOWED_PHOTO_STYLES:
+            errors.append(f"invalid preview profile tag: {lut_id}={profile.get('profile_tag')}")
+        elif profile.get("camera_effective_profile_tag") not in ALLOWED_PHOTO_STYLES:
+            errors.append(
+                f"invalid effective camera profile tag: {lut_id}={profile.get('camera_effective_profile_tag')}"
+            )
+        preview_paths = {p.get("path") for p in item.get("preview_images", [])}
+        if item.get("preview_image") and item["preview_image"] not in preview_paths:
+            errors.append(f"primary preview missing from preview_images: {lut_id}")
         for file in item["files"]:
             file_count += 1
             path = ROOT / "data" / file["public_path"]
@@ -117,6 +156,12 @@ def main() -> int:
                 errors.append(f"size mismatch: {path}")
             seen_hashes.setdefault(actual_hash, []).append(str(path))
             if path.suffix.lower() == ".cube":
+                actual_profile = lumix_photo_style(path)
+                recorded_profile = file.get("lumix_photo_style")
+                if actual_profile != recorded_profile:
+                    errors.append(f"LUMIXPHOTOSTYLE metadata mismatch: {path}")
+                if actual_profile and actual_profile not in ALLOWED_PHOTO_STYLES:
+                    errors.append(f"invalid LUMIXPHOTOSTYLE tag: {path}={actual_profile}")
                 try:
                     size, points = cube_info(path)
                     if size is None:

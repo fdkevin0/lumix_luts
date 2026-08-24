@@ -41,7 +41,8 @@
       "size": 7446695,
       "sha256": "dfef6b9493b45ca482b92d1f558e053b62f03b038222a30ef5cc8da0de291307",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/0d52a55fac52c21bef1ebe6eff91f094/uploadfiles/oss/2024/06/20240612140126786.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/08-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/08-32.zip",
+      "lumix_photo_style": null
     },
     {
       "variant": "warm",
@@ -53,22 +54,39 @@
       "size": 6573056,
       "sha256": "787ef22782e2b4f85b117bab960f18ab3cee77c7ea096360dd307e708eadacd1",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/0d52a55fac52c21bef1ebe6eff91f094/uploadfiles/oss/2024/06/20240612140126786.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/08-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/08-32.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 183,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162027993.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于标准",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 183,
       "variant": "default",
       "canonical_path": "data/canonical/previews/warm-cool-tone.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于标准",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于标准",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "对室内光源作出了冷暖不同色调，人物看着更加自然",

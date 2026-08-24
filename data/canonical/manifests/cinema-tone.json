@@ -41,22 +41,39 @@
       "size": 69382,
       "sha256": "6f6cfd660b86acc545f2696256770c2766cda79d72cfbbd789dc3bf4f9373bc1",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/52268c629eb6b50769605601f7789b27/uploadfiles/oss/2024/06/20240612150818260.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/43-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/43-33.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 211,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163327540.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于新经典模式",
+      "profile_tag": "LCLASN",
+      "profile_name_zh": "L.新经典",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 211,
       "variant": "default",
       "canonical_path": "data/canonical/previews/cinema-tone.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于新经典模式",
+      "profile_tag": "LCLASN",
+      "profile_name_zh": "L.新经典",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于新经典模式",
+    "profile_tag": "LCLASN",
+    "profile_name_zh": "L.新经典",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "色调柔和低饱和，蓝色会往青色偏移",

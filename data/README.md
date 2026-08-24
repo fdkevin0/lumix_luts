@@ -10,6 +10,7 @@
 - 官方名称、作者原文、描述、下载地址、预览地址和原始文件名保存在 manifest 中。
 - 同内容不同官方条目保留来源记录，通过 SHA-256 标记重复，不静默删除。
 - 未知 Photo Style 保持未知，不默认写成 V-Log。
+- 每张预览图左上角的“基于…”标注记录在 `canonical/preview-profiles.json`；`.cube` 中存在 `#LUMIXPHOTOSTYLE` 时优先读取，并与图片标注交叉校验。缺少该字段的 `.cube`/`.vlt` 会另外记录机身默认回退值 `VLOG`，不覆盖图片的原始基准标注。
 - 任何无法唯一判断的字段都会阻止 canonical 更新并进入 `review/pending.json`。
 
 ## 2026-08-24 快照
@@ -27,4 +28,5 @@
 - `snapshots/<date>/manifest.json`：页面和压缩包的 SHA-256。
 - `canonical/manifests/`：逐 LUT provenance 和变体映射。
 - `canonical/luts.json`：静态网站使用的数据。
+- `canonical/preview-profiles.json`：预览图原文标注、标准 Photo Style 标签和中文名称。
 - `camera/aliases.json`：S9、S5M2、S5M2X、G9M2、GH7 的独立短别名。

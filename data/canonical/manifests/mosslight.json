@@ -42,22 +42,39 @@
       "size": 970449,
       "sha256": "ca5930be2599e24f5a34f5c45c5e5a21739305edf5a91fc8a6af50d1fe0c3fb1",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/fcc444c4d0a9239d5dbb2cb8ed1b741a/uploadfiles/oss/2025/11/%EF%BC%88%E8%96%84%E6%9A%AE%E8%8B%94%E7%97%95%EF%BC%89Mosslight-std.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/24-32.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/24-32.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 42165,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/薄暮苔痕.png",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 42165,
       "variant": "default",
       "canonical_path": "data/canonical/previews/mosslight.png",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "以人像胶片的影调色调为基础风格，增加少量温暖的色彩偏向。在光线充足的情况下表现最佳，对比度适中，呈现明快清亮的质感；在光线不足的情况下保证肤色优先，对比度有所增加，暗部会呈现少量黄绿色偏向。",

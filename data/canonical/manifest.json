@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "snapshot_id": "2026-08-24",
-  "retrieved_at": "2026-08-23T20:18:06.762835+00:00",
+  "retrieved_at": "2026-08-24T11:56:02.277906+00:00",
   "source_pages": [
     "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
     "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
@@ -11,6 +11,7 @@
   "official_card_count": 57,
   "canonical_lut_count": 57,
   "canonical_file_count": 63,
+  "preview_profile_annotation_manifest": "data/canonical/preview-profiles.json",
   "merged_duplicate_card_count": 0,
   "duplicate_content_groups": {
     "7fa538059c8e35558372a32e6c584e8f7175295b8d70c00224c7d86b89b14b23": [

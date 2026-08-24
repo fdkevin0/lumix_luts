@@ -41,22 +41,39 @@
       "size": 114704,
       "sha256": "81038e7b6b4cb9596adda2470e625b14a624f4a4b4436ef312e33c74c7a486af",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/2d8681213038410b69b3dc9376cd20bd/uploadfiles/oss/2024/06/20240612151842612.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/53-34.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/53-34.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 217,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164029543.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 217,
       "variant": "default",
       "canonical_path": "data/canonical/previews/vintage-vibes.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "明显的暖色调，复古氛围感怀旧LUT",

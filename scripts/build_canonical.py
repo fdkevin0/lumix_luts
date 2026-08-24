@@ -37,6 +37,63 @@ CATEGORY_OFFSETS = {
 }
 
 
+PREVIEW_PROFILE_PATH = ROOT / "data" / "canonical" / "preview-profiles.json"
+PHOTO_STYLE_NAMES = {
+    "STD": "标准",
+    "VIVD": "生动",
+    "NAT": "自然",
+    "FLAT": "平直",
+    "LAND": "风景",
+    "PORT": "人物",
+    "LCLASN": "L.新经典",
+    "MONO": "单色",
+    "LMONO": "L.单色",
+    "LMONOD": "L.单色 D",
+    "LMONOS": "L.单色 S",
+    "LEICAMONO": "LEICA 单色",
+    "CNEA2": "电影感 A2",
+    "CNED2": "电影感 D2",
+    "CNEV2": "电影感 V2",
+    "709L": "Like709",
+    "VLOG": "V-Log",
+    "STDHLG": "标准 (HLG)",
+    "MONOHLG": "单色 (HLG)",
+    "2100HLG": "2100Like (HLG)",
+    "2100HLGF": "2100Like (HLG) Full Range",
+}
+
+# Human-confirmed duplicate payloads remain separate official cards. The note
+# is presentation metadata only; official descriptions and provenance remain
+# unchanged in each manifest.
+DUPLICATE_CONTENT_NOTES = {
+    "blue-ripple": "注：此 LUT 文件内容与「轻日系-蓝」相同；两个名称均为官方独立卡片，均予以保留。",
+    "light-jp-blue": "注：此 LUT 文件内容与「蓝漾」相同；两个名称均为官方独立卡片，均予以保留。",
+}
+
+
+def parse_lumix_photo_style(path: Path) -> str | None:
+    """Read Panasonic's camera-facing base photo-style tag from a .cube."""
+    if path.suffix.lower() != ".cube":
+        return None
+    text = path.read_text(encoding="utf-8", errors="replace")
+    match = re.search(r"^#LUMIXPHOTOSTYLE\s+([^\s#]+)", text, flags=re.IGNORECASE | re.MULTILINE)
+    return match.group(1).upper() if match else None
+
+
+def load_preview_profiles() -> dict[str, dict]:
+    if not PREVIEW_PROFILE_PATH.exists():
+        raise RuntimeError(f"缺少预览图色彩基准标注清单：{PREVIEW_PROFILE_PATH}")
+    payload = json.loads(PREVIEW_PROFILE_PATH.read_text(encoding="utf-8"))
+    profiles = payload.get("entries")
+    if not isinstance(profiles, dict):
+        raise RuntimeError("预览图色彩基准标注清单格式错误：entries 必须是对象")
+    required = {"raw_label", "profile_tag", "profile_name_zh"}
+    for lut_id, profile in profiles.items():
+        if not required.issubset(profile):
+            raise RuntimeError(f"预览图色彩基准标注不完整：{lut_id}")
+    return profiles
+
+
 def sha256(path: Path, data: bytes | None = None) -> str:
     digest = hashlib.sha256()
     if data is None:
@@ -170,6 +227,7 @@ def make_file_record(
         "sha256": sha256(canonical_path),
         "source_archive_url": source_archive_url,
         "source_archive_snapshot": source_archive_snapshot,
+        "lumix_photo_style": parse_lumix_photo_style(canonical_path),
     }
 
 
@@ -181,6 +239,7 @@ def build(snapshot_id: str) -> dict:
 
     database = json.loads((ROOT / "luts" / "luts.json").read_text(encoding="utf-8"))
     entries = database["luts"]
+    preview_profiles = load_preview_profiles()
     cards: list[dict] = []
     for category, lcid in CATEGORY_PAGES.items():
         cards.extend(parse_page(pages / f"lcid-{lcid}.html", category, lcid))
@@ -388,9 +447,47 @@ def build(snapshot_id: str) -> dict:
         canonical_files += 1
 
     for bucket in grouped.values():
+        if bucket["canonical_id"] not in preview_profiles:
+            raise RuntimeError(f"缺少预览图色彩基准标注：{bucket['canonical_id']}")
+        image_profile = preview_profiles[bucket["canonical_id"]]
+        cube_tags = {
+            file["lumix_photo_style"]
+            for file in bucket["files"]
+            if file.get("lumix_photo_style")
+        }
+        if len(cube_tags) > 1:
+            raise RuntimeError(
+                f"同一 LUT 的 .cube 文件包含多个 LUMIXPHOTOSTYLE，已停止：{bucket['canonical_id']} {sorted(cube_tags)}"
+            )
+        cube_tag = next(iter(cube_tags), None)
+        if cube_tag and cube_tag != image_profile["profile_tag"]:
+            raise RuntimeError(
+                f"LUMIXPHOTOSTYLE 与预览图标注冲突，已停止：{bucket['canonical_id']} "
+                f"cube={cube_tag} image={image_profile['profile_tag']}"
+            )
+        bucket["base_photo_style"] = {
+            **image_profile,
+            "profile_name_zh": PHOTO_STYLE_NAMES.get(
+                cube_tag, image_profile["profile_name_zh"]
+            ),
+            "source": "cube" if cube_tag else "preview-image",
+            "cube_profile_tag": cube_tag,
+            "camera_effective_profile_tag": cube_tag or "VLOG",
+        }
+        for preview in bucket["previews"]:
+            preview.update(
+                {
+                    "raw_label": bucket["base_photo_style"]["raw_label"],
+                    "profile_tag": bucket["base_photo_style"]["profile_tag"],
+                    "profile_name_zh": bucket["base_photo_style"]["profile_name_zh"],
+                    "profile_source": bucket["base_photo_style"]["source"],
+                }
+            )
         bucket["source_items_count"] = len(bucket["source_items"])
         bucket["merged_duplicate_source_items"] = max(0, len(bucket["source_items"]) - 1)
         bucket["display_description"] = bucket["official_descriptions"][0]
+        if bucket["canonical_id"] in DUPLICATE_CONTENT_NOTES:
+            bucket["display_description"] += " " + DUPLICATE_CONTENT_NOTES[bucket["canonical_id"]]
         bucket["schema_version"] = "1.0"
         manifest_path = manifest_root / f"{bucket['canonical_id']}.json"
         manifest_path.write_text(
@@ -412,6 +509,7 @@ def build(snapshot_id: str) -> dict:
         item["display_description"] = bucket["display_description"]
         item["source_items"] = bucket["source_items"]
         item["canonical_id"] = bucket["canonical_id"]
+        item["base_photo_style"] = bucket["base_photo_style"]
         # Creator-machine absolute paths may be embedded by LUT exporters. They
         # remain recoverable from raw archives but are never published.
         internal = item.get("internal", {})
@@ -447,6 +545,7 @@ def build(snapshot_id: str) -> dict:
                 "generator": old.get("generator"),
                 "copyright": old.get("copyright"),
                 "title": old.get("title"),
+                "lumix_photo_style": file_record.get("lumix_photo_style"),
             }
             item["files"].append(file_entry)
         preview_records = [p for p in bucket["previews"] if p.get("canonical_path")]
@@ -457,6 +556,10 @@ def build(snapshot_id: str) -> dict:
                 "path": p["canonical_path"].replace("data/", "", 1),
                 "source_url": p.get("source_url"),
                 "status": p.get("status"),
+                "raw_label": bucket["base_photo_style"]["raw_label"],
+                "profile_tag": bucket["base_photo_style"]["profile_tag"],
+                "profile_name_zh": bucket["base_photo_style"]["profile_name_zh"],
+                "profile_source": bucket["base_photo_style"]["source"],
             }
             for p in preview_records
         ]
@@ -612,6 +715,7 @@ def build(snapshot_id: str) -> dict:
         "official_card_count": len(cards),
         "canonical_lut_count": len(grouped),
         "canonical_file_count": canonical_files,
+        "preview_profile_annotation_manifest": PREVIEW_PROFILE_PATH.relative_to(ROOT).as_posix(),
         "merged_duplicate_card_count": sum(
             max(0, len(item["source_items"]) - 1) for item in grouped.values()
         ),

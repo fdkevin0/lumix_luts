@@ -42,22 +42,39 @@
       "size": 970368,
       "sha256": "f1e4f55a8536c08866ecea082d71792c612ae7e5cd2b6b1f9d9a72ffd264180f",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/3ad5345db80eb2e06cce0adedf619191/uploadfiles/oss/2025/11/(%E6%99%B4%E5%A4%A9%E8%96%84%E8%8D%B7%EF%BC%89Sunny%20Mint-port.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/47-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/47-33.zip",
+      "lumix_photo_style": "PORT"
     }
   ],
   "previews": [
     {
       "source_item_id": 42167,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/晴天薄荷1.png",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于part",
+      "profile_tag": "PORT",
+      "profile_name_zh": "人物",
+      "profile_source": "cube"
     },
     {
       "source_item_id": 42167,
       "variant": "default",
       "canonical_path": "data/canonical/previews/sunny-mint.png",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于part",
+      "profile_tag": "PORT",
+      "profile_name_zh": "人物",
+      "profile_source": "cube"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于part",
+    "profile_tag": "PORT",
+    "profile_name_zh": "人物",
+    "source": "cube",
+    "cube_profile_tag": "PORT",
+    "camera_effective_profile_tag": "PORT"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "这款专为人像与绿植设计的“薄荷味”LUT，灵感源自松下经典色彩，通过微偏青绿的低对比色调、受保护的粉润肤色与低饱和青翠绿植，轻松打造通透干净、充满呼吸感的日系清新影像，建议在柔和光线下配合轻微过曝使用，效果更自然。",

@@ -41,22 +41,39 @@
       "size": 688212,
       "sha256": "97e2866b958fdc8aa962845f681c9ad6abfba70856ff8f7cea3f02dc413533cd",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/6c98afd26729c25f94df04dc66c6ced9/uploadfiles/oss/2024/06/20240612151948495.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/54-34.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/54-34.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 218,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164020786.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 218,
       "variant": "default",
       "canonical_path": "data/canonical/previews/vintage-old-film.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于标准色彩",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "基于旧胶片设计的色彩配比。整体偏暖。浓郁的怀旧感",

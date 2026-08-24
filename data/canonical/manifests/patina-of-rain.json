@@ -42,22 +42,39 @@
       "size": 970367,
       "sha256": "ee024096be82612fcfd44804cf55f1662e10f12285083834e0cff02542aae15f",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/89ba605ebf5f5c1ea4fbf1b2559bffc4/uploadfiles/oss/2025/11/Patina%20of%20Rain-std.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/48-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/48-33.zip",
+      "lumix_photo_style": "STD"
     }
   ],
   "previews": [
     {
       "source_item_id": 42170,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/微信图片_20251120164310.png",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "cube"
     },
     {
       "source_item_id": 42170,
       "variant": "default",
       "canonical_path": "data/canonical/previews/patina-of-rain.png",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "cube"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于标准色彩",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "cube",
+    "cube_profile_tag": "STD",
+    "camera_effective_profile_tag": "STD"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "这是一款专为阴雨与多云天气设计的景观LUT，通过重塑绿色光谱，将其转化为柔和、深沉且充满生命力的色调，如同雨后被浸润的青苔，温润而安宁。",

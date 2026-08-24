@@ -41,22 +41,39 @@
       "size": 970605,
       "sha256": "c58cf395467c59b88668ef07cae3fd6a59adf03f0f611428d8497b237997e735",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/87b03cf1e87c02affdcb8199ed0debe8/uploadfiles/oss/2024/07/20240709171227519.rar",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/19-32.rar"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/19-32.rar",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 673,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709171219747.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 673,
       "variant": "default",
       "canonical_path": "data/canonical/previews/txd-grainy-film.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "对比较强，有着不错的胶片质感。",

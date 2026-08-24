@@ -21,4 +21,6 @@ jobs:
       - run: pip install pyyaml
       - run: python scripts/validate.py
       - run: npm ci
+      - run: npm run validate:canonical
+      - run: npm run test:cube-metadata
       - run: npm run build

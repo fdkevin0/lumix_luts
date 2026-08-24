@@ -42,22 +42,39 @@
       "size": 688212,
       "sha256": "46facdd466adb416ccef1458d2445d06e47facc9e87e44f26b9ca4b5fd0b2a7f",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/5c3e68d5846d9c75aa5a4f31828ef818/uploadfiles/oss/2024/06/20240612151332053.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/49-34.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/49-34.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 213,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164112701.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 213,
       "variant": "default",
       "canonical_path": "data/canonical/previews/bw-old-film.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于标准色彩",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "低对比的暗部和亮部，高宽容度的宛如传统黑白电影",

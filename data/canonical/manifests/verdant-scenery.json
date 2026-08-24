@@ -41,22 +41,39 @@
       "size": 965607,
       "sha256": "9646aa8ad7b1b4c09c388e865180d518c59d4665145577642d5a6f0a72bf0827",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/8c3ee3431073bd603f7331fd710ac02b/uploadfiles/oss/2024/06/20240612150533645.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/41-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/41-33.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 209,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163358371.jpg",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 209,
       "variant": "default",
       "canonical_path": "data/canonical/previews/verdant-scenery.jpg",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
   "display_description": "整体⾊系偏胶⽚氛围感，可以让画⾯⻛格化变得强烈",

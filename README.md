@@ -138,3 +138,11 @@ npm run build
 ```
 
 审计流程不会自动删除或覆盖旧快照。遇到无法唯一匹配、变体无法判断、哈希异常或压缩包缺失时会停止；异常内容进入人工确认流程后才能进入 canonical 数据。
+
+## 下载时 LUMIX 元数据
+
+网站下载 `.cube` 时会在浏览器内生成一个新文件：把 `TITLE` 改为官方 LUT 名称，并在其下一行写入规范化的 `#LUMIXPHOTOSTYLE`。原始 canonical 文件和 LUT RGB 数据不会被修改。
+
+详情页的高级选项允许用户覆盖 TITLE、基准照片风格，以及按需覆盖 Panasonic 官方记录的 `GRAINEFFECT`、`COLORNOISE`、`SHARPNESS` 和 `NOISEREDUCTION`；留空会保留原文件已有的官方画质参数。另有显式标注“不保证相机识别”的实验性 `#KEY VALUE` 注释入口；当前没有官方资料支持把 `LUMIXCONTRAST`、`LUMIXHIGHLIGHT`、`LUMIXSHADOW`、`LUMIXSATURATION` 或 `LUMIXSHARPNESS` 当作标准标签。
+
+`.vlt` 维持原文件下载；7 个 65 点 `.cube` 会显示黄色兼容性提示（当前实测可用，但 Panasonic 官方文档只保证 2–33 点），暂不派生或降采样。SDK 与官方元数据依据见 [`docs/research/cube-sdk-and-lumix-metadata.md`](docs/research/cube-sdk-and-lumix-metadata.md)。

@@ -42,24 +42,41 @@
       "size": 970607,
       "sha256": "7fa538059c8e35558372a32e6c584e8f7175295b8d70c00224c7d86b89b14b23",
       "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/d8f22951b4da5c9784a6ea2a6f30da8e/uploadfiles/oss/2025/11/TXD%20ColorHarmony%20LUT%20-std.zip",
-      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/46-33.zip"
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/46-33.zip",
+      "lumix_photo_style": null
     }
   ],
   "previews": [
     {
       "source_item_id": 42166,
       "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/蓝漾.png",
-      "status": "not-retrieved-in-snapshot"
+      "status": "not-retrieved-in-snapshot",
+      "raw_label": "基于Std",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     },
     {
       "source_item_id": 42166,
       "variant": "default",
       "canonical_path": "data/canonical/previews/blue-ripple.png",
-      "status": "local-existing-preview"
+      "status": "local-existing-preview",
+      "raw_label": "基于Std",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
     }
   ],
+  "base_photo_style": {
+    "raw_label": "基于Std",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
   "source_items_count": 1,
   "merged_duplicate_source_items": 0,
-  "display_description": "一款轻日系微冷调的调色lut，着重进行了肤色的优化，没有很重的风格化影调，泛用性强，在阴天环境下也适用，对于lut使用者的门槛较低，适合初学者使用。",
+  "display_description": "一款轻日系微冷调的调色lut，着重进行了肤色的优化，没有很重的风格化影调，泛用性强，在阴天环境下也适用，对于lut使用者的门槛较低，适合初学者使用。 注：此 LUT 文件内容与「轻日系-蓝」相同；两个名称均为官方独立卡片，均予以保留。",
   "schema_version": "1.0"
 }
