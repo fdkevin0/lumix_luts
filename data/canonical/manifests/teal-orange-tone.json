@@ -1,0 +1,88 @@
+{
+  "canonical_id": "teal-orange-tone",
+  "name_zh": "青橙色调",
+  "author": {
+    "name_zh": "薛璐瑶",
+    "name_en": "Xue Luyao",
+    "slug": "xue-luyao"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "night",
+    "teal-orange",
+    "urban",
+    "lighting"
+  ],
+  "official_descriptions": [
+    "多半用于夜景的拍摄，不同灯光下有适度的冷暖和色偏"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 184,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/ef4544e53efc5800aa24daf896b2db26/uploadfiles/oss/2024/06/20240612140242266.zip",
+      "download_path": "oss/2024/06/20240612140242266.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162044211.jpg",
+      "official_title_raw": "by 薛璐瑶 青橙色调",
+      "official_description": "多半用于夜景的拍摄，不同灯光下有适度的冷暖和色偏",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/09-32.zip",
+      "archive_sha256": "15e1095c098fb2e46e7c52de4cf7f427aa4695331a4fa3a7f6d9d38e16a2a19f"
+    }
+  ],
+  "files": [
+    {
+      "variant": "cold",
+      "format": "cube",
+      "normalized_filename": "portrait--xue-luyao--teal-orange-tone--cold.cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/teal-orange-tone/portrait--xue-luyao--teal-orange-tone--cold.cube",
+      "original_filename": "teal-orange-tone_cold.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/09-32.zip::cold.cube",
+      "size": 5464225,
+      "sha256": "681244c3b1e4a6ba40b91b76e352384a2f809ca768451150dd1ce29ddd2df17b",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ef4544e53efc5800aa24daf896b2db26/uploadfiles/oss/2024/06/20240612140242266.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/09-32.zip",
+      "lumix_photo_style": null
+    },
+    {
+      "variant": "warm",
+      "format": "cube",
+      "normalized_filename": "portrait--xue-luyao--teal-orange-tone--warm.cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/teal-orange-tone/portrait--xue-luyao--teal-orange-tone--warm.cube",
+      "original_filename": "teal-orange-tone_warm.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/09-32.zip::warm.cube",
+      "size": 5361857,
+      "sha256": "eff6364ac9a24879316caeafa0dd34cd978f52331501c90dcc006d67de650579",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ef4544e53efc5800aa24daf896b2db26/uploadfiles/oss/2024/06/20240612140242266.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/09-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 184,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162044211.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/teal-orange-tone.jpg",
+      "canonical_path": "data/canonical/previews/teal-orange-tone.jpg",
+      "sha256": "05c23ad21b5c93eab92519ad0803dd3758a399da9b9836d0de805e791eda22ae",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "多半用于夜景的拍摄，不同灯光下有适度的冷暖和色偏",
+  "schema_version": "1.0"
+}

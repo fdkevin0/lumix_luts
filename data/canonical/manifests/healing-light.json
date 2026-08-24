@@ -1,0 +1,75 @@
+{
+  "canonical_id": "healing-light",
+  "name_zh": "治愈光影",
+  "author": {
+    "name_zh": "张恒",
+    "name_en": "Zhang Heng",
+    "slug": "zhang-heng"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "warm-tone",
+    "soft",
+    "healing"
+  ],
+  "official_descriptions": [
+    "如同一缕柔和的阳光，为影像带来温暖而宁静的色调"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 181,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/5776b5c20760cc47a25ff4e9d46d8d4c/uploadfiles/oss/2024/06/20240612135807112.zip",
+      "download_path": "oss/2024/06/20240612135807112.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/07/微信图片_20260710143703.png",
+      "official_title_raw": "by 张恒 治愈光影",
+      "official_description": "如同一缕柔和的阳光，为影像带来温暖而宁静的色调",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/06-32.zip",
+      "archive_sha256": "0a96111e095793f56bf283df799210772b0f8c5b55d7e5f7e29919da3c73026f"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--zhang-heng--healing-light--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/zhang-heng/healing-light/portrait--zhang-heng--healing-light--default.cube",
+      "original_filename": "healing-light.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/06-32.zip::µ▓╗µäêσàëσ╜▒.cube",
+      "size": 971837,
+      "sha256": "692a138dae52ef669eb18fc5a6655f008640c7a61f1a91e4d5c2c355e11d2563",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/5776b5c20760cc47a25ff4e9d46d8d4c/uploadfiles/oss/2024/06/20240612135807112.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/06-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 181,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2026/07/微信图片_20260710143703.png",
+      "source_path": "data/snapshots/2026-08-24/source-previews/healing-light.jpg",
+      "canonical_path": "data/canonical/previews/healing-light.jpg",
+      "sha256": "e748d78bba7811ef722c09e67b86490139968f68a425e7548d07fedc02d88696",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "如同一缕柔和的阳光，为影像带来温暖而宁静的色调",
+  "schema_version": "1.0"
+}

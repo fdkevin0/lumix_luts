@@ -1,0 +1,75 @@
+{
+  "canonical_id": "txd-grainy-film",
+  "name_zh": "TXD Grainy Film",
+  "author": {
+    "name_zh": "兔小呆",
+    "name_en": "Tu Xiaodai",
+    "slug": "tu-xiaodai"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "film",
+    "high-contrast",
+    "grain",
+    "portrait"
+  ],
+  "official_descriptions": [
+    "对比较强，有着不错的胶片质感。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 673,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/87b03cf1e87c02affdcb8199ed0debe8/uploadfiles/oss/2024/07/20240709171227519.rar",
+      "download_path": "oss/2024/07/20240709171227519.rar",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709171219747.jpg",
+      "official_title_raw": "by 兔小呆 TXD Grainy Film",
+      "official_description": "对比较强，有着不错的胶片质感。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/19-32.rar",
+      "archive_sha256": "2200a130b9037e7f39b09ff165d5b543e18c205e1bc6e6bf938607f1c08c8ce1"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--tu-xiaodai--txd-grainy-film--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/txd-grainy-film/portrait--tu-xiaodai--txd-grainy-film--default.cube",
+      "original_filename": "txd-grainy-film.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/19-32.rar::TXD Grainy Film.cube",
+      "size": 970605,
+      "sha256": "c58cf395467c59b88668ef07cae3fd6a59adf03f0f611428d8497b237997e735",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/87b03cf1e87c02affdcb8199ed0debe8/uploadfiles/oss/2024/07/20240709171227519.rar",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/19-32.rar",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 673,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709171219747.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/txd-grainy-film.jpg",
+      "canonical_path": "data/canonical/previews/txd-grainy-film.jpg",
+      "sha256": "180a3720c2284bef359ed63fab927baa78dbcb98ac8b2b18e01297f0da943f3d",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "对比较强，有着不错的胶片质感。",
+  "schema_version": "1.0"
+}

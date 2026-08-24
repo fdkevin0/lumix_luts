@@ -1,0 +1,76 @@
+{
+  "canonical_id": "white-negative",
+  "name_zh": "白色负片",
+  "author": {
+    "name_zh": "Plady",
+    "name_en": "Plady",
+    "slug": "plady"
+  },
+  "category": "indoor",
+  "category_zh": "室内",
+  "tags": [
+    "film",
+    "low-saturation",
+    "bleach-bypass",
+    "retro",
+    "white"
+  ],
+  "official_descriptions": [
+    "风格清淡低饱和度的特性，类似留银冲洗的复古胶片感"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 216,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/0f9e94a029dd0f7cb83746ea0cdc879d/uploadfiles/oss/2025/08/%E7%99%BD%E8%89%B2%E8%B4%9F%E7%89%87-Plady-STD.rar",
+      "download_path": "oss/2025/08/白色负片-Plady-STD.rar",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164039372.jpg",
+      "official_title_raw": "by Plady 白色负片",
+      "official_description": "风格清淡低饱和度的特性，类似留银冲洗的复古胶片感",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/52-34.rar",
+      "archive_sha256": "b8804a0fecce7f3ff1de473a6d7cb9c703023d4a1c07777cbac5efcf42eb69f3"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "indoor--plady--white-negative--default.cube",
+      "canonical_path": "data/canonical/luts/indoor/plady/white-negative/indoor--plady--white-negative--default.cube",
+      "original_filename": "white-negative.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/52-34.rar::白色负片01-Plady-STD.cube",
+      "size": 885013,
+      "sha256": "9b6207ae61e2a6d8965d5796270f4b770da42b17aa94e118d16ae73f562ac089",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/0f9e94a029dd0f7cb83746ea0cdc879d/uploadfiles/oss/2025/08/%E7%99%BD%E8%89%B2%E8%B4%9F%E7%89%87-Plady-STD.rar",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/52-34.rar",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 216,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164039372.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/white-negative.jpg",
+      "canonical_path": "data/canonical/previews/white-negative.jpg",
+      "sha256": "596af1e154d3cb9d0c4198ba33284ecd31a9bfe14af569b02fe9a5523ada8507",
+      "status": "snapshot-evidence",
+      "raw_label": "基于标准色调",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于标准色调",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "风格清淡低饱和度的特性，类似留银冲洗的复古胶片感",
+  "schema_version": "1.0"
+}

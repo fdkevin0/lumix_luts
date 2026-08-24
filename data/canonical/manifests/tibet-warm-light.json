@@ -1,0 +1,75 @@
+{
+  "canonical_id": "tibet-warm-light",
+  "name_zh": "藏区暖光",
+  "author": {
+    "name_zh": "海螺壳",
+    "name_en": "Hailuoke",
+    "slug": "hailuoke"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "warm-tone",
+    "low-contrast",
+    "tibet"
+  ],
+  "official_descriptions": [
+    "整体偏暖，低对比，给人温暖柔和的视觉感受"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 191,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/0395bf61280aeae3a3d41b63036c23a6/uploadfiles/oss/2024/06/20240612141139437.zip",
+      "download_path": "oss/2024/06/20240612141139437.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162253876.jpg",
+      "official_title_raw": "by 海螺壳 藏区暖光",
+      "official_description": "整体偏暖，低对比，给人温暖柔和的视觉感受",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/16-32.zip",
+      "archive_sha256": "7618c2ca3e3812c6adaac38d0e29c4445bbc66f516e7a562f7d79853cc41f538"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--hailuoke--tibet-warm-light--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/hailuoke/tibet-warm-light/portrait--hailuoke--tibet-warm-light--default.cube",
+      "original_filename": "tibet-warm-light.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/16-32.zip::ΦùÅσî║µÜûσàë.cube",
+      "size": 688215,
+      "sha256": "e2eddd1741c86ed44891a8d2b439e0e7425b87c112eaac8e6aa2359c15ecdcc3",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/0395bf61280aeae3a3d41b63036c23a6/uploadfiles/oss/2024/06/20240612141139437.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/16-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 191,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162253876.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/tibet-warm-light.jpg",
+      "canonical_path": "data/canonical/previews/tibet-warm-light.jpg",
+      "sha256": "964bfa749b9ccd7ab303ddb285b67ae84e812756aae3531f316d44ab72aeba9e",
+      "status": "snapshot-evidence",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于标准色彩",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "整体偏暖，低对比，给人温暖柔和的视觉感受",
+  "schema_version": "1.0"
+}

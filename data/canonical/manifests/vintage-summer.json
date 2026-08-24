@@ -1,0 +1,76 @@
+{
+  "canonical_id": "vintage-summer",
+  "name_zh": "复古夏日",
+  "author": {
+    "name_zh": "德松Desong",
+    "name_en": "Desong",
+    "slug": "desong"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "film",
+    "summer",
+    "green",
+    "vintage",
+    "portrait"
+  ],
+  "official_descriptions": [
+    "绿色系胶片的影调色调为基础风格，突出对蓝、绿色彩的刻画，同时对红色、橙色也有非常生动的呈现。在此基础上强调柔和自然的人像肤色表现。亮部暖调细腻，暗部偏蓝带洋红。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 42163,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/efb827469e61d2175f83e6b258d779cb/uploadfiles/oss/2025/11/%E5%A4%8D%E5%8F%A4%E5%A4%8F%E6%97%A5VintageSummer-std.zip",
+      "download_path": "oss/2025/11/复古夏日VintageSummer-std.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/复古夏日.png",
+      "official_title_raw": "by德松Desong 复古夏日",
+      "official_description": "绿色系胶片的影调色调为基础风格，突出对蓝、绿色彩的刻画，同时对红色、橙色也有非常生动的呈现。在此基础上强调柔和自然的人像肤色表现。亮部暖调细腻，暗部偏蓝带洋红。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/23-32.zip",
+      "archive_sha256": "1d1586e6f0445d4aedcc719dd9067127b75c89a267de6d721f7c3f542ac02bba"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--desong--vintage-summer--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/desong/vintage-summer/portrait--desong--vintage-summer--default.cube",
+      "original_filename": "vintage-summer.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/23-32.zip::复古夏日VintageSummer-std.cube",
+      "size": 962059,
+      "sha256": "1e1f7323a9a226090020db79e0cd5c12e7fcfd0479384ab900d1b8538a37f7dc",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/efb827469e61d2175f83e6b258d779cb/uploadfiles/oss/2025/11/%E5%A4%8D%E5%8F%A4%E5%A4%8F%E6%97%A5VintageSummer-std.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/23-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 42163,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2025/11/复古夏日.png",
+      "source_path": "data/snapshots/2026-08-24/source-previews/vintage-summer.png",
+      "canonical_path": "data/canonical/previews/vintage-summer.png",
+      "sha256": "360c4188d84b11cc76a519957e84ac2017c5bf441d99d9b7fd4e0b75d49f3364",
+      "status": "snapshot-evidence",
+      "raw_label": "基于Std",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于Std",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "绿色系胶片的影调色调为基础风格，突出对蓝、绿色彩的刻画，同时对红色、橙色也有非常生动的呈现。在此基础上强调柔和自然的人像肤色表现。亮部暖调细腻，暗部偏蓝带洋红。",
+  "schema_version": "1.0"
+}

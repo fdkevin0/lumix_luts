@@ -1,0 +1,516 @@
+{
+  "schema_version": "1.0",
+  "targets": [
+    "S9",
+    "S5M2",
+    "S5M2X",
+    "G9M2",
+    "GH7"
+  ],
+  "aliases": [
+    {
+      "alias": "P92030D.CUBE",
+      "canonical_id": "aesthetic-portrait",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/guo-bin/aesthetic-portrait/portrait--guo-bin--aesthetic-portrait--default.cube",
+      "sha256": "92030e3a9fb2c19e92d75c2cd91b86d9adf3071b60ec05f4856b555e7409c283"
+    },
+    {
+      "alias": "O7FA53D.CUBE",
+      "canonical_id": "blue-ripple",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/tu-xiaodai/blue-ripple/outdoor--tu-xiaodai--blue-ripple--default.cube",
+      "sha256": "7fa538059c8e35558372a32e6c584e8f7175295b8d70c00224c7d86b89b14b23"
+    },
+    {
+      "alias": "I46FACD.CUBE",
+      "canonical_id": "bw-old-film",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/indoor/hailuoke/bw-old-film/indoor--hailuoke--bw-old-film--default.cube",
+      "sha256": "46facdd466adb416ccef1458d2445d06e47facc9e87e44f26b9ca4b5fd0b2a7f"
+    },
+    {
+      "alias": "O851A9D.CUBE",
+      "canonical_id": "camping-vibe",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/camping-vibe/outdoor--guo-bin--camping-vibe--default.cube",
+      "sha256": "851a90fa54e4ab6596986ab82140e304c14ff6e9485cb1e696b5ac5e29f03b3f"
+    },
+    {
+      "alias": "O183C1D.CUBE",
+      "canonical_id": "candy-color",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/xiao-zhai/candy-color/outdoor--xiao-zhai--candy-color--default.cube",
+      "sha256": "183c1de7353b4bb7debf3cec23980bc853f717c74c5c575d69ad6c69c491142a"
+    },
+    {
+      "alias": "O6F6CFD.VLT",
+      "canonical_id": "cinema-tone",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ejay/cinema-tone/outdoor--ejay--cinema-tone--default.vlt",
+      "sha256": "6f6cfd660b86acc545f2696256770c2766cda79d72cfbbd789dc3bf4f9373bc1"
+    },
+    {
+      "alias": "OEA94CD.VLT",
+      "canonical_id": "dark-tone-story",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ba-wenhuan/dark-tone-story/outdoor--ba-wenhuan--dark-tone-story--default.vlt",
+      "sha256": "ea94c9ca24512cac2e4715f7214b05fe3e528e5602ced52105ed495570f737f6"
+    },
+    {
+      "alias": "OAEE1CD.CUBE",
+      "canonical_id": "day-for-night",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/jon-simo/day-for-night/outdoor--jon-simo--day-for-night--default.cube",
+      "sha256": "aee1c516dbef61d404030164b2fdca61e8159aa85539b2213fc66382d09d68be"
+    },
+    {
+      "alias": "OB0B4ED.CUBE",
+      "canonical_id": "dusk-atmosphere",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/dusk-atmosphere/outdoor--guo-bin--dusk-atmosphere--default.cube",
+      "sha256": "b0b4e2a432b35b3142234e3e2e90616a06e4f423df09770125a9f70bbfbc0387"
+    },
+    {
+      "alias": "ICA4B9D.CUBE",
+      "canonical_id": "film-impression",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/indoor/ejay/film-impression/indoor--ejay--film-impression--default.cube",
+      "sha256": "ca4b94ec66d19ff9e99407e89e5d3d6c0469c789036f9fbe6d6c0ab1fead4150"
+    },
+    {
+      "alias": "I81213D.CUBE",
+      "canonical_id": "film-vintage",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/indoor/guo-bin/film-vintage/indoor--guo-bin--film-vintage--default.cube",
+      "sha256": "81213f6d895e96f4196d926273e237016415dca94b73c137b102e14979f99b15"
+    },
+    {
+      "alias": "IDE025D.CUBE",
+      "canonical_id": "food-film",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/indoor/guo-bin/food-film/indoor--guo-bin--food-film--default.cube",
+      "sha256": "de025d0d33ae326bd5b002b222060806d364b6e7450090e969086b5a3fc7563e"
+    },
+    {
+      "alias": "PE5E0AD.CUBE",
+      "canonical_id": "forest-green-cool",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/bozi-booz/forest-green-cool/portrait--bozi-booz--forest-green-cool--default.cube",
+      "sha256": "e5e0a3d2ee5a8a8e69eb5e3cc38d3942c9dea3ab4c37c6cabf366ab952c31e6f"
+    },
+    {
+      "alias": "P2713DD.VLT",
+      "canonical_id": "forest-green-cool",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/portrait/bozi-booz/forest-green-cool/portrait--bozi-booz--forest-green-cool--default.vlt",
+      "sha256": "2713df561289ed81bb49463f139f11003c675db432a23893ba00f4af90c42f26"
+    },
+    {
+      "alias": "OE981AD.CUBE",
+      "canonical_id": "fresh-cuisine",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/fresh-cuisine/outdoor--guo-bin--fresh-cuisine--default.cube",
+      "sha256": "e981a8f8a5fcd4f133e40aa6f79c1ca98fc6a21dfd1a50d555b2cb2b3d974856"
+    },
+    {
+      "alias": "O3C75BD.CUBE",
+      "canonical_id": "golden-rice-field",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/golden-rice-field/outdoor--guo-bin--golden-rice-field--default.cube",
+      "sha256": "3c75b76c8e9d078f81f6129d7759633ff99e3fcc54f3957884ac80f4d9d4e876"
+    },
+    {
+      "alias": "O64F37D.CUBE",
+      "canonical_id": "grey-cinema",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/plady/grey-cinema/outdoor--plady--grey-cinema--default.cube",
+      "sha256": "64f37bac736d8fe2449dcdde68db1e49dcb6783c0931ba0690a4b7c91b2cbdf9"
+    },
+    {
+      "alias": "PBCBB7D.CUBE",
+      "canonical_id": "gritty-cinema",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/jon-simo/gritty-cinema/portrait--jon-simo--gritty-cinema--default.cube",
+      "sha256": "bcbb773a2a286b20fe7b143a2ee0f82fafca5a789320453b3af10197f2870866"
+    },
+    {
+      "alias": "P692A1D.CUBE",
+      "canonical_id": "healing-light",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/zhang-heng/healing-light/portrait--zhang-heng--healing-light--default.cube",
+      "sha256": "692a138dae52ef669eb18fc5a6655f008640c7a61f1a91e4d5c2c355e11d2563"
+    },
+    {
+      "alias": "P0DD92C.CUBE",
+      "canonical_id": "high-low-contrast",
+      "variant": "cold",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/high-low-contrast/portrait--xue-luyao--high-low-contrast--cold.cube",
+      "sha256": "0dd924cc041387b53d3c5da556e2de8899c13c2ade6ff8899c568ae598bec467"
+    },
+    {
+      "alias": "P9BF12W.CUBE",
+      "canonical_id": "high-low-contrast",
+      "variant": "warm",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/high-low-contrast/portrait--xue-luyao--high-low-contrast--warm.cube",
+      "sha256": "9bf126d37881974f475a832d954df1b853dabb910b074d4575a8c6be1617e6a6"
+    },
+    {
+      "alias": "P58571D.VLT",
+      "canonical_id": "japanese-cyan-tone",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/portrait/ejay/japanese-cyan-tone/portrait--ejay--japanese-cyan-tone--default.vlt",
+      "sha256": "58571b244f32b00f725bf15de536f8fe7ddb6de31c6b05b4e1eec11ea221940c"
+    },
+    {
+      "alias": "IF691CD.CUBE",
+      "canonical_id": "light-green",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/indoor/qingtian/light-green/indoor--qingtian--light-green--default.cube",
+      "sha256": "f691c4ada4da3b4d51b8eb6baffe43c03c14e15914b4a9f6538ca1eb1228c803"
+    },
+    {
+      "alias": "P7FA53D.CUBE",
+      "canonical_id": "light-jp-blue",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/light-jp-blue/portrait--tu-xiaodai--light-jp-blue--default.cube",
+      "sha256": "7fa538059c8e35558372a32e6c584e8f7175295b8d70c00224c7d86b89b14b23"
+    },
+    {
+      "alias": "I7F92AD.CUBE",
+      "canonical_id": "magenta-old-film",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/indoor/hailuoke/magenta-old-film/indoor--hailuoke--magenta-old-film--default.cube",
+      "sha256": "7f92a7708b56e6eef944d315fc0e60e4453f0d0efa7fd15605848d82cd8146c9"
+    },
+    {
+      "alias": "A1616EC.CUBE",
+      "canonical_id": "millennium-echo-cold",
+      "variant": "cold",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/anniversary/desong/millennium-echo-cold/anniversary--desong--millennium-echo-cold--default.cube",
+      "sha256": "1616e709340549ff4beef53d72bb5ed7d607e7fffc0fb97cc53d701e76a30ca1"
+    },
+    {
+      "alias": "A6880FW.CUBE",
+      "canonical_id": "millennium-echo-warm",
+      "variant": "warm",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/anniversary/desong/millennium-echo-warm/anniversary--desong--millennium-echo-warm--default.cube",
+      "sha256": "6880f3ec2f7e5b68e6a682ea506240799803e29db44a43cd3763936bf7f29740"
+    },
+    {
+      "alias": "PCA593D.CUBE",
+      "canonical_id": "mosslight",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/desong/mosslight/portrait--desong--mosslight--default.cube",
+      "sha256": "ca5930be2599e24f5a34f5c45c5e5a21739305edf5a91fc8a6af50d1fe0c3fb1"
+    },
+    {
+      "alias": "OEE024D.CUBE",
+      "canonical_id": "patina-of-rain",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/zhou/patina-of-rain/outdoor--zhou--patina-of-rain--default.cube",
+      "sha256": "ee024096be82612fcfd44804cf55f1662e10f12285083834e0cff02542aae15f"
+    },
+    {
+      "alias": "OD657DD.VLT",
+      "canonical_id": "pink-youth",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ba-wenhuan/pink-youth/outdoor--ba-wenhuan--pink-youth--default.vlt",
+      "sha256": "d657ddb537292960e2808e821a239fd0a54d19e3b28492a19d3001a04e83dcb5"
+    },
+    {
+      "alias": "OC9960D.CUBE",
+      "canonical_id": "positive-film",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/hailuoke/positive-film/outdoor--hailuoke--positive-film--default.cube",
+      "sha256": "c9960b9e954e9d43933ff5b41efd66e2fc85399fcf9cdc2a2061deebd2e7dbb0"
+    },
+    {
+      "alias": "O6F173D.CUBE",
+      "canonical_id": "rice-field-village",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/rice-field-village/outdoor--guo-bin--rice-field-village--default.cube",
+      "sha256": "6f17356c2aece8fffde90307d050a903383939cd4a67b748fd264a1a0c6ac520"
+    },
+    {
+      "alias": "ODA43CD.CUBE",
+      "canonical_id": "rich-tone",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/plady/rich-tone/outdoor--plady--rich-tone--default.cube",
+      "sha256": "da43c86543d27ecc7fff2f9b36297fb381859caa97e2512391894ff0b7666d76"
+    },
+    {
+      "alias": "P111CCD.CUBE",
+      "canonical_id": "seaside-portrait",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/guo-bin/seaside-portrait/portrait--guo-bin--seaside-portrait--default.cube",
+      "sha256": "111ccdd3d13f11a8266941117f228cda668d42e884e8c30ec214cef7e37ad61c"
+    },
+    {
+      "alias": "P08DEBD.CUBE",
+      "canonical_id": "seaside-sunset",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/guo-bin/seaside-sunset/portrait--guo-bin--seaside-sunset--default.cube",
+      "sha256": "08deb5dc5962864c22f21add2f25280e0fb4e81ada0ed95f6a22cd4516b484f2"
+    },
+    {
+      "alias": "P50062D.VLT",
+      "canonical_id": "skin-tone-opt",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/portrait/ejay/skin-tone-opt/portrait--ejay--skin-tone-opt--default.vlt",
+      "sha256": "50062307fd2a3f360588bdae3384fa784dafaaae30846be8a9c8ee36e65efa83"
+    },
+    {
+      "alias": "P8AD73D.CUBE",
+      "canonical_id": "snow-portrait",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/guo-bin/snow-portrait/portrait--guo-bin--snow-portrait--default.cube",
+      "sha256": "8ad735b1f6c44432a2c8cfbb4f33dd14dd6a83454197dc71a0e3bc6014dda145"
+    },
+    {
+      "alias": "P09F4BD.CUBE",
+      "canonical_id": "spring-portrait",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/bozi-booz/spring-portrait/portrait--bozi-booz--spring-portrait--default.cube",
+      "sha256": "09f4b8f2be43c05c3e2daf754abef14a9adc345e675873385e305f2916270d7c"
+    },
+    {
+      "alias": "P124C2D.VLT",
+      "canonical_id": "spring-portrait",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/portrait/bozi-booz/spring-portrait/portrait--bozi-booz--spring-portrait--default.vlt",
+      "sha256": "124c20ea66c8498d3dddd0b199ab2badb1c4bc016ba8d6346d2c76770258ac34"
+    },
+    {
+      "alias": "O78216D.CUBE",
+      "canonical_id": "summer",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/ali-halip/summer/outdoor--ali-halip--summer--default.cube",
+      "sha256": "78216ea9cf2dccde8274539ddf6d7231081333b678bcf52b0cb8790ff0a23bcf"
+    },
+    {
+      "alias": "O2654DD.CUBE",
+      "canonical_id": "summer-breeze",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/plady/summer-breeze/outdoor--plady--summer-breeze--default.cube",
+      "sha256": "2654d94cfdf8dd2b038e90ce760450d188ec9f0fb371c2aab57713cf3cf69d47"
+    },
+    {
+      "alias": "OF1E4FD.CUBE",
+      "canonical_id": "sunny-mint",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/qingtian/sunny-mint/outdoor--qingtian--sunny-mint--default.cube",
+      "sha256": "f1e4f55a8536c08866ecea082d71792c612ae7e5cd2b6b1f9d9a72ffd264180f"
+    },
+    {
+      "alias": "P68124C.CUBE",
+      "canonical_id": "teal-orange-tone",
+      "variant": "cold",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/teal-orange-tone/portrait--xue-luyao--teal-orange-tone--cold.cube",
+      "sha256": "681244c3b1e4a6ba40b91b76e352384a2f809ca768451150dd1ce29ddd2df17b"
+    },
+    {
+      "alias": "PEFF63W.CUBE",
+      "canonical_id": "teal-orange-tone",
+      "variant": "warm",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/teal-orange-tone/portrait--xue-luyao--teal-orange-tone--warm.cube",
+      "sha256": "eff6364ac9a24879316caeafa0dd34cd978f52331501c90dcc006d67de650579"
+    },
+    {
+      "alias": "PE2EDDD.CUBE",
+      "canonical_id": "tibet-warm-light",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/hailuoke/tibet-warm-light/portrait--hailuoke--tibet-warm-light--default.cube",
+      "sha256": "e2eddd1741c86ed44891a8d2b439e0e7425b87c112eaac8e6aa2359c15ecdcc3"
+    },
+    {
+      "alias": "A46669D.CUBE",
+      "canonical_id": "txd-agfaphoto-lebox",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/anniversary/tu-xiaodai/txd-agfaphoto-lebox/anniversary--tu-xiaodai--txd-agfaphoto-lebox--default.cube",
+      "sha256": "46669a6c553a43151a15349796f96a1b77f5678a5790513b1c1a519ccfab92cc"
+    },
+    {
+      "alias": "PC90C5D.CUBE",
+      "canonical_id": "txd-eterna",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/txd-eterna/portrait--tu-xiaodai--txd-eterna--default.cube",
+      "sha256": "c90c59fad1979c05c0473f3b90436acdc5ae809efc70134e0b4eae562fe6c105"
+    },
+    {
+      "alias": "PC58CFD.CUBE",
+      "canonical_id": "txd-grainy-film",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/txd-grainy-film/portrait--tu-xiaodai--txd-grainy-film--default.cube",
+      "sha256": "c58cf395467c59b88668ef07cae3fd6a59adf03f0f611428d8497b237997e735"
+    },
+    {
+      "alias": "PBDE7FD.CUBE",
+      "canonical_id": "txd-rag-film-cned2",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/txd-rag-film-cned2/portrait--tu-xiaodai--txd-rag-film-cned2--default.cube",
+      "sha256": "bde7ff31048f32b92c39a8470c5797738ca11d24e54af753335b9e9393599db6"
+    },
+    {
+      "alias": "O37669D.VLT",
+      "canonical_id": "verdant-breath",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ba-wenhuan/verdant-breath/outdoor--ba-wenhuan--verdant-breath--default.vlt",
+      "sha256": "376698204053b3a55666ba83b5260952389f9e511b7abb3a2df275087ad492f7"
+    },
+    {
+      "alias": "O9646AD.CUBE",
+      "canonical_id": "verdant-scenery",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/verdant-scenery/outdoor--guo-bin--verdant-scenery--default.cube",
+      "sha256": "9646aa8ad7b1b4c09c388e865180d518c59d4665145577642d5a6f0a72bf0827"
+    },
+    {
+      "alias": "OF1DE0D.CUBE",
+      "canonical_id": "vintage-blue-tone",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/bozi-booz/vintage-blue-tone/outdoor--bozi-booz--vintage-blue-tone--default.cube",
+      "sha256": "f1de00e661198038e70fa573fd0a2891cf42770e5940df8d17fdd6f97a46f8ec"
+    },
+    {
+      "alias": "OCEAC1D.VLT",
+      "canonical_id": "vintage-blue-tone",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/outdoor/bozi-booz/vintage-blue-tone/outdoor--bozi-booz--vintage-blue-tone--default.vlt",
+      "sha256": "ceac17c0eff4f1b91e0561c17c6e8825ab4d0f3dc5772a7cc0fa6d39d16b2152"
+    },
+    {
+      "alias": "I97E28D.CUBE",
+      "canonical_id": "vintage-old-film",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/indoor/hailuoke/vintage-old-film/indoor--hailuoke--vintage-old-film--default.cube",
+      "sha256": "97e2866b958fdc8aa962845f681c9ad6abfba70856ff8f7cea3f02dc413533cd"
+    },
+    {
+      "alias": "P1E1F7D.CUBE",
+      "canonical_id": "vintage-summer",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/desong/vintage-summer/portrait--desong--vintage-summer--default.cube",
+      "sha256": "1e1f7323a9a226090020db79e0cd5c12e7fcfd0479384ab900d1b8538a37f7dc"
+    },
+    {
+      "alias": "I81038D.CUBE",
+      "canonical_id": "vintage-vibes",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/indoor/jon-simo/vintage-vibes/indoor--jon-simo--vintage-vibes--default.cube",
+      "sha256": "81038e7b6b4cb9596adda2470e625b14a624f4a4b4436ef312e33c74c7a486af"
+    },
+    {
+      "alias": "PDFEF6C.CUBE",
+      "canonical_id": "warm-cool-tone",
+      "variant": "cold",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/warm-cool-tone/portrait--xue-luyao--warm-cool-tone--cold.cube",
+      "sha256": "dfef6b9493b45ca482b92d1f558e053b62f03b038222a30ef5cc8da0de291307"
+    },
+    {
+      "alias": "P787EFW.CUBE",
+      "canonical_id": "warm-cool-tone",
+      "variant": "warm",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/xue-luyao/warm-cool-tone/portrait--xue-luyao--warm-cool-tone--warm.cube",
+      "sha256": "787ef22782e2b4f85b117bab960f18ab3cee77c7ea096360dd307e708eadacd1"
+    },
+    {
+      "alias": "OEE8CCD.VLT",
+      "canonical_id": "warm-film-tone",
+      "variant": "default",
+      "format": "vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ejay/warm-film-tone/outdoor--ejay--warm-film-tone--default.vlt",
+      "sha256": "ee8cc34d3cc67334953094fb5145355ff00bb3afcc04b81f738086bcc9eadf13"
+    },
+    {
+      "alias": "PB98EAD.CUBE",
+      "canonical_id": "warm-skin-tone",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/portrait/tu-xiaodai/warm-skin-tone/portrait--tu-xiaodai--warm-skin-tone--default.cube",
+      "sha256": "b98ea9680e15ee71208b164083cce18a76e3f3e1020ae7b86d9a6e9ce42a5589"
+    },
+    {
+      "alias": "OA78CED.CUBE",
+      "canonical_id": "warm-village",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/warm-village/outdoor--guo-bin--warm-village--default.cube",
+      "sha256": "a78ce2bbc243c5b99f3172a44b5df6416222c26bf653bfe0629226c7d6b341bf"
+    },
+    {
+      "alias": "I9B620D.CUBE",
+      "canonical_id": "white-negative",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/indoor/plady/white-negative/indoor--plady--white-negative--default.cube",
+      "sha256": "9b6207ae61e2a6d8965d5796270f4b770da42b17aa94e118d16ae73f562ac089"
+    },
+    {
+      "alias": "AF8AB0D.CUBE",
+      "canonical_id": "y2000",
+      "variant": "default",
+      "format": "cube",
+      "canonical_path": "data/canonical/luts/anniversary/plady/y2000/anniversary--plady--y2000--default.cube",
+      "sha256": "f8ab0427bd4a40deb455305359cfbed5616b78d25e06232a757db7f689f47385"
+    }
+  ]
+}

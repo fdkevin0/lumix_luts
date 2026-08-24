@@ -1,0 +1,75 @@
+{
+  "canonical_id": "film-impression",
+  "name_zh": "胶片印象",
+  "author": {
+    "name_zh": "EJAY",
+    "name_en": "EJAY",
+    "slug": "ejay"
+  },
+  "category": "indoor",
+  "category_zh": "室内",
+  "tags": [
+    "film",
+    "vintage",
+    "grain",
+    "classic"
+  ],
+  "official_descriptions": [
+    "经典复古，可以机内模拟颗粒效果"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 220,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/e8dfa3f47076a9ce88784e17d4ba8ba9/uploadfiles/oss/2024/06/20240612152046331.zip",
+      "download_path": "oss/2024/06/20240612152046331.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163955552.jpg",
+      "official_title_raw": "by EJAY 胶片印象",
+      "official_description": "经典复古，可以机内模拟颗粒效果",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/56-34.zip",
+      "archive_sha256": "780a5bf583c0cf63edba80abaf409a8cc7b511fc69792c21e2a6525192d7a12b"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "indoor--ejay--film-impression--default.cube",
+      "canonical_path": "data/canonical/luts/indoor/ejay/film-impression/indoor--ejay--film-impression--default.cube",
+      "original_filename": "film-impression.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/56-34.zip::Φâ╢τëçσì░Φ▒í.cube",
+      "size": 970911,
+      "sha256": "ca4b94ec66d19ff9e99407e89e5d3d6c0469c789036f9fbe6d6c0ab1fead4150",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/e8dfa3f47076a9ce88784e17d4ba8ba9/uploadfiles/oss/2024/06/20240612152046331.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/56-34.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 220,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163955552.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/film-impression.jpg",
+      "canonical_path": "data/canonical/previews/film-impression.jpg",
+      "sha256": "db20fde6774cf0893f11052511804abac4882cdbde2d778124659da856479d96",
+      "status": "snapshot-evidence",
+      "raw_label": "基于CLASSIC NEO",
+      "profile_tag": "LCLASN",
+      "profile_name_zh": "L.新经典",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于CLASSIC NEO",
+    "profile_tag": "LCLASN",
+    "profile_name_zh": "L.新经典",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "经典复古，可以机内模拟颗粒效果",
+  "schema_version": "1.0"
+}

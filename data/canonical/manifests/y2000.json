@@ -1,0 +1,76 @@
+{
+  "canonical_id": "y2000",
+  "name_zh": "y2000",
+  "author": {
+    "name_zh": "plady",
+    "name_en": "Plady",
+    "slug": "plady"
+  },
+  "category": "anniversary",
+  "category_zh": "25周年专属",
+  "tags": [
+    "ccd",
+    "cyan-tone",
+    "warm-highlight",
+    "portrait",
+    "sunset"
+  ],
+  "official_descriptions": [
+    "参考早期 CCD 数码相机的成像风格，整体色调偏青，并在高光中加入轻微暖色，使画面在保持清透感的同时带有自然的阳光温度。高光略带溢出，暗部适度压缩，呈现出典型的 CCD 层次与色彩表现。搭配机内彩色颗粒直出效果更佳，特别适合阳光环境与黄昏时段的人像拍摄，可营造出温暖而带青调的复古数码质感。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 55225,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/7be4595b7e6241191f03123b72fc9202/uploadfiles/oss/2026/03/8b73d82091d546be5d344219fcb99829_9c395a388e851311c63379299a2bd5b5_8.zip",
+      "download_path": "oss/2026/03/8b73d82091d546be5d344219fcb99829_9c395a388e851311c63379299a2bd5b5_8.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/组 1.png",
+      "official_title_raw": "by plady-y2000",
+      "official_description": "参考早期 CCD 数码相机的成像风格，整体色调偏青，并在高光中加入轻微暖色，使画面在保持清透感的同时带有自然的阳光温度。高光略带溢出，暗部适度压缩，呈现出典型的 CCD 层次与色彩表现。搭配机内彩色颗粒直出效果更佳，特别适合阳光环境与黄昏时段的人像拍摄，可营造出温暖而带青调的复古数码质感。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/04-113.zip",
+      "archive_sha256": "6e0477b01bda0225a3fdd3df657864ff826ccfc1a1654ed1a5801f4232f83077"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "anniversary--plady--y2000--default.cube",
+      "canonical_path": "data/canonical/luts/anniversary/plady/y2000/anniversary--plady--y2000--default.cube",
+      "original_filename": "y2000.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/04-113.zip::8b73d82091d546be5d344219fcb99829_9c395a388e851311c63379299a2bd5b5_8.cube",
+      "size": 970518,
+      "sha256": "f8ab0427bd4a40deb455305359cfbed5616b78d25e06232a757db7f689f47385",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/7be4595b7e6241191f03123b72fc9202/uploadfiles/oss/2026/03/8b73d82091d546be5d344219fcb99829_9c395a388e851311c63379299a2bd5b5_8.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/04-113.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 55225,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/组 1.png",
+      "source_path": "data/snapshots/2026-08-24/source-previews/y2000.png",
+      "canonical_path": "data/canonical/previews/y2000.png",
+      "sha256": "82feaa9c227d40e1380b7d4729db8c4137aba90e34caa15056a8b80263782223",
+      "status": "snapshot-evidence",
+      "raw_label": "基于标准色调",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于标准色调",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "参考早期 CCD 数码相机的成像风格，整体色调偏青，并在高光中加入轻微暖色，使画面在保持清透感的同时带有自然的阳光温度。高光略带溢出，暗部适度压缩，呈现出典型的 CCD 层次与色彩表现。搭配机内彩色颗粒直出效果更佳，特别适合阳光环境与黄昏时段的人像拍摄，可营造出温暖而带青调的复古数码质感。",
+  "schema_version": "1.0"
+}

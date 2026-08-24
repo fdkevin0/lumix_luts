@@ -1,0 +1,75 @@
+{
+  "canonical_id": "verdant-scenery",
+  "name_zh": "青绿风景",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "landscape",
+    "green",
+    "film",
+    "verdant"
+  ],
+  "official_descriptions": [
+    "整体⾊系偏胶⽚氛围感，可以让画⾯⻛格化变得强烈"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 209,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/8c3ee3431073bd603f7331fd710ac02b/uploadfiles/oss/2024/06/20240612150533645.zip",
+      "download_path": "oss/2024/06/20240612150533645.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163358371.jpg",
+      "official_title_raw": "by 郭宾 青绿风景",
+      "official_description": "整体⾊系偏胶⽚氛围感，可以让画⾯⻛格化变得强烈",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/41-33.zip",
+      "archive_sha256": "1bc529f6e9a61ff9cccd60070e14a5d0d0fe75c2744344ef06f1e884eaa5eac1"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--guo-bin--verdant-scenery--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/verdant-scenery/outdoor--guo-bin--verdant-scenery--default.cube",
+      "original_filename": "verdant-scenery.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/41-33.zip::µÿÑτ╗┐ΘúÄµÖ».cube",
+      "size": 965607,
+      "sha256": "9646aa8ad7b1b4c09c388e865180d518c59d4665145577642d5a6f0a72bf0827",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/8c3ee3431073bd603f7331fd710ac02b/uploadfiles/oss/2024/06/20240612150533645.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/41-33.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 209,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163358371.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/verdant-scenery.jpg",
+      "canonical_path": "data/canonical/previews/verdant-scenery.jpg",
+      "sha256": "7734ceeb91fff4704c5b632e6b4870ac882bd5099b8a4431b19f36d49921ae4d",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "整体⾊系偏胶⽚氛围感，可以让画⾯⻛格化变得强烈",
+  "schema_version": "1.0"
+}

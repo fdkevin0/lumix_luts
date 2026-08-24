@@ -1,0 +1,89 @@
+{
+  "canonical_id": "forest-green-cool",
+  "name_zh": "森绿清冷",
+  "author": {
+    "name_zh": "波子Booz",
+    "name_en": "Bozi Booz",
+    "slug": "bozi-booz"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "green",
+    "yellow-green",
+    "skin-tone",
+    "front-light"
+  ],
+  "official_descriptions": [
+    "明显的黄绿倾向，肤色有单独优化，适合顺光拍摄场景"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 187,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/ce39b83b80139a408f9bc784d52279f4/uploadfiles/oss/2024/06/20240612140731638.zip",
+      "download_path": "oss/2024/06/20240612140731638.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162154411.jpg",
+      "official_title_raw": "by 波子Booz 森绿清冷",
+      "official_description": "明显的黄绿倾向，肤色有单独优化，适合顺光拍摄场景",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/12-32.zip",
+      "archive_sha256": "9fc2792c00928323dc2daccdd508071149e90ca7d952300446fce635804d066a"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--bozi-booz--forest-green-cool--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/bozi-booz/forest-green-cool/portrait--bozi-booz--forest-green-cool--default.cube",
+      "original_filename": "forest-green-cool.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/12-32.zip::SenGreen_Booz.cube",
+      "size": 948195,
+      "sha256": "e5e0a3d2ee5a8a8e69eb5e3cc38d3942c9dea3ab4c37c6cabf366ab952c31e6f",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ce39b83b80139a408f9bc784d52279f4/uploadfiles/oss/2024/06/20240612140731638.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/12-32.zip",
+      "lumix_photo_style": null
+    },
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "portrait--bozi-booz--forest-green-cool--default.vlt",
+      "canonical_path": "data/canonical/luts/portrait/bozi-booz/forest-green-cool/portrait--bozi-booz--forest-green-cool--default.vlt",
+      "original_filename": "forest-green-cool.vlt",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/12-32.zip::SenGreen_Booz.vlt",
+      "size": 69928,
+      "sha256": "2713df561289ed81bb49463f139f11003c675db432a23893ba00f4af90c42f26",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ce39b83b80139a408f9bc784d52279f4/uploadfiles/oss/2024/06/20240612140731638.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/12-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 187,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162154411.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/forest-green-cool.jpg",
+      "canonical_path": "data/canonical/previews/forest-green-cool.jpg",
+      "sha256": "c27ef15aa268b295639f4d1fe4b1fbfe6ee63dee62b4a94e5002661052f740f0",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "明显的黄绿倾向，肤色有单独优化，适合顺光拍摄场景",
+  "schema_version": "1.0"
+}

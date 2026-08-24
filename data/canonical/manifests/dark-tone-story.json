@@ -1,0 +1,75 @@
+{
+  "canonical_id": "dark-tone-story",
+  "name_zh": "暗调故事",
+  "author": {
+    "name_zh": "巴文欢",
+    "name_en": "Ba Wenhuan",
+    "slug": "ba-wenhuan"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "cinematic",
+    "dark-tone",
+    "vlog",
+    "2383"
+  ],
+  "official_descriptions": [
+    "基于2383风格，根据vlog曲线特性加以调整生成"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 195,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/249a53c4342721de9e8ff4ef7dbbbba9/uploadfiles/oss/2024/06/20240612141741367.zip",
+      "download_path": "oss/2024/06/20240612141741367.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163716869.jpg",
+      "official_title_raw": "by 巴文欢 暗调故事",
+      "official_description": "基于2383风格，根据vlog曲线特性加以调整生成",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/27-33.zip",
+      "archive_sha256": "fe49938b5eb671d42f02ea25843a1b54ce17aa984a263a4921efe3a94bf40dc4"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "outdoor--ba-wenhuan--dark-tone-story--default.vlt",
+      "canonical_path": "data/canonical/luts/outdoor/ba-wenhuan/dark-tone-story/outdoor--ba-wenhuan--dark-tone-story--default.vlt",
+      "original_filename": "dark-tone-story.vlt",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/27-33.zip::µÜùΦ░âµòàΣ║ï.vlt",
+      "size": 62565,
+      "sha256": "ea94c9ca24512cac2e4715f7214b05fe3e528e5602ced52105ed495570f737f6",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/249a53c4342721de9e8ff4ef7dbbbba9/uploadfiles/oss/2024/06/20240612141741367.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/27-33.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 195,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163716869.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/dark-tone-story.jpg",
+      "canonical_path": "data/canonical/previews/dark-tone-story.jpg",
+      "sha256": "b7fb4812a98791b1a76edf841246f8a258e3aae6681f33c9d2220479af084015",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "基于2383风格，根据vlog曲线特性加以调整生成",
+  "schema_version": "1.0"
+}

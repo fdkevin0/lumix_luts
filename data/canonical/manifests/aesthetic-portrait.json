@@ -1,0 +1,76 @@
+{
+  "canonical_id": "aesthetic-portrait",
+  "name_zh": "唯美人像",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "aesthetic",
+    "film",
+    "skin-tone",
+    "warm"
+  ],
+  "official_descriptions": [
+    "保证肤色透亮的同时，让黄色和绿色更有胶片氛围"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 190,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/0314ae6e5d9126eaa4949e9dc047b375/uploadfiles/oss/2024/06/20240612141001947.zip",
+      "download_path": "oss/2024/06/20240612141001947.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162242574.jpg",
+      "official_title_raw": "by 郭宾 唯美人像",
+      "official_description": "保证肤色透亮的同时，让黄色和绿色更有胶片氛围",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/15-32.zip",
+      "archive_sha256": "a49ab73100a9e956f482180e7b34c0c7bfa496146505d2f12c1fe4b7a8b79a9a"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--guo-bin--aesthetic-portrait--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/guo-bin/aesthetic-portrait/portrait--guo-bin--aesthetic-portrait--default.cube",
+      "original_filename": "aesthetic-portrait.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/15-32.zip::σö»τ╛ÄΣ║║σâÅ.cube",
+      "size": 969226,
+      "sha256": "92030e3a9fb2c19e92d75c2cd91b86d9adf3071b60ec05f4856b555e7409c283",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/0314ae6e5d9126eaa4949e9dc047b375/uploadfiles/oss/2024/06/20240612141001947.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/15-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 190,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162242574.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/aesthetic-portrait.jpg",
+      "canonical_path": "data/canonical/previews/aesthetic-portrait.jpg",
+      "sha256": "1b89b0cd0928d06151003b97147a54dfa4a5296916ec6cff6f7c9b1c5044ddc3",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "保证肤色透亮的同时，让黄色和绿色更有胶片氛围",
+  "schema_version": "1.0"
+}

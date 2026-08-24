@@ -1,0 +1,75 @@
+{
+  "canonical_id": "seaside-portrait",
+  "name_zh": "海边人像",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "seaside",
+    "cyan-green",
+    "film"
+  ],
+  "official_descriptions": [
+    "让海水以及绿色背景更偏青绿色，画面更加具有胶片感"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 189,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/5994cd28b94357ea5be9e92f87fbc721/uploadfiles/oss/2024/06/20240612140917672.zip",
+      "download_path": "oss/2024/06/20240612140917672.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709161916736.jpg",
+      "official_title_raw": "by 郭宾 海边人像",
+      "official_description": "让海水以及绿色背景更偏青绿色，画面更加具有胶片感",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/14-32.zip",
+      "archive_sha256": "d324721dd241f373d395443209925f59065cff1109d7a79949dbd0c9b8671af2"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--guo-bin--seaside-portrait--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/guo-bin/seaside-portrait/portrait--guo-bin--seaside-portrait--default.cube",
+      "original_filename": "seaside-portrait.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/14-32.zip::µ╡╖Φ╛╣Σ║║σâÅ.cube",
+      "size": 6576840,
+      "sha256": "111ccdd3d13f11a8266941117f228cda668d42e884e8c30ec214cef7e37ad61c",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/5994cd28b94357ea5be9e92f87fbc721/uploadfiles/oss/2024/06/20240612140917672.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/14-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 189,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709161916736.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/seaside-portrait.jpg",
+      "canonical_path": "data/canonical/previews/seaside-portrait.jpg",
+      "sha256": "977c2a5fb413fc496f7596ae04f6d78a5cc384e5285383991e38e9b32cba5b9c",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "让海水以及绿色背景更偏青绿色，画面更加具有胶片感",
+  "schema_version": "1.0"
+}

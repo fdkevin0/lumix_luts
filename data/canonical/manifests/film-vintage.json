@@ -1,0 +1,75 @@
+{
+  "canonical_id": "film-vintage",
+  "name_zh": "胶片复古",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "indoor",
+  "category_zh": "室内",
+  "tags": [
+    "film",
+    "vintage",
+    "warm-yellow",
+    "indoor"
+  ],
+  "official_descriptions": [
+    "整体色彩饱满，整体呈现暖黄复古的色彩感"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 214,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/16c1d6d47b47c47a87beba0f2b6f16ef/uploadfiles/oss/2024/06/20240612151518091.zip",
+      "download_path": "oss/2024/06/20240612151518091.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164101860.jpg",
+      "official_title_raw": "by 郭宾 胶片复古",
+      "official_description": "整体色彩饱满，整体呈现暖黄复古的色彩感",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/50-34.zip",
+      "archive_sha256": "5b5770de7c30756f2294246abfc19cabea15923cd361fb0aa7977a0bbd118383"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "indoor--guo-bin--film-vintage--default.cube",
+      "canonical_path": "data/canonical/luts/indoor/guo-bin/film-vintage/indoor--guo-bin--film-vintage--default.cube",
+      "original_filename": "film-vintage.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/50-34.zip::Φâ╢τëçσñìσÅñ.cube",
+      "size": 775229,
+      "sha256": "81213f6d895e96f4196d926273e237016415dca94b73c137b102e14979f99b15",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/16c1d6d47b47c47a87beba0f2b6f16ef/uploadfiles/oss/2024/06/20240612151518091.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/50-34.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 214,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164101860.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/film-vintage.jpg",
+      "canonical_path": "data/canonical/previews/film-vintage.jpg",
+      "sha256": "0539449e09a17eb9c642a06a5cf0396addccc12a54d21c9e80693bbb831d96b7",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "整体色彩饱满，整体呈现暖黄复古的色彩感",
+  "schema_version": "1.0"
+}

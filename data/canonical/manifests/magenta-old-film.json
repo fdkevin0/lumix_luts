@@ -1,0 +1,75 @@
+{
+  "canonical_id": "magenta-old-film",
+  "name_zh": "洋红旧胶片",
+  "author": {
+    "name_zh": "海螺壳",
+    "name_en": "Hailuoke",
+    "slug": "hailuoke"
+  },
+  "category": "indoor",
+  "category_zh": "室内",
+  "tags": [
+    "film",
+    "magenta",
+    "nostalgic",
+    "storytelling"
+  ],
+  "official_descriptions": [
+    "整体偏洋红，带来故事叙述的怀旧感"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 219,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/34b96c1cf1041536482100582d6e49d5/uploadfiles/oss/2024/06/20240612152016374.zip",
+      "download_path": "oss/2024/06/20240612152016374.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164007940.jpg",
+      "official_title_raw": "by 海螺壳 洋红旧胶片",
+      "official_description": "整体偏洋红，带来故事叙述的怀旧感",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/55-34.zip",
+      "archive_sha256": "656093cb492e8956e3a833be838d0ec173090b7fc43d6c49febcb1f9fde8a9e5"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "indoor--hailuoke--magenta-old-film--default.cube",
+      "canonical_path": "data/canonical/luts/indoor/hailuoke/magenta-old-film/indoor--hailuoke--magenta-old-film--default.cube",
+      "original_filename": "magenta-old-film.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/55-34.zip::µ┤ïτ║óµùºΦâ╢τëç.cube",
+      "size": 688212,
+      "sha256": "7f92a7708b56e6eef944d315fc0e60e4453f0d0efa7fd15605848d82cd8146c9",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/34b96c1cf1041536482100582d6e49d5/uploadfiles/oss/2024/06/20240612152016374.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/55-34.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 219,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164007940.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/magenta-old-film.jpg",
+      "canonical_path": "data/canonical/previews/magenta-old-film.jpg",
+      "sha256": "f787a2389dfc99ffb8a11233c225dede096a81b8bff4ee85f2ec5b3bfcd3b679",
+      "status": "snapshot-evidence",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于标准色彩",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "整体偏洋红，带来故事叙述的怀旧感",
+  "schema_version": "1.0"
+}

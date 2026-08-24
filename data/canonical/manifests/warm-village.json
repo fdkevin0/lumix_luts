@@ -1,0 +1,76 @@
+{
+  "canonical_id": "warm-village",
+  "name_zh": "温暖乡村",
+  "author": {
+    "name_zh": "郭宾",
+    "name_en": "Guo Bin",
+    "slug": "guo-bin"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "warm",
+    "rural",
+    "film",
+    "cyan-green",
+    "vintage"
+  ],
+  "official_descriptions": [
+    "整体色调是复古胶片色，暗部的一些绿色呈现出青绿色"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 206,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/ec1e22dadcbb2713fefaac7fd36e2bd8/uploadfiles/oss/2024/06/20240612142504887.zip",
+      "download_path": "oss/2024/06/20240612142504887.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163447704.jpg",
+      "official_title_raw": "by 郭宾 温暖乡村",
+      "official_description": "整体色调是复古胶片色，暗部的一些绿色呈现出青绿色",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/38-33.zip",
+      "archive_sha256": "2dd800ca5e5c077372cd6bada7b6b8bde67457bc24b55b357a8b406fc2ed9c3d"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--guo-bin--warm-village--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/guo-bin/warm-village/outdoor--guo-bin--warm-village--default.cube",
+      "original_filename": "warm-village.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/38-33.zip::µ╕⌐µÜûΣ╣íµ¥æ.cube",
+      "size": 976435,
+      "sha256": "a78ce2bbc243c5b99f3172a44b5df6416222c26bf653bfe0629226c7d6b341bf",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ec1e22dadcbb2713fefaac7fd36e2bd8/uploadfiles/oss/2024/06/20240612142504887.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/38-33.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 206,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163447704.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/warm-village.jpg",
+      "canonical_path": "data/canonical/previews/warm-village.jpg",
+      "sha256": "7b69644fb4922581332ec7af9a197a686cd0e2a1b4c055a9cab2ba38ffa9b04c",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "整体色调是复古胶片色，暗部的一些绿色呈现出青绿色",
+  "schema_version": "1.0"
+}

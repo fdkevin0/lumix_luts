@@ -1,0 +1,75 @@
+{
+  "canonical_id": "vintage-old-film",
+  "name_zh": "复古旧胶片",
+  "author": {
+    "name_zh": "海螺壳",
+    "name_en": "Hailuoke",
+    "slug": "hailuoke"
+  },
+  "category": "indoor",
+  "category_zh": "室内",
+  "tags": [
+    "film",
+    "vintage",
+    "warm",
+    "nostalgic"
+  ],
+  "official_descriptions": [
+    "基于旧胶片设计的色彩配比。整体偏暖。浓郁的怀旧感"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 218,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/6c98afd26729c25f94df04dc66c6ced9/uploadfiles/oss/2024/06/20240612151948495.zip",
+      "download_path": "oss/2024/06/20240612151948495.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164020786.jpg",
+      "official_title_raw": "by 海螺壳 复古旧胶片",
+      "official_description": "基于旧胶片设计的色彩配比。整体偏暖。浓郁的怀旧感",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/54-34.zip",
+      "archive_sha256": "8560021170c9685ab227d2dc0cd0b6494a1cdbdd48dd6248b068f833520dcd3b"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "indoor--hailuoke--vintage-old-film--default.cube",
+      "canonical_path": "data/canonical/luts/indoor/hailuoke/vintage-old-film/indoor--hailuoke--vintage-old-film--default.cube",
+      "original_filename": "vintage-old-film.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/54-34.zip::σñìσÅñµùºΦâ╢τëç.cube",
+      "size": 688212,
+      "sha256": "97e2866b958fdc8aa962845f681c9ad6abfba70856ff8f7cea3f02dc413533cd",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/6c98afd26729c25f94df04dc66c6ced9/uploadfiles/oss/2024/06/20240612151948495.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/54-34.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 218,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709164020786.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/vintage-old-film.jpg",
+      "canonical_path": "data/canonical/previews/vintage-old-film.jpg",
+      "sha256": "8fcedf6270069c31cb27154c136ea17a4fec3dd412ea3e345b1278ba87c67c19",
+      "status": "snapshot-evidence",
+      "raw_label": "基于标准色彩",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于标准色彩",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "基于旧胶片设计的色彩配比。整体偏暖。浓郁的怀旧感",
+  "schema_version": "1.0"
+}

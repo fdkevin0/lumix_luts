@@ -1,0 +1,75 @@
+{
+  "canonical_id": "positive-film",
+  "name_zh": "正片",
+  "author": {
+    "name_zh": "海螺壳",
+    "name_en": "Hailuoke",
+    "slug": "hailuoke"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "film",
+    "positive-film",
+    "vivid",
+    "red-blue-yellow"
+  ],
+  "official_descriptions": [
+    "鲜明的红蓝黄色彩直出，基于胶卷正片色彩设计而成"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 210,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/e72eecae7b68940b607fe054f0069e7d/uploadfiles/oss/2024/06/20240612150616405.zip",
+      "download_path": "oss/2024/06/20240612150616405.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163340475.jpg",
+      "official_title_raw": "by 海螺壳 正片",
+      "official_description": "鲜明的红蓝黄色彩直出，基于胶卷正片色彩设计而成",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/42-33.zip",
+      "archive_sha256": "450547d3e2dd981ba5a94348583c8dbe7f829b763a3328323f7340b907cb9b8e"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--hailuoke--positive-film--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/hailuoke/positive-film/outdoor--hailuoke--positive-film--default.cube",
+      "original_filename": "positive-film.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/42-33.zip::2024µ¡úτëç.cube",
+      "size": 688212,
+      "sha256": "c9960b9e954e9d43933ff5b41efd66e2fc85399fcf9cdc2a2061deebd2e7dbb0",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/e72eecae7b68940b607fe054f0069e7d/uploadfiles/oss/2024/06/20240612150616405.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/42-33.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 210,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709163340475.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/positive-film.jpg",
+      "canonical_path": "data/canonical/previews/positive-film.jpg",
+      "sha256": "48ffecd5612ff73c5e539fafc34c39cdb65867ce76fae0faee1ad05fba49ad9e",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "鲜明的红蓝黄色彩直出，基于胶卷正片色彩设计而成",
+  "schema_version": "1.0"
+}

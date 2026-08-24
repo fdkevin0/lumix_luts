@@ -1,0 +1,75 @@
+{
+  "canonical_id": "txd-agfaphoto-lebox",
+  "name_zh": "TXD AgfaPhoto LeBox",
+  "author": {
+    "name_zh": "兔小呆",
+    "name_en": "Tu Xiaodai",
+    "slug": "tu-xiaodai"
+  },
+  "category": "anniversary",
+  "category_zh": "25周年专属",
+  "tags": [
+    "film",
+    "cold-tone",
+    "retro",
+    "street"
+  ],
+  "official_descriptions": [
+    "爱克发一次性胶片模拟 整体色调偏冷，带有轻微的青蓝倾向，尤其在高光和阴影处表现明显，能让画面显得干净、冷静。 色彩倾向，对蓝色和绿色的还原更突出，红色和橙色则相对柔和，不会过于艳丽，整体呈现出一种 “褪色复古感”。 在自然光下肤色偏冷白，用闪光灯时会略微偏暖，带有胶片特有的柔焦质感。对比度中等偏高，高光部分容易轻微过曝，暗部则会保留一定细节但偏冷，整体影调偏 “硬”，适合表现街头、城市的硬朗感。颗粒偏重，建议机内打开颗粒拍摄。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 55220,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/f3d8ab36c7f8df42c57dc460cc587b1f/uploadfiles/oss/2026/03/VOL%2023%20TXD%20AgfaPhoto%20LeBox.zip",
+      "download_path": "oss/2026/03/VOL 23 TXD AgfaPhoto LeBox.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/微信图片_20260325164720.png",
+      "official_title_raw": "by 兔小呆 TXD AgfaPhoto LeBox",
+      "official_description": "爱克发一次性胶片模拟 整体色调偏冷，带有轻微的青蓝倾向，尤其在高光和阴影处表现明显，能让画面显得干净、冷静。 色彩倾向，对蓝色和绿色的还原更突出，红色和橙色则相对柔和，不会过于艳丽，整体呈现出一种 “褪色复古感”。 在自然光下肤色偏冷白，用闪光灯时会略微偏暖，带有胶片特有的柔焦质感。对比度中等偏高，高光部分容易轻微过曝，暗部则会保留一定细节但偏冷，整体影调偏 “硬”，适合表现街头、城市的硬朗感。颗粒偏重，建议机内打开颗粒拍摄。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/01-113.zip",
+      "archive_sha256": "0a6eb3c62752698e7138e4663f57288568ffe0f62686206ecc68310ba68548cf"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "anniversary--tu-xiaodai--txd-agfaphoto-lebox--default.cube",
+      "canonical_path": "data/canonical/luts/anniversary/tu-xiaodai/txd-agfaphoto-lebox/anniversary--tu-xiaodai--txd-agfaphoto-lebox--default.cube",
+      "original_filename": "txd-agfaphoto-lebox.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/01-113.zip::VOL 23 TXD AgfaPhoto LeBox.cube",
+      "size": 970617,
+      "sha256": "46669a6c553a43151a15349796f96a1b77f5678a5790513b1c1a519ccfab92cc",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/f3d8ab36c7f8df42c57dc460cc587b1f/uploadfiles/oss/2026/03/VOL%2023%20TXD%20AgfaPhoto%20LeBox.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/01-113.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 55220,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2026/03/微信图片_20260325164720.png",
+      "source_path": "data/snapshots/2026-08-24/source-previews/txd-agfaphoto-lebox.png",
+      "canonical_path": "data/canonical/previews/txd-agfaphoto-lebox.png",
+      "sha256": "dee4d2077e1811b36bdbf35bb8fd05cef0ae15af9ecbfd131eee630c309a9250",
+      "status": "snapshot-evidence",
+      "raw_label": "基于STD",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于STD",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "爱克发一次性胶片模拟 整体色调偏冷，带有轻微的青蓝倾向，尤其在高光和阴影处表现明显，能让画面显得干净、冷静。 色彩倾向，对蓝色和绿色的还原更突出，红色和橙色则相对柔和，不会过于艳丽，整体呈现出一种 “褪色复古感”。 在自然光下肤色偏冷白，用闪光灯时会略微偏暖，带有胶片特有的柔焦质感。对比度中等偏高，高光部分容易轻微过曝，暗部则会保留一定细节但偏冷，整体影调偏 “硬”，适合表现街头、城市的硬朗感。颗粒偏重，建议机内打开颗粒拍摄。",
+  "schema_version": "1.0"
+}

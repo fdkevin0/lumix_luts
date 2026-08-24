@@ -1,0 +1,75 @@
+{
+  "canonical_id": "japanese-cyan-tone",
+  "name_zh": "日系青调",
+  "author": {
+    "name_zh": "EJAY",
+    "name_en": "EJAY",
+    "slug": "ejay"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "japanese-style",
+    "cyan",
+    "overcast"
+  ],
+  "official_descriptions": [
+    "色彩偏青高短调为主，适合人像阴天"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 192,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/d20525e64a0bfdacb6052cd9a106b753/uploadfiles/oss/2024/06/20240612141212552.zip",
+      "download_path": "oss/2024/06/20240612141212552.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162308783.jpg",
+      "official_title_raw": "by EJAY 日系青调",
+      "official_description": "色彩偏青高短调为主，适合人像阴天",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/17-32.zip",
+      "archive_sha256": "5dafe9dce29a60ea859c8e1d3f6b984a347a53dda61acfdeb25aeeb0a185a88b"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "portrait--ejay--japanese-cyan-tone--default.vlt",
+      "canonical_path": "data/canonical/luts/portrait/ejay/japanese-cyan-tone/portrait--ejay--japanese-cyan-tone--default.vlt",
+      "original_filename": "japanese-cyan-tone.vlt",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/17-32.zip::µùÑτ│╗Θ¥ÆΦ░â.vlt",
+      "size": 67151,
+      "sha256": "58571b244f32b00f725bf15de536f8fe7ddb6de31c6b05b4e1eec11ea221940c",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/d20525e64a0bfdacb6052cd9a106b753/uploadfiles/oss/2024/06/20240612141212552.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/17-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 192,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162308783.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/japanese-cyan-tone.jpg",
+      "canonical_path": "data/canonical/previews/japanese-cyan-tone.jpg",
+      "sha256": "9d5ff7ae15d4678c72b49dc592119326980f4d0997b42ebbfb2aacb2e9131f12",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "色彩偏青高短调为主，适合人像阴天",
+  "schema_version": "1.0"
+}

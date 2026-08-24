@@ -1,0 +1,76 @@
+{
+  "canonical_id": "candy-color",
+  "name_zh": "糖果色",
+  "author": {
+    "name_zh": "小翟同学",
+    "name_en": "Xiao Zhai",
+    "slug": "xiao-zhai"
+  },
+  "category": "outdoor",
+  "category_zh": "户外",
+  "tags": [
+    "candy",
+    "low-saturation",
+    "high-brightness",
+    "cyan-orange",
+    "architecture"
+  ],
+  "official_descriptions": [
+    "糖果色；低饱和度高明度；青蓝色天空+橙黄色建筑撞色。"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 7622,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/ac536fdc02600d2b4556420d86f19ceb/uploadfiles/oss/2024/11/%E7%B3%96%E6%9E%9C%E8%89%B2.zip",
+      "download_path": "oss/2024/11/糖果色.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/11/92befc277b62be21e1c4e6dccfbc122.png",
+      "official_title_raw": "by 小翟同学 糖果色",
+      "official_description": "糖果色；低饱和度高明度；青蓝色天空+橙黄色建筑撞色。",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/45-33.zip",
+      "archive_sha256": "ee1fd8e38a784786d2c7e8a5a056d846b98782a5feb0d6f17e2a6b0971998633"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "outdoor--xiao-zhai--candy-color--default.cube",
+      "canonical_path": "data/canonical/luts/outdoor/xiao-zhai/candy-color/outdoor--xiao-zhai--candy-color--default.cube",
+      "original_filename": "candy-color.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/45-33.zip::Candy color style.cube",
+      "size": 991413,
+      "sha256": "183c1de7353b4bb7debf3cec23980bc853f717c74c5c575d69ad6c69c491142a",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ac536fdc02600d2b4556420d86f19ceb/uploadfiles/oss/2024/11/%E7%B3%96%E6%9E%9C%E8%89%B2.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/45-33.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 7622,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/11/92befc277b62be21e1c4e6dccfbc122.png",
+      "source_path": "data/snapshots/2026-08-24/source-previews/candy-color.jpg",
+      "canonical_path": "data/canonical/previews/candy-color.jpg",
+      "sha256": "80a9f15016f186c8b27e38b7e15a38c04205c9ad8374fc4b6bda116e6289fb79",
+      "status": "snapshot-evidence",
+      "raw_label": "基于标准",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于标准",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "糖果色；低饱和度高明度；青蓝色天空+橙黄色建筑撞色。",
+  "schema_version": "1.0"
+}

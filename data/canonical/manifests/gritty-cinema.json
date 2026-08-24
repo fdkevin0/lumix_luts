@@ -1,0 +1,74 @@
+{
+  "canonical_id": "gritty-cinema",
+  "name_zh": "暮色",
+  "author": {
+    "name_zh": "Jon Simo",
+    "name_en": "Jon Simo",
+    "slug": "jon-simo"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "cinematic",
+    "film",
+    "moody"
+  ],
+  "official_descriptions": [
+    "电影感调色LUT"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 188,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/6470215ab4f66447fe2550d094099b8f/uploadfiles/oss/2024/06/20240612140844325.zip",
+      "download_path": "oss/2024/06/20240612140844325.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162208150.jpg",
+      "official_title_raw": "by Jon Simo 暮色",
+      "official_description": "电影感调色LUT",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/13-32.zip",
+      "archive_sha256": "35482d39a9d9f3c8a92856dfb7057a47441ddd61b9dc4e5ed45ce470a1e829ff"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "cube",
+      "normalized_filename": "portrait--jon-simo--gritty-cinema--default.cube",
+      "canonical_path": "data/canonical/luts/portrait/jon-simo/gritty-cinema/portrait--jon-simo--gritty-cinema--default.cube",
+      "original_filename": "gritty-cinema.cube",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/13-32.zip::GRITTY CINEMA.cube",
+      "size": 115105,
+      "sha256": "bcbb773a2a286b20fe7b143a2ee0f82fafca5a789320453b3af10197f2870866",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/6470215ab4f66447fe2550d094099b8f/uploadfiles/oss/2024/06/20240612140844325.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/13-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 188,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162208150.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/gritty-cinema.jpg",
+      "canonical_path": "data/canonical/previews/gritty-cinema.jpg",
+      "sha256": "10c0348dccacf44a176c25f39465927cb0c1199331ed6bd5290d63ca3df075d1",
+      "status": "snapshot-evidence",
+      "raw_label": "基于V-log",
+      "profile_tag": "VLOG",
+      "profile_name_zh": "V-Log",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于V-log",
+    "profile_tag": "VLOG",
+    "profile_name_zh": "V-Log",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "电影感调色LUT",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,74 @@
+{
+  "canonical_id": "skin-tone-opt",
+  "name_zh": "肤色优化",
+  "author": {
+    "name_zh": "EJAY",
+    "name_en": "EJAY",
+    "slug": "ejay"
+  },
+  "category": "portrait",
+  "category_zh": "人像",
+  "tags": [
+    "portrait",
+    "skin-tone",
+    "red-reduction"
+  ],
+  "official_descriptions": [
+    "不改变其他色调，削弱红色溢出"
+  ],
+  "source_items": [
+    {
+      "remote_item_id": 193,
+      "source_page": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "download_url": "http://oss.panasonicshuma.cn/202608240251/ca0371a9a300ad37a4469f16d67a99c8/uploadfiles/oss/2024/06/20240612141248773.zip",
+      "download_path": "oss/2024/06/20240612141248773.zip",
+      "preview_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162328568.jpg",
+      "official_title_raw": "by EJAY 肤色优化",
+      "official_description": "不改变其他色调，削弱红色溢出",
+      "archive_snapshot": "data/snapshots/2026-08-24/raw-archives/18-32.zip",
+      "archive_sha256": "c2bfbadf4a80388e55f0f4a419c34e79859f614dfbf9b808e8fe754e05e5bb2c"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "format": "vlt",
+      "normalized_filename": "portrait--ejay--skin-tone-opt--default.vlt",
+      "canonical_path": "data/canonical/luts/portrait/ejay/skin-tone-opt/portrait--ejay--skin-tone-opt--default.vlt",
+      "original_filename": "skin-tone-opt.vlt",
+      "source_path": "data/snapshots/2026-08-24/raw-archives/18-32.zip::ΦéñΦë▓Σ╝ÿσîû.vlt",
+      "size": 69340,
+      "sha256": "50062307fd2a3f360588bdae3384fa784dafaaae30846be8a9c8ee36e65efa83",
+      "source_archive_url": "http://oss.panasonicshuma.cn/202608240251/ca0371a9a300ad37a4469f16d67a99c8/uploadfiles/oss/2024/06/20240612141248773.zip",
+      "source_archive_snapshot": "data/snapshots/2026-08-24/raw-archives/18-32.zip",
+      "lumix_photo_style": null
+    }
+  ],
+  "previews": [
+    {
+      "source_item_id": 193,
+      "variant": "default",
+      "source_url": "http://www.panasonicshuma.cn/uploadfiles/2024/07/20240709162328568.jpg",
+      "source_path": "data/snapshots/2026-08-24/source-previews/skin-tone-opt.jpg",
+      "canonical_path": "data/canonical/previews/skin-tone-opt.jpg",
+      "sha256": "9e6d04994a75c253dc47ad03c2116d7968e86da5f0e05ba0fe5ae46f467ead8a",
+      "status": "snapshot-evidence",
+      "raw_label": "基于标准模式",
+      "profile_tag": "STD",
+      "profile_name_zh": "标准",
+      "profile_source": "preview-image"
+    }
+  ],
+  "base_photo_style": {
+    "raw_label": "基于标准模式",
+    "profile_tag": "STD",
+    "profile_name_zh": "标准",
+    "source": "preview-image",
+    "cube_profile_tag": null,
+    "camera_effective_profile_tag": "VLOG"
+  },
+  "source_items_count": 1,
+  "merged_duplicate_source_items": 0,
+  "display_description": "不改变其他色调，削弱红色溢出",
+  "schema_version": "1.0"
+}
