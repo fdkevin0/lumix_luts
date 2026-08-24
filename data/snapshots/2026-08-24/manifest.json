@@ -1,0 +1,621 @@
+{
+  "schema_version": "1.0",
+  "snapshot_id": "2026-08-24",
+  "retrieved_at": "2026-08-24T11:56:02.277906+00:00",
+  "pages": [
+    {
+      "lcid": "113",
+      "category": "anniversary",
+      "source_url": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=113",
+      "path": "data/snapshots/2026-08-24/source-pages/lcid-113.html",
+      "sha256": "47a6f7a521df4c45ab87cddd9fa33cd040939bbe97e0efe698534a44261412fe"
+    },
+    {
+      "lcid": "32",
+      "category": "portrait",
+      "source_url": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=32",
+      "path": "data/snapshots/2026-08-24/source-pages/lcid-32.html",
+      "sha256": "26927b717c9df7e86d1f45bda5cc99518006a505c481259dd078cd1b6b1b0c48"
+    },
+    {
+      "lcid": "33",
+      "category": "outdoor",
+      "source_url": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=33",
+      "path": "data/snapshots/2026-08-24/source-pages/lcid-33.html",
+      "sha256": "4029207db24bb0053019596e8451a1a27e630467623e43084722299ff985d46c"
+    },
+    {
+      "lcid": "34",
+      "category": "indoor",
+      "source_url": "http://www.panasonicshuma.cn/RealtimeLUTLibrary/list.aspx?lcid=34",
+      "path": "data/snapshots/2026-08-24/source-pages/lcid-34.html",
+      "sha256": "b097118e86da21f08aeaf663e02936e71c156912bcbcb35ba89338fe09e609ed"
+    }
+  ],
+  "archives": [
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/01-113.zip",
+      "sha256": "0a6eb3c62752698e7138e4663f57288568ffe0f62686206ecc68310ba68548cf",
+      "size": 365683
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/02-113.zip",
+      "sha256": "9282c3ac51221b4fbb7669f8f6f2c3a1f9ea11e64d7bcfa050aee04554538744",
+      "size": 727202
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/03-113.zip",
+      "sha256": "9282c3ac51221b4fbb7669f8f6f2c3a1f9ea11e64d7bcfa050aee04554538744",
+      "size": 727202
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/04-113.zip",
+      "sha256": "6e0477b01bda0225a3fdd3df657864ff826ccfc1a1654ed1a5801f4232f83077",
+      "size": 377699
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/05-32.zip",
+      "sha256": "bb016b484a86183e9790733a21c29b7eaa448ea1e56377a8e0bb74540e374227",
+      "size": 221056
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/06-32.zip",
+      "sha256": "0a96111e095793f56bf283df799210772b0f8c5b55d7e5f7e29919da3c73026f",
+      "size": 246460
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/07-32.zip",
+      "sha256": "3a0ffc3c619a56f426d1f336b76a3d3f730ba85d8abb77915b978b1873c716ca",
+      "size": 273964
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/08-32.zip",
+      "sha256": "cfdb02354b91f30935f55a7c115cc1770323306b336eff9c20f5a867d81ccc1c",
+      "size": 4717927
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/09-32.zip",
+      "sha256": "15e1095c098fb2e46e7c52de4cf7f427aa4695331a4fa3a7f6d9d38e16a2a19f",
+      "size": 3695323
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/10-32.zip",
+      "sha256": "12db6e02b1fb87c10724a8692eb5cce3bbe98a69e27e9562c4c71c5078b79d5b",
+      "size": 5142551
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/11-32.zip",
+      "sha256": "56f98d9f0044cbaf903f1b8452b26ee51daa6d0ad1b35a27456ad8a3a8268a94",
+      "size": 279496
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/12-32.zip",
+      "sha256": "9fc2792c00928323dc2daccdd508071149e90ca7d952300446fce635804d066a",
+      "size": 334514
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/13-32.zip",
+      "sha256": "35482d39a9d9f3c8a92856dfb7057a47441ddd61b9dc4e5ed45ce470a1e829ff",
+      "size": 42755
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/14-32.zip",
+      "sha256": "d324721dd241f373d395443209925f59065cff1109d7a79949dbd0c9b8671af2",
+      "size": 1758032
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/15-32.zip",
+      "sha256": "a49ab73100a9e956f482180e7b34c0c7bfa496146505d2f12c1fe4b7a8b79a9a",
+      "size": 285298
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/16-32.zip",
+      "sha256": "7618c2ca3e3812c6adaac38d0e29c4445bbc66f516e7a562f7d79853cc41f538",
+      "size": 146717
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/17-32.zip",
+      "sha256": "5dafe9dce29a60ea859c8e1d3f6b984a347a53dda61acfdeb25aeeb0a185a88b",
+      "size": 25601
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/18-32.zip",
+      "sha256": "c2bfbadf4a80388e55f0f4a419c34e79859f614dfbf9b808e8fe754e05e5bb2c",
+      "size": 27512
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/19-32.rar",
+      "sha256": "2200a130b9037e7f39b09ff165d5b543e18c205e1bc6e6bf938607f1c08c8ce1",
+      "size": 303172
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/20-32.zip",
+      "sha256": "5ada53bfdc8e47e15aedda2112affa7ab382bebe9fa3685d59a5ff39ab14cc06",
+      "size": 375136
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/21-32.zip",
+      "sha256": "e38ddc590c2cdf8393c3a8ee8c560dc964232801a13061ce087a78f50799bfab",
+      "size": 317000
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/22-32.zip",
+      "sha256": "cb23cbbbaea386baf94cda1f439dab1ff5bafb6710cad02ed398389e9046477f",
+      "size": 309272
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/23-32.zip",
+      "sha256": "1d1586e6f0445d4aedcc719dd9067127b75c89a267de6d721f7c3f542ac02bba",
+      "size": 383400
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/24-32.zip",
+      "sha256": "afc4ca779bcf7a839c9e806337eb349dd6f3cad22fcd395974f154e7c565211f",
+      "size": 364196
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/25-32.zip",
+      "sha256": "181590ac14ab156f4398b708a46e807e0ec6f62b9ea3448fa47c2e0b08abb313",
+      "size": 367210
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/26-33.zip",
+      "sha256": "9668097dc705f8ce0922e84c28fa0d07cb371fa6115cf009808a987a61eb5521",
+      "size": 369295
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/27-33.zip",
+      "sha256": "fe49938b5eb671d42f02ea25843a1b54ce17aa984a263a4921efe3a94bf40dc4",
+      "size": 23317
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/28-33.zip",
+      "sha256": "49ae811f1eac70b9212aeeb52774f75abf4d1ffb247493af2d18579678093e7a",
+      "size": 26343
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/29-33.zip",
+      "sha256": "369669146eb61149dd013ecc61d307b0493cb667d254e93e2e271e41af8dba5c",
+      "size": 25381
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/30-33.zip",
+      "sha256": "e2e3ca9c2adf1a2112cfc5793c90cdcdb0f460dd8f9d7f18eb0e95c7e0a444c3",
+      "size": 341099
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/31-33.zip",
+      "sha256": "a195d70a540012d1f2bee942b97e814abac237930c32f285b81752d9525bb5f8",
+      "size": 342500
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/32-33.zip",
+      "sha256": "9cf0f628961e0422dd185a456871cb2141a4e12f372f704dc749e91b3241787a",
+      "size": 347733
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/33-33.zip",
+      "sha256": "82d34ce4a28eaa3b28c1b232c13053ced80f6144123527680a02c3f2d651124c",
+      "size": 319797
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/34-33.zip",
+      "sha256": "c145e2d3382669ec2873651347b415c8ce4d6577a69dfdd5625cec0effbb268e",
+      "size": 43057
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/35-33.zip",
+      "sha256": "d06b12a8862ceacc775235e6ab014acb85ffae51061d1ff63d18dd1bc0573d0b",
+      "size": 283761
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/36-33.zip",
+      "sha256": "05ff9cec807df000ea0b913a8bb7768dad38ab03970cefd287644f387579af9f",
+      "size": 276767
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/37-33.zip",
+      "sha256": "699b8f482d470f018fa224c7e85214fc62031e14189bc9565ab8b5b31b228b58",
+      "size": 280121
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/38-33.zip",
+      "sha256": "2dd800ca5e5c077372cd6bada7b6b8bde67457bc24b55b357a8b406fc2ed9c3d",
+      "size": 284471
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/39-33.zip",
+      "sha256": "d43407174e91a601b3cfd4afb9dd3849c0ab8649ac7c065b554531ccd132ca2e",
+      "size": 273226
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/40-33.zip",
+      "sha256": "b6d0905b57c82bfe29271542d8c60f43b2c55ee541a44206a27d311ab7e9ba1f",
+      "size": 278992
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/41-33.zip",
+      "sha256": "1bc529f6e9a61ff9cccd60070e14a5d0d0fe75c2744344ef06f1e884eaa5eac1",
+      "size": 284917
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/42-33.zip",
+      "sha256": "450547d3e2dd981ba5a94348583c8dbe7f829b763a3328323f7340b907cb9b8e",
+      "size": 162996
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/43-33.zip",
+      "sha256": "2594fa3b5e73a17c29d4963616edbdde966aee5d5d7efe95c0d0645ef9651b0d",
+      "size": 27188
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/44-33.zip",
+      "sha256": "66fa34d15bb0f7d06d4e1a5eb6f1a082f9b71b3aa6c115f0032a3c03412d24ef",
+      "size": 23875
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/45-33.zip",
+      "sha256": "ee1fd8e38a784786d2c7e8a5a056d846b98782a5feb0d6f17e2a6b0971998633",
+      "size": 302411
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/46-33.zip",
+      "sha256": "934562bcb3b0e9ba847ba2e9ce8e3823a9c64fae06249beff65c02d8e741f13e",
+      "size": 375129
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/47-33.zip",
+      "sha256": "1e9cbdf7592fd0e31841be0a849c444763cc754692cc7b6be5df47a77072cf02",
+      "size": 173484
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/48-33.zip",
+      "sha256": "64059965ea0c933ab726f91e4cd2a1c582dbd88517a513df0564f46d59772ded",
+      "size": 182246
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/49-34.zip",
+      "sha256": "67bc450e5628a335588de13902fc42766f7e041919d6b27b8625ce5e5d40e658",
+      "size": 57470
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/50-34.zip",
+      "sha256": "5b5770de7c30756f2294246abfc19cabea15923cd361fb0aa7977a0bbd118383",
+      "size": 234676
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/51-34.zip",
+      "sha256": "f6218d684739579d95104bbaf2cc47b52a0c9987c4253700f80dab4ee95dc87c",
+      "size": 287024
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/52-34.rar",
+      "sha256": "b8804a0fecce7f3ff1de473a6d7cb9c703023d4a1c07777cbac5efcf42eb69f3",
+      "size": 303529
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/53-34.zip",
+      "sha256": "a4a985bf91f628a07ab99593f3ee33afce12487ae94e0a65b1b24b935cddcdd2",
+      "size": 44456
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/54-34.zip",
+      "sha256": "8560021170c9685ab227d2dc0cd0b6494a1cdbdd48dd6248b068f833520dcd3b",
+      "size": 145542
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/55-34.zip",
+      "sha256": "656093cb492e8956e3a833be838d0ec173090b7fc43d6c49febcb1f9fde8a9e5",
+      "size": 137158
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/56-34.zip",
+      "sha256": "780a5bf583c0cf63edba80abaf409a8cc7b511fc69792c21e2a6525192d7a12b",
+      "size": 382241
+    },
+    {
+      "path": "data/snapshots/2026-08-24/raw-archives/57-34.zip",
+      "sha256": "8a055a9ffbde089ac422ea89ae4e975a169bed2e557338cf8a9d7af844f15aa5",
+      "size": 182066
+    }
+  ],
+  "source_previews": [
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/aesthetic-portrait.jpg",
+      "sha256": "1b89b0cd0928d06151003b97147a54dfa4a5296916ec6cff6f7c9b1c5044ddc3",
+      "size": 94572
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/blue-ripple.png",
+      "sha256": "1f1c0cb06925e5051e0f5d37c36a591069fe012cfaa58c00332722049516b450",
+      "size": 1373863
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/bw-old-film.jpg",
+      "sha256": "a827a604546603fe9aaa5615ac3686d3bd93238b4d081a54253b0ef36bcc1466",
+      "size": 62688
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/camping-vibe.jpg",
+      "sha256": "d69bce08ddc738034de3940165a2f581d8560968f97c5f5a119bbe462be2af8e",
+      "size": 84821
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/candy-color.jpg",
+      "sha256": "80a9f15016f186c8b27e38b7e15a38c04205c9ad8374fc4b6bda116e6289fb79",
+      "size": 1740180
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/cinema-tone.jpg",
+      "sha256": "a14f838380b626c3c0a9f26c223eea74f0fa633d09b8a54e1f6eba63755130cc",
+      "size": 118572
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/dark-tone-story.jpg",
+      "sha256": "b7fb4812a98791b1a76edf841246f8a258e3aae6681f33c9d2220479af084015",
+      "size": 56360
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/day-for-night.jpg",
+      "sha256": "78ab947e1a2ef88e13ca3b0f92ca1497aa7a4252d6418401ccf84e37bd6b60ac",
+      "size": 47267
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/dusk-atmosphere.jpg",
+      "sha256": "deef9465e5ef851f4e4f0136c5adf0131141d21805382614465857b1bffeb2e0",
+      "size": 101040
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/film-impression.jpg",
+      "sha256": "db20fde6774cf0893f11052511804abac4882cdbde2d778124659da856479d96",
+      "size": 183128
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/film-vintage.jpg",
+      "sha256": "0539449e09a17eb9c642a06a5cf0396addccc12a54d21c9e80693bbb831d96b7",
+      "size": 95240
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/food-film.jpg",
+      "sha256": "b11dce1ece2fced2e261d3671c5a844356b924cd9e05b0a8b8f600ea18a12f08",
+      "size": 52939
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/forest-green-cool.jpg",
+      "sha256": "c27ef15aa268b295639f4d1fe4b1fbfe6ee63dee62b4a94e5002661052f740f0",
+      "size": 109492
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/fresh-cuisine.jpg",
+      "sha256": "096b90521e28153d97b142de19eda250a760830ccfe9a8754409ddb17fa5a47a",
+      "size": 75735
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/golden-rice-field.jpg",
+      "sha256": "bdfde01153b11da099dd524bbaf68fb4edb0a9f7f4335ddc26bd2d93a0038f43",
+      "size": 119803
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/grey-cinema.jpg",
+      "sha256": "4b3c447b54cb0d1dada212fcc35504fb5c9b7047e3f91eccd9290aa675147eb5",
+      "size": 110381
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/gritty-cinema.jpg",
+      "sha256": "10c0348dccacf44a176c25f39465927cb0c1199331ed6bd5290d63ca3df075d1",
+      "size": 76784
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/healing-light.jpg",
+      "sha256": "e748d78bba7811ef722c09e67b86490139968f68a425e7548d07fedc02d88696",
+      "size": 116125
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/high-low-contrast.jpg",
+      "sha256": "c9808040c4cac35d2decae93c84b1a2f7e58d216cd840b2247411e0d4f7b415b",
+      "size": 79181
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/japanese-cyan-tone.jpg",
+      "sha256": "9d5ff7ae15d4678c72b49dc592119326980f4d0997b42ebbfb2aacb2e9131f12",
+      "size": 170450
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/light-green.png",
+      "sha256": "6308516c133c8df67cbafbf30c5ab65273d1206ee94ef60b5e55576f4336e429",
+      "size": 990472
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/light-jp-blue.jpg",
+      "sha256": "2117b2700e9173c8f57e397db3f7125f643679d8645a48a04339435b4b3dc384",
+      "size": 506812
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/magenta-old-film.jpg",
+      "sha256": "f787a2389dfc99ffb8a11233c225dede096a81b8bff4ee85f2ec5b3bfcd3b679",
+      "size": 63597
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/millennium-echo-cold.png",
+      "sha256": "6eada7cc40db049a358f539789f19a4df32e1eac1811296669de474ab486d30c",
+      "size": 1943024
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/millennium-echo-warm.jpg",
+      "sha256": "5fa9c14f4c2d9720871dccb1d1eafb768dce37f0f2a1888868b537e20895f615",
+      "size": 365427
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/mosslight.png",
+      "sha256": "58e58b3e91e7e311d48f61005784590945eadcdd21f365902f2845b701d6f548",
+      "size": 1618481
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/patina-of-rain.png",
+      "sha256": "103293a80153a976fa3b2c2c90f94f48b6e0a43881651231db5f7f462ae0d973",
+      "size": 2268825
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/pink-youth.jpg",
+      "sha256": "a46e21c9fb948d46c918345e08954108d736fa36b514efa9a1975e25db44fe5f",
+      "size": 63441
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/positive-film.jpg",
+      "sha256": "48ffecd5612ff73c5e539fafc34c39cdb65867ce76fae0faee1ad05fba49ad9e",
+      "size": 90796
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/rice-field-village.jpg",
+      "sha256": "e5650cb8536c44f1ee12e5d3f280ffeb919d9c048f1d1823a9c1ffa6d6d1ec94",
+      "size": 95004
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/rich-tone.jpg",
+      "sha256": "7e99d0bcbe122db92e9af1dc350fee0f37bda248c360f49b789d3ae32f22d2ce",
+      "size": 131827
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/seaside-portrait.jpg",
+      "sha256": "977c2a5fb413fc496f7596ae04f6d78a5cc384e5285383991e38e9b32cba5b9c",
+      "size": 84325
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/seaside-sunset.jpg",
+      "sha256": "e24be71d35bf22ab7db32a09f5e665fcc95d73d7d4b15255b5c9b01a44373057",
+      "size": 115160
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/skin-tone-opt.jpg",
+      "sha256": "9e6d04994a75c253dc47ad03c2116d7968e86da5f0e05ba0fe5ae46f467ead8a",
+      "size": 150777
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/snow-portrait.jpg",
+      "sha256": "c3c4d8ade74bf141fc13f0f8dd00da125e0c0a750b7d888382ae841d29e4519d",
+      "size": 121167
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/spring-portrait.jpg",
+      "sha256": "7f9bd234a295e2705d592adb9875a007483810d3330e4a9f4b59417fb79ddb84",
+      "size": 106502
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/summer-breeze.jpg",
+      "sha256": "0d88c00e6e37d86c738e43286c90664e5524f1c5a1b12b300a311a80edac7b6c",
+      "size": 172637
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/summer.jpg",
+      "sha256": "bfe105a76da6ab7d301e228e48b4bfdee748753a208820f1dce73dbeff7c788d",
+      "size": 104183
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/sunny-mint.png",
+      "sha256": "90a570d5ec8f5864546a97d1f5d62344b0647c74f0fc2608bb5fbcae4c3eea2e",
+      "size": 2094440
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/teal-orange-tone.jpg",
+      "sha256": "05c23ad21b5c93eab92519ad0803dd3758a399da9b9836d0de805e791eda22ae",
+      "size": 81236
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/tibet-warm-light.jpg",
+      "sha256": "964bfa749b9ccd7ab303ddb285b67ae84e812756aae3531f316d44ab72aeba9e",
+      "size": 96984
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/txd-agfaphoto-lebox.png",
+      "sha256": "dee4d2077e1811b36bdbf35bb8fd05cef0ae15af9ecbfd131eee630c309a9250",
+      "size": 1763275
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/txd-eterna.png",
+      "sha256": "5fc31ae12366d0eb86fad5e79063c1bad75679fd97bfc2c4d89cb4559cb70a7c",
+      "size": 1314720
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/txd-grainy-film.jpg",
+      "sha256": "180a3720c2284bef359ed63fab927baa78dbcb98ac8b2b18e01297f0da943f3d",
+      "size": 141841
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/txd-rag-film-cned2.png",
+      "sha256": "43866ed54d231a031a855a89bdf33da9d70eb01ac13895f433b85cf9f01cd7ae",
+      "size": 1493257
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/verdant-breath.jpg",
+      "sha256": "b7abefa3cf6ddbdd3e914a18ca9a8d01f2388071a828d38eedcf4669031cc74f",
+      "size": 60141
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/verdant-scenery.jpg",
+      "sha256": "7734ceeb91fff4704c5b632e6b4870ac882bd5099b8a4431b19f36d49921ae4d",
+      "size": 120705
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/vintage-blue-tone.jpg",
+      "sha256": "f9b64a49a01420e9673705af66b33a7f40fbea861274911894c049dbf5847735",
+      "size": 111550
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/vintage-old-film.jpg",
+      "sha256": "8fcedf6270069c31cb27154c136ea17a4fec3dd412ea3e345b1278ba87c67c19",
+      "size": 68359
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/vintage-summer.png",
+      "sha256": "360c4188d84b11cc76a519957e84ac2017c5bf441d99d9b7fd4e0b75d49f3364",
+      "size": 1447116
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/vintage-vibes.jpg",
+      "sha256": "f803ccfa2539d2e5f088bc16248bbb47f76de2debe9dda3c2e27f65715c8497d",
+      "size": 73417
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/warm-cool-tone.jpg",
+      "sha256": "174e6c0e13ced297151dfc61a899ad4542cac613ce66d777311147e449c7c579",
+      "size": 111554
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/warm-film-tone.jpg",
+      "sha256": "e2f89de62d329a3a00239a44a32819712fd976a944c156aace508701c4c2720d",
+      "size": 148328
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/warm-skin-tone.jpg",
+      "sha256": "b3d64662bb4fa6bea7ce212e93f508c087ba23ac749bb0f5d9c4c809fe35ff1e",
+      "size": 1229342
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/warm-village.jpg",
+      "sha256": "7b69644fb4922581332ec7af9a197a686cd0e2a1b4c055a9cab2ba38ffa9b04c",
+      "size": 135361
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/white-negative.jpg",
+      "sha256": "596af1e154d3cb9d0c4198ba33284ecd31a9bfe14af569b02fe9a5523ada8507",
+      "size": 110631
+    },
+    {
+      "path": "data/snapshots/2026-08-24/source-previews/y2000.png",
+      "sha256": "82feaa9c227d40e1380b7d4729db8c4137aba90e34caa15056a8b80263782223",
+      "size": 1484727
+    }
+  ],
+  "rar_extracts": [
+    {
+      "path": "data/snapshots/2026-08-24/rar-extracts/19-32/TXD Grainy Film.cube",
+      "sha256": "c58cf395467c59b88668ef07cae3fd6a59adf03f0f611428d8497b237997e735",
+      "size": 970605
+    },
+    {
+      "path": "data/snapshots/2026-08-24/rar-extracts/52-34/白色负片01-Plady-STD.cube",
+      "sha256": "9b6207ae61e2a6d8965d5796270f4b770da42b17aa94e118d16ae73f562ac089",
+      "size": 885013
+    }
+  ]
+}
