@@ -10,6 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "prebuild": "node scripts/copy-assets.mjs",
+    "cf:dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
     "audit:canonical": "python3 scripts/build_canonical.py --snapshot 2026-08-24",
     "validate:canonical": "python3 scripts/validate_canonical.py",
     "test:cube-metadata": "node --experimental-strip-types scripts/test_cube_metadata.mjs",
